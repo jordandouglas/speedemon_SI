@@ -498,7 +498,7 @@
 
 
 	<!-- Simulated species tree -->
-	<init id="sampledSpeciesTreeX" initial="@sampledSpeciesTree" spec='beast.util.TreeParser' newick="$(speciesTree)" IsLabelledNewick="false"/>
+	<init id="sampledSpeciesTreeX" initial="@sampledSpeciesTree" spec='beast.util.TreeParser' newick="$(speciesTree)" IsLabelledNewick="true"/>
 
 
 	     
@@ -509,10 +509,10 @@
 			<gene idref="simulatedGeneTree.$(n)"/>
  		</plate> 
 		<speciesTreeRates id="sampledBranchRatesModelSpecies" spec="starbeast3.evolution.branchratemodel.UCRelaxedClockModelSB3" estimateRoot="true" tree="@sampledSpeciesTree" stdev="$(SpeciesTreeRelaxedClockSD.Species)">
-			 <realRates id="ratesSampled" spec="parameter.RealParameter" dimension="31" lower="0">$(BranchRates.Species.1)  $(BranchRates.Species.2)  $(BranchRates.Species.3)  $(BranchRates.Species.4)  $(BranchRates.Species.5)  $(BranchRates.Species.6)  $(BranchRates.Species.7)  $(BranchRates.Species.8)  $(BranchRates.Species.9)  $(BranchRates.Species.10)
+			 <realRates id="ratesSampled" spec="parameter.RealParameter" dimension="39" lower="0">$(BranchRates.Species.1)  $(BranchRates.Species.2)  $(BranchRates.Species.3)  $(BranchRates.Species.4)  $(BranchRates.Species.5)  $(BranchRates.Species.6)  $(BranchRates.Species.7)  $(BranchRates.Species.8)  $(BranchRates.Species.9)  $(BranchRates.Species.10)
 																				$(BranchRates.Species.11) $(BranchRates.Species.12) $(BranchRates.Species.13) $(BranchRates.Species.14) $(BranchRates.Species.15) $(BranchRates.Species.16) $(BranchRates.Species.17) $(BranchRates.Species.18) $(BranchRates.Species.19) $(BranchRates.Species.20)
 																				$(BranchRates.Species.21) $(BranchRates.Species.22) $(BranchRates.Species.23) $(BranchRates.Species.24) $(BranchRates.Species.25) $(BranchRates.Species.26) $(BranchRates.Species.27) $(BranchRates.Species.28) $(BranchRates.Species.29) $(BranchRates.Species.30)
-																				$(BranchRates.Species.31)</realRates>
+																				$(BranchRates.Species.31) $(BranchRates.Species.32) $(BranchRates.Species.33) $(BranchRates.Species.34) $(BranchRates.Species.35) $(BranchRates.Species.36) $(BranchRates.Species.37) $(BranchRates.Species.38) $(BranchRates.Species.39)</realRates>
 		</speciesTreeRates>
     </init>
     

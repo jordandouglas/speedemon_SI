@@ -6,17 +6,42 @@ This repository provides supplementary data for the manuscript "*Quantitatively 
 
 ## 1. Well-calibrated simulation studies
 
+### 1.1 StarBeast3
+To perform well-calibrated simulation study on the Yule-skyline collapse model under StarBeast3:
+
+```
+# Sample from the prior distribution over 100 replicates 
+cd wcss/starbeast3
+bash prepare.sh
+```
+This code will run ``truth.xml`` using BEAST 2, and export the resulting parameters into a file called ``var.json`` (one file per replicate). ``var.json`` contains variables which can be inserted into ``mcmc.xml`` using BEAST 2:
+
+```
+cd templates
+cd rep1
+~/beast/bin/beast -df var.json ../../mcmc.xml
+```
+
+After BEAST 2 has been run on all 100 replicates, the well-calibrated simulation study can be run using:
+
+``
+bash wcss.sh
+``
+
+
+### 1.2 SNAPPER
+
 ## 2. Benchmarking
 We benchmarked the performances of StarBeast3 and STACEY using two datasets. Each XML file was run for 20 replicates of MCMC.
 
 
-### 3.1 Lizard
+### 2.1 Lizard
 We used the multilocus lizard genomic data by [Ashman et al](https://doi.org/10.1111/evo.13541).
 
 [stacey.xml](https://github.com/jordandouglas/speedemon_SI/blob/main/efficiency/lizard/stacey.xml): the XML file used to benchmark STACEY, under the birth-collapse model
 [starbeast3.xml](https://github.com/jordandouglas/speedemon_SI/blob/main/efficiency/lizard/starbeast3.xml): the XML file used to benchmark StarBeast3, under the birth-collapse model
 
-### 3.1 Simulated
+### 2.1 Simulated
 We used multilocus simulated genomic data by [Douglas et al](https://doi.org/10.1101/2021.10.06.463424).
 
 [stacey.xml](https://github.com/jordandouglas/speedemon_SI/blob/main/efficiency/simulated/stacey.xml): the XML file used to benchmark STACEY, under the birth-collapse model
