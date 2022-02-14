@@ -6,6 +6,8 @@ This repository provides supplementary data for the manuscript "*Quantitatively 
 
 ## 1. Well-calibrated simulation studies
 
+This section describes how to simulate parameters from the prior distribution, and then estimate the parameters using data simulated under the true parameters.  Both subsections below assume that BEAST 2 is installed at ``~/beast/bin/``. If this assumption is incorrect, then some of the scripts may need to be modified.
+
 ### 1.1 StarBeast3
 To perform well-calibrated simulation study on the Yule-skyline collapse model under StarBeast3:
 
@@ -30,6 +32,28 @@ bash wcss.sh
 
 
 ### 1.2 SNAPPER
+
+Simulating data requires 1. Perl, 2. SimSnap, which can be downloaded [here](https://github.com/BEAST2-Dev/SNAPP/tree/master/SimSnap)  and is assumed to be saved in a directory ~/SNAPP/SimSnap/simsnap``.To simulate data:
+```
+# Sample from the prior distribution over 100 replicates 
+cd wcss/snapper
+bash prepare.sh
+```
+
+After the parameters and SNP data have been simulated, 100 directories will be created in ``templates/``,  and each directory contains  ``mcmc.xml`` (containing the data) and ``var.json`` (containing the true parameters used to simulate the data). To infer parameters from the data, run BEAST 2 on ``mcmc.xml``:
+
+
+```
+cd templates
+cd rep1
+~/beast/bin/beast mcmc.xml
+```
+
+After BEAST 2 has been run on all 100 replicates, the well-calibrated simulation study can be run using:
+
+``
+bash wcss.sh
+``
 
 ## 2. Benchmarking
 We benchmarked the performances of StarBeast3 and STACEY using two datasets. Each XML file was run for 20 replicates of MCMC.

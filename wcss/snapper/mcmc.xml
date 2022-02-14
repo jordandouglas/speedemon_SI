@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><beast beautitemplate='snapper' beautistatus='' namespace="beast.core:beast.evolution.alignment:beast.evolution.tree.coalescent:beast.core.util:beast.evolution.nuc:beast.evolution.operators:beast.evolution.sitemodel:beast.evolution.substitutionmodel:beast.evolution.likelihood" required="" version="2.6">
+    <data
+id="stacey"
+spec="Alignment"
+dataType="integer"
+name="rawdata">
+simsnap
+    </data>
+    
+    <map name="Uniform" >beast.math.distributions.Uniform</map>
+    <map name="Exponential" >beast.math.distributions.Exponential</map>
+    <map name="LogNormal" >beast.math.distributions.LogNormalDistributionModel</map>
+    <map name="Normal" >beast.math.distributions.Normal</map>
+    <map name="Beta" >beast.math.distributions.Beta</map>
+    <map name="Gamma" >beast.math.distributions.Gamma</map>
+    <map name="LaplaceDistribution" >beast.math.distributions.LaplaceDistribution</map>
+    <map name="prior" >beast.math.distributions.Prior</map>
+    <map name="InverseGamma" >beast.math.distributions.InverseGamma</map>
+    <map name="OneOnX" >beast.math.distributions.OneOnX</map>
+    
+    <run id="mcmc" spec="MCMC" chainLength="1000000">
+    
+        <state id="state" spec="State" storeEvery="5000">
+            <tree id="Tree.t:stacey" spec="beast.evolution.tree.Tree" name="stateNode" nodetype="snap.NodeData">
+                <taxonset id="TaxonSet.stacey" spec="TaxonSet">
+                    <alignment id="snapper.stacey" spec="snap.Data" dataType="integerdata">
+                        <rawdata idref="stacey"/>
+                        
+						<plate var="s" range="1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40">
+							<taxonset id="species$(s)" spec="TaxonSet">
+								<taxon id="species$(s)_1" spec="Taxon"/>
+								<taxon id="species$(s)_2" spec="Taxon"/>
+								<taxon id="species$(s)_3" spec="Taxon"/>
+								<taxon id="species$(s)_4" spec="Taxon"/>
+							</taxonset>
+						</plate>
+						                 
+					</alignment>                        
+                </taxonset>
+            </tree>
+            <parameter id="snapperCoalescentRate.t:stacey" spec="parameter.RealParameter" lower="1.0E-10" name="stateNode" upper="10.0">1.0</parameter>
+
+            <parameter id="bdcGrowthRateRate.t:Species" spec="parameter.RealParameter" lower="1.0E-99" name="stateNode" upper="1.0E99">1.0</parameter>
+            <parameter id="relativeDeathRate.t:Species" spec="parameter.RealParameter" lower="0.0" name="stateNode" upper="1.0">0.0</parameter>
+            <parameter id="collapseWeight.t:Species" spec="parameter.RealParameter" lower="0.0" name="stateNode" upper="1.0">0.5</parameter>
+            <parameter id="originHeight.t:Species" spec="parameter.RealParameter" lower="1.0E-99" name="stateNode" upper="1.0E99">100.0</parameter>
+        </state>
+        
+        <init id="RandomTree.t:stacey" spec="beast.evolution.tree.RandomTree" estimate="false" initial="@Tree.t:stacey" taxa="@snapper.stacey" rootHeight="1.0">
+            <populationModel id="ConstantPopulation0.t:stacey" spec="ConstantPopulation">
+                <parameter id="randomPopSize.t:stacey" spec="parameter.RealParameter" name="popSize">10.0</parameter>
+            </populationModel>
+        </init>
+        
+        <distribution id="posterior" spec="util.CompoundDistribution">
+            <distribution id="prior" spec="util.CompoundDistribution">
+                <prior id="SnapperCoalescentRatePrior.t:stacey" name="distribution" x="@snapperCoalescentRate.t:stacey">
+                    <Gamma id="Gamma.2" name="distr">
+                        <parameter id="RealParameter.4" spec="parameter.RealParameter" lower="0.0" name="alpha" upper="0.0">100.0</parameter>
+                        <parameter id="RealParameter.5" spec="parameter.RealParameter" lower="0.0" name="beta" upper="0.0">0.01</parameter>
+                    </Gamma>
+                </prior>
+                
+   
+					
+				<!--
+                <distribution id="BirthDeathCollapseModel.t:Species" spec="stacey.BirthDeathCollapseModel" birthDiffRate="@bdcGrowthRateRate.t:Species" collapseHeight="1.0E-4" collapseWeight="@collapseWeight.t:Species" originHeight="@originHeight.t:Species" relativeDeathRate="@relativeDeathRate.t:Species" tree="@Tree.t:stacey"/>
+                -->
+				<distribution id="BirthDeathCollapseModel.t:Species" spec="speedemon.YuleSkylineCollapse" weight="@collapseWeight.t:Species" linkedMean="true" birthRateShape="2" birthRateRate="@bdcGrowthRateRate.t:Species" equalEpochs="true" tree="@Tree.t:stacey" groupCount="4">\
+					<parameter id="epsilon" spec="parameter.RealParameter" lower="0.0" name="epsilon" upper="0.0">1.0E-4</parameter>
+				</distribution>
+			
+					
+					
+	                
+                <prior id="bdcGrowthRateRatePrior.t:Species" name="distribution" x="@bdcGrowthRateRate.t:Species">
+                     <LogNormal meanInRealSpace="true" name="distr" M="0.2" S="0.2"/>
+                </prior>
+                
+                <prior id="bdcCollapseWeight.smcTreePrior" name="distribution" x="@collapseWeight.t:Species">
+                    <Beta id="Beta.bdcCollapseWeight.smcTreePrior" name="distr">
+                        <parameter id="alpha.bdcCollapseWeight.smcTreePrior" spec="parameter.RealParameter" estimate="false" name="alpha">1.0</parameter>
+                        <parameter id="beta.bdcCollapseWeight.smcTreePrior" spec="parameter.RealParameter" estimate="false" name="beta">2.0</parameter>
+                    </Beta>
+                </prior>
+                
+                <!--
+                <prior id="bdcRelativeDeathRate.smcTreePrior" name="distribution" x="@relativeDeathRate.t:Species">
+                    <Beta id="Beta.bdcRelativeDeathRate.smcTreePrior" name="distr">
+                        <parameter id="alpha.bdcRelativeDeathRate.smcTreePrior" spec="parameter.RealParameter" estimate="false" name="alpha">1.0</parameter>
+                        <parameter id="beta.bdcRelativeDeathRate.smcTreePrior" spec="parameter.RealParameter" estimate="false" name="beta">1.0</parameter>
+                    </Beta>
+                </prior>     
+ 
+				 -->
+				 
+				<prior id="treeHeightPrior.t:Species" name="distribution" x="@TreeHeight.t:stacey">
+                    <Uniform id="Uniform.0" name="distr" lower="0.05"/>
+                </prior>
+				
+                           
+            </distribution>
+            <distribution id="likelihood" spec="util.CompoundDistribution" useThreads="true">
+                <distribution id="snapperTreeLikelihood.stacey" spec="snapper.SnapperTreeLikelihood" data="@snapper.stacey" pattern="coalescentRate" tree="@Tree.t:stacey" non-polymorphic="true">
+                    <siteModel id="SnapperSiteModel.s:stacey" spec="SiteModel">
+                        <substModel id="SnapperSubstModel.s:stacey" spec="snapper.SnapSubstitutionModel" coalescentRate="@snapperCoalescentRate.t:stacey">
+                            <parameter id="snapperU.s:stacey" spec="parameter.RealParameter" estimate="false" lower="0.0" name="mutationRateU">1.0</parameter>
+                            <parameter id="snapperV.s:stacey" spec="parameter.RealParameter" estimate="false" lower="0.0" name="mutationRateV">1.0</parameter>
+                        </substModel>
+                    </siteModel>
+                    <branchRateModel id="StrictClock.c:stacey" spec="beast.evolution.branchratemodel.StrictClockModel">
+                        <parameter id="clockRate.c:stacey" spec="parameter.RealParameter" estimate="false" name="clock.rate">1.0</parameter>
+                    </branchRateModel>
+                </distribution>
+            </distribution>
+        </distribution>
+		
+		
+		
+        
+        <operator id="SnapperGammaMover.t:stacey" spec="snap.operators.GammaMover" coalescenceRate="@snapperCoalescentRate.t:stacey" scale="0.75" weight="10.0"/>
+        <operator id="SnapperRateMixer.t:stacey" spec="snap.operators.RateMixer" coalescenceRate="@snapperCoalescentRate.t:stacey" scaleFactors="0.25" tree="@Tree.t:stacey" weight="10.0"/>
+
+
+		<operator id="UniformThresholdOperator.t:speedemon" spec="speedemon.UniformThresholdOperator" epsilon="@epsilon" tree="@Tree.t:stacey" weight="3.0"/>
+        <operator id="YuleModelTreeScaler.t:stacey" spec="BactrianScaleOperator" scaleFactor="0.1" tree="@Tree.t:stacey" weight="3.0"/>
+        <operator id="YuleModelTreeRootScaler.t:stacey" spec="BactrianScaleOperator" rootOnly="true" scaleFactor="0.5" tree="@Tree.t:stacey" weight="3.0"/>
+        <operator id="YuleModelUniformOperator.t:stacey" spec="BactrianNodeOperator" tree="@Tree.t:stacey" weight="30.0"/>
+        <operator id="YuleModelSubtreeSlide.t:stacey" spec="BactrianSubtreeSlide" tree="@Tree.t:stacey" weight="15.0"/>
+        <operator id="YuleModelNarrow.t:stacey" spec="Exchange" tree="@Tree.t:stacey" weight="15.0"/>
+        <operator id="YuleModelWide.t:stacey" spec="Exchange" isNarrow="false" tree="@Tree.t:stacey" weight="3.0"/>
+        <operator id="YuleModelWilsonBalding.t:stacey" spec="WilsonBalding" tree="@Tree.t:stacey" weight="3.0"/>
+        
+        
+        <operator id="bdcGrowthRateRateScaler100.t:Species" spec="BactrianScaleOperator" optimise="true" parameter="@bdcGrowthRateRate.t:Species" scaleFactor="0.1" weight="0.4"/>
+        <!--
+        <operator id="bdcRelativeDeathRateScaler100.t:Species" spec="BactrianScaleOperator" optimise="true" parameter="@relativeDeathRate.t:Species" scaleFactor="0.1" weight="0.2"/>
+        <operator id="bdcRelativeDeathRateRW0001.t:Species" spec="BactrianRandomWalkOperator" parameter="@relativeDeathRate.t:Species" weight="0.3" scaleFactor="1.0E-4"/>
+        -->
+        <operator id="bdcCollapseWeightScaler100.t:Species" spec="BactrianScaleOperator" optimise="true" parameter="@collapseWeight.t:Species" scaleFactor="0.1" weight="0.2"/>
+        <operator id="bdcCollapseWeightRW0001.t:Species" spec="BactrianRandomWalkOperator" parameter="@collapseWeight.t:Species" weight="0.3" scaleFactor="1.0E-4"/>
+        <operator id="updown.999.all.Species" spec="BactrianUpDownOperator" optimise="true" scaleFactor="0.1" weight="2.0">
+            <down idref="bdcGrowthRateRate.t:Species"/>
+            <down idref="Tree.t:stacey"/>
+            <down idref="originHeight.t:Species"/>
+            <down idref="snapperCoalescentRate.t:stacey"/>
+        </operator>
+        <operator id="bdcOriginHeightScaler100.t:Species" spec="BactrianScaleOperator" optimise="true" parameter="@originHeight.t:Species" scaleFactor="0.1" weight="0.4"/>
+  
+        
+        <logger id="tracelog" spec="Logger" fileName="$(filebase).log" logEvery="1000" model="@posterior" sanitiseHeaders="true" sort="smart">
+            <log idref="posterior"/>
+            <log idref="likelihood"/>
+            <log idref="prior"/>
+            <log id="TreeHeight.t:stacey" spec="beast.evolution.tree.TreeHeightLogger" tree="@Tree.t:stacey"/>
+            <log idref="snapperCoalescentRate.t:stacey"/>
+
+            <log idref="bdcGrowthRateRate.t:Species"/>
+            <log idref="relativeDeathRate.t:Species"/>
+            <log idref="collapseWeight.t:Species"/>
+            <log idref="originHeight.t:Species"/>
+            <log idref="BirthDeathCollapseModel.t:Species"/>
+        </logger>
+        
+        <logger id="screenlog" spec="Logger" logEvery="100000">
+            <log idref="posterior"/>
+            <log idref="likelihood"/>
+            <log idref="prior"/>
+        </logger>
+        
+        <logger id="treelog.t:stacey" spec="Logger" fileName="$(filebase).trees" logEvery="1000" mode="tree">
+            <log id="TreeWithMetaDataLogger.t:stacey" spec="beast.evolution.tree.TreeWithMetaDataLogger" tree="@Tree.t:stacey">
+            	<!--metadata="@snapperCoalescentRate.t:stacey">
+            	<metadata id="theta" spec="snap.ThetaLogger" coalescenceRate="@snapperCoalescentRate.t:stacey"/>
+            	-->
+            	</log>
+        </logger>
+    </run>
+    
+</beast>
