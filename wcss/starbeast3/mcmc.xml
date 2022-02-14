@@ -1,0 +1,959 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><beast beautitemplate='StarBeast3' beautistatus='noAutoUpdateFixMeanSubstRate' namespace="beast.core:beast.evolution.alignment:beast.evolution.tree.coalescent:beast.core.util:beast.evolution.nuc:beast.evolution.operators:beast.evolution.sitemodel:beast.evolution.substitutionmodel:beast.evolution.likelihood" required="" version="2.6">
+
+
+
+
+	<map name="Uniform" >beast.math.distributions.Uniform</map>
+	<map name="Exponential" >beast.math.distributions.Exponential</map>
+	<map name="LogNormal" >beast.math.distributions.LogNormalDistributionModel</map>
+	<map name="Normal" >beast.math.distributions.Normal</map>
+	<map name="Beta" >beast.math.distributions.Beta</map>
+	<map name="Gamma" >beast.math.distributions.Gamma</map>
+	<map name="LaplaceDistribution" >beast.math.distributions.LaplaceDistribution</map>
+	<map name="prior" >beast.math.distributions.Prior</map>
+	<map name="InverseGamma" >starbeast3.math.distributions.InverseGamma</map>
+	<map name="OneOnX" >beast.math.distributions.OneOnX</map>
+	<map name="Dirichlet" >beast.math.distributions.Dirichlet</map>
+
+
+
+	<!-- Gene 1 -->
+	<data id="data.1" spec='beast.app.seqgen.SimulatedAlignment' sequencelength="500" outputFileName="priorSamples.gene1.xml">
+
+		<tree id="simulatedGeneTree.1" spec='beast.util.TreeParser' newick="$(gene1)" IsLabelledNewick="true"/>
+
+	
+	
+		<data spec="Alignment" dataType="nucleotide">
+			<plate var="s" range="1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40">
+				<sequence taxon="species$(s)_1">?</sequence>
+			</plate>
+		</data>
+		
+		<siteModel spec='SiteModel' gammaCategoryCount='1' mutationRate="$(mutationRate.s.1)">
+			<substModel spec='HKY' kappa="$(kappa.s.1)">
+				<frequencies spec='Frequencies' frequencies='$(freqParameter.t.1.1) $(freqParameter.t.1.2) $(freqParameter.t.1.3) $(freqParameter.t.1.4)'/>
+			</substModel>
+		</siteModel>
+		
+		
+	   <branchRateModel spec="starbeast3.StarBeast3Clock" speciesTreeRates="@sampledBranchRatesModelSpecies" clock.rate="1.0">
+			<geneTree spec="starbeast3.GeneTreeForSpeciesTreeDistribution" speciesTree="@sampledSpeciesTree" tree="@simulatedGeneTree.1"  taxonset="@taxonsuperset" ploidy="2" sampling="true"/>
+		</branchRateModel>
+		
+	
+	</data>
+	
+	
+
+
+	<!-- Gene 2 -->
+	<data id="data.2" spec='beast.app.seqgen.SimulatedAlignment' sequencelength="500" outputFileName="priorSamples.gene2.xml">
+
+		<tree id="simulatedGeneTree.2" spec='beast.util.TreeParser' newick="$(gene2)" IsLabelledNewick="true"/>
+
+	
+	
+		<data spec="Alignment" dataType="nucleotide">
+			<plate var="s" range="1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40">
+				<sequence taxon="species$(s)_1">?</sequence>
+			</plate>
+		</data>
+		
+		<siteModel spec='SiteModel' gammaCategoryCount='1' mutationRate="$(mutationRate.s.2)">
+			<substModel spec='HKY' kappa="$(kappa.s.2)">
+				<frequencies spec='Frequencies' frequencies='$(freqParameter.t.2.1) $(freqParameter.t.2.2) $(freqParameter.t.2.3) $(freqParameter.t.2.4)'/>
+			</substModel>
+		</siteModel>
+		
+		
+	   <branchRateModel spec="starbeast3.StarBeast3Clock" speciesTreeRates="@sampledBranchRatesModelSpecies" clock.rate="1.0">
+			<geneTree spec="starbeast3.GeneTreeForSpeciesTreeDistribution" speciesTree="@sampledSpeciesTree" tree="@simulatedGeneTree.2"  taxonset="@taxonsuperset" ploidy="2" sampling="true"/>
+		</branchRateModel>
+		
+	
+	</data>
+	
+	
+	<!-- Gene 3 -->
+	<data id="data.3" spec='beast.app.seqgen.SimulatedAlignment' sequencelength="500" outputFileName="priorSamples.gene3.xml">
+
+		<tree id="simulatedGeneTree.3" spec='beast.util.TreeParser' newick="$(gene3)" IsLabelledNewick="true"/>
+
+	
+		<data spec="Alignment" dataType="nucleotide">
+			<plate var="s" range="1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40">
+				<sequence taxon="species$(s)_1">?</sequence>
+			</plate>
+		</data>
+		
+		<siteModel spec='SiteModel' gammaCategoryCount='1' mutationRate="$(mutationRate.s.3)">
+			<substModel spec='HKY' kappa="$(kappa.s.3)">
+				<frequencies spec='Frequencies' frequencies='$(freqParameter.t.3.1) $(freqParameter.t.3.2) $(freqParameter.t.3.3) $(freqParameter.t.3.4)'/>
+			</substModel>
+		</siteModel>
+		
+		
+	   <branchRateModel spec="starbeast3.StarBeast3Clock" speciesTreeRates="@sampledBranchRatesModelSpecies" clock.rate="1.0">
+			<geneTree spec="starbeast3.GeneTreeForSpeciesTreeDistribution" speciesTree="@sampledSpeciesTree" tree="@simulatedGeneTree.3"  taxonset="@taxonsuperset" ploidy="2" sampling="true"/>
+		</branchRateModel>
+		
+	
+	</data>
+	
+	
+	<!-- Gene 4 -->
+	<data id="data.4" spec='beast.app.seqgen.SimulatedAlignment' sequencelength="500" outputFileName="priorSamples.gene4.xml">
+
+		<tree id="simulatedGeneTree.4" spec='beast.util.TreeParser' newick="$(gene4)" IsLabelledNewick="true"/>
+
+	
+	
+		<data spec="Alignment" dataType="nucleotide">
+			<plate var="s" range="1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40">
+				<sequence taxon="species$(s)_1">?</sequence>
+			</plate>
+		</data>
+		
+		<siteModel spec='SiteModel' gammaCategoryCount='1' mutationRate="$(mutationRate.s.4)">
+			<substModel spec='HKY' kappa="$(kappa.s.4)">
+				<frequencies spec='Frequencies' frequencies='$(freqParameter.t.4.1) $(freqParameter.t.4.2) $(freqParameter.t.4.3) $(freqParameter.t.4.4)'/>
+			</substModel>
+		</siteModel>
+		
+		
+	   <branchRateModel spec="starbeast3.StarBeast3Clock" speciesTreeRates="@sampledBranchRatesModelSpecies" clock.rate="1.0">
+			<geneTree spec="starbeast3.GeneTreeForSpeciesTreeDistribution" speciesTree="@sampledSpeciesTree" tree="@simulatedGeneTree.4"  taxonset="@taxonsuperset" ploidy="2" sampling="true"/>
+		</branchRateModel>
+		
+	
+	</data>
+	
+
+
+
+        <!-- Gene 5 -->
+        <data id="data.5" spec='beast.app.seqgen.SimulatedAlignment' sequencelength="500" outputFileName="priorSamples.gene5.xml">
+
+                <tree id="simulatedGeneTree.5" spec='beast.util.TreeParser' newick="$(gene5)" IsLabelledNewick="true"/>
+
+
+
+                <data spec="Alignment" dataType="nucleotide">
+                        <plate var="s" range="1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40">
+                                <sequence taxon="species$(s)_1">?</sequence>
+                        </plate>
+                </data>
+
+                <siteModel spec='SiteModel' gammaCategoryCount='1' mutationRate="$(mutationRate.s.5)">
+                        <substModel spec='HKY' kappa="$(kappa.s.5)">
+                                <frequencies spec='Frequencies' frequencies='$(freqParameter.t.5.1) $(freqParameter.t.5.2) $(freqParameter.t.5.3) $(freqParameter.t.5.4)'/>
+                        </substModel>
+                </siteModel>
+
+
+           <branchRateModel spec="starbeast3.StarBeast3Clock" speciesTreeRates="@sampledBranchRatesModelSpecies" clock.rate="1.0">
+                        <geneTree spec="starbeast3.GeneTreeForSpeciesTreeDistribution" speciesTree="@sampledSpeciesTree" tree="@simulatedGeneTree.5"  taxonset="@taxonsuperset" ploidy="2" sampling="true"/>
+                </branchRateModel>
+
+
+        </data>
+
+
+
+
+        <!-- Gene 6 -->
+        <data id="data.6" spec='beast.app.seqgen.SimulatedAlignment' sequencelength="500" outputFileName="priorSamples.gene6.xml">
+
+                <tree id="simulatedGeneTree.6" spec='beast.util.TreeParser' newick="$(gene6)" IsLabelledNewick="true"/>
+
+
+
+                <data spec="Alignment" dataType="nucleotide">
+                        <plate var="s" range="1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40">
+                                <sequence taxon="species$(s)_1">?</sequence>
+                        </plate>
+                </data>
+
+                <siteModel spec='SiteModel' gammaCategoryCount='1' mutationRate="$(mutationRate.s.6)">
+                        <substModel spec='HKY' kappa="$(kappa.s.6)">
+                                <frequencies spec='Frequencies' frequencies='$(freqParameter.t.6.1) $(freqParameter.t.6.2) $(freqParameter.t.6.3) $(freqParameter.t.6.4)'/>
+                        </substModel>
+                </siteModel>
+
+
+           <branchRateModel spec="starbeast3.StarBeast3Clock" speciesTreeRates="@sampledBranchRatesModelSpecies" clock.rate="1.0">
+                        <geneTree spec="starbeast3.GeneTreeForSpeciesTreeDistribution" speciesTree="@sampledSpeciesTree" tree="@simulatedGeneTree.6"  taxonset="@taxonsuperset" ploidy="2" sampling="true"/>
+                </branchRateModel>
+
+
+        </data>
+
+
+
+
+        <!-- Gene 7 -->
+        <data id="data.7" spec='beast.app.seqgen.SimulatedAlignment' sequencelength="500" outputFileName="priorSamples.gene7.xml">
+
+                <tree id="simulatedGeneTree.7" spec='beast.util.TreeParser' newick="$(gene7)" IsLabelledNewick="true"/>
+
+
+
+                <data spec="Alignment" dataType="nucleotide">
+                        <plate var="s" range="1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40">
+                                <sequence taxon="species$(s)_1">?</sequence>
+                        </plate>
+                </data>
+
+                <siteModel spec='SiteModel' gammaCategoryCount='1' mutationRate="$(mutationRate.s.7)">
+                        <substModel spec='HKY' kappa="$(kappa.s.7)">
+                                <frequencies spec='Frequencies' frequencies='$(freqParameter.t.7.1) $(freqParameter.t.7.2) $(freqParameter.t.7.3) $(freqParameter.t.7.4)'/>
+                        </substModel>
+                </siteModel>
+
+
+           <branchRateModel spec="starbeast3.StarBeast3Clock" speciesTreeRates="@sampledBranchRatesModelSpecies" clock.rate="1.0">
+                        <geneTree spec="starbeast3.GeneTreeForSpeciesTreeDistribution" speciesTree="@sampledSpeciesTree" tree="@simulatedGeneTree.7"  taxonset="@taxonsuperset" ploidy="2" sampling="true"/>
+                </branchRateModel>
+
+
+        </data>
+
+
+
+
+
+        <!-- Gene 8 -->
+        <data id="data.8" spec='beast.app.seqgen.SimulatedAlignment' sequencelength="500" outputFileName="priorSamples.gene8.xml">
+
+                <tree id="simulatedGeneTree.8" spec='beast.util.TreeParser' newick="$(gene8)" IsLabelledNewick="true"/>
+
+
+
+                <data spec="Alignment" dataType="nucleotide">
+                        <plate var="s" range="1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40">
+                                <sequence taxon="species$(s)_1">?</sequence>
+                        </plate>
+                </data>
+
+                <siteModel spec='SiteModel' gammaCategoryCount='1' mutationRate="$(mutationRate.s.8)">
+                        <substModel spec='HKY' kappa="$(kappa.s.8)">
+                                <frequencies spec='Frequencies' frequencies='$(freqParameter.t.8.1) $(freqParameter.t.8.2) $(freqParameter.t.8.3) $(freqParameter.t.8.4)'/>
+                        </substModel>
+                </siteModel>
+
+
+           <branchRateModel spec="starbeast3.StarBeast3Clock" speciesTreeRates="@sampledBranchRatesModelSpecies" clock.rate="1.0">
+                        <geneTree spec="starbeast3.GeneTreeForSpeciesTreeDistribution" speciesTree="@sampledSpeciesTree" tree="@simulatedGeneTree.8"  taxonset="@taxonsuperset" ploidy="2" sampling="true"/>
+                </branchRateModel>
+
+
+        </data>
+
+
+
+
+        <!-- Gene 9 -->
+        <data id="data.9" spec='beast.app.seqgen.SimulatedAlignment' sequencelength="500" outputFileName="priorSamples.gene9.xml">
+
+                <tree id="simulatedGeneTree.9" spec='beast.util.TreeParser' newick="$(gene9)" IsLabelledNewick="true"/>
+
+
+
+                <data spec="Alignment" dataType="nucleotide">
+                        <plate var="s" range="1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40">
+                                <sequence taxon="species$(s)_1">?</sequence>
+                        </plate>
+                </data>
+
+                <siteModel spec='SiteModel' gammaCategoryCount='1' mutationRate="$(mutationRate.s.9)">
+                        <substModel spec='HKY' kappa="$(kappa.s.9)">
+                                <frequencies spec='Frequencies' frequencies='$(freqParameter.t.9.1) $(freqParameter.t.9.2) $(freqParameter.t.9.3) $(freqParameter.t.9.4)'/>
+                        </substModel>
+                </siteModel>
+
+
+           <branchRateModel spec="starbeast3.StarBeast3Clock" speciesTreeRates="@sampledBranchRatesModelSpecies" clock.rate="1.0">
+                        <geneTree spec="starbeast3.GeneTreeForSpeciesTreeDistribution" speciesTree="@sampledSpeciesTree" tree="@simulatedGeneTree.9"  taxonset="@taxonsuperset" ploidy="2" sampling="true"/>
+                </branchRateModel>
+
+
+        </data>
+
+
+
+
+
+        <!-- Gene 10 -->
+        <data id="data.10" spec='beast.app.seqgen.SimulatedAlignment' sequencelength="500" outputFileName="priorSamples.gene10.xml">
+
+                <tree id="simulatedGeneTree.10" spec='beast.util.TreeParser' newick="$(gene10)" IsLabelledNewick="true"/>
+
+
+
+                <data spec="Alignment" dataType="nucleotide">
+                        <plate var="s" range="1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40">
+                                <sequence taxon="species$(s)_1">?</sequence>
+                        </plate>
+                </data>
+
+                <siteModel spec='SiteModel' gammaCategoryCount='1' mutationRate="$(mutationRate.s.10)">
+                        <substModel spec='HKY' kappa="$(kappa.s.10)">
+                                <frequencies spec='Frequencies' frequencies='$(freqParameter.t.10.1) $(freqParameter.t.10.2) $(freqParameter.t.10.3) $(freqParameter.t.10.4)'/>
+                        </substModel>
+                </siteModel>
+
+
+           <branchRateModel spec="starbeast3.StarBeast3Clock" speciesTreeRates="@sampledBranchRatesModelSpecies" clock.rate="1.0">
+                        <geneTree spec="starbeast3.GeneTreeForSpeciesTreeDistribution" speciesTree="@sampledSpeciesTree" tree="@simulatedGeneTree.10"  taxonset="@taxonsuperset" ploidy="2" sampling="true"/>
+                </branchRateModel>
+
+
+        </data>
+
+
+
+
+        <!-- Gene 11 -->
+        <data id="data.11" spec='beast.app.seqgen.SimulatedAlignment' sequencelength="500" outputFileName="priorSamples.gene11.xml">
+
+                <tree id="simulatedGeneTree.11" spec='beast.util.TreeParser' newick="$(gene11)" IsLabelledNewick="true"/>
+
+
+
+                <data spec="Alignment" dataType="nucleotide">
+                        <plate var="s" range="1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40">
+                                <sequence taxon="species$(s)_1">?</sequence>
+                        </plate>
+                </data>
+
+                <siteModel spec='SiteModel' gammaCategoryCount='1' mutationRate="$(mutationRate.s.11)">
+                        <substModel spec='HKY' kappa="$(kappa.s.11)">
+                                <frequencies spec='Frequencies' frequencies='$(freqParameter.t.11.1) $(freqParameter.t.11.2) $(freqParameter.t.11.3) $(freqParameter.t.11.4)'/>
+                        </substModel>
+                </siteModel>
+
+
+           <branchRateModel spec="starbeast3.StarBeast3Clock" speciesTreeRates="@sampledBranchRatesModelSpecies" clock.rate="1.0">
+                        <geneTree spec="starbeast3.GeneTreeForSpeciesTreeDistribution" speciesTree="@sampledSpeciesTree" tree="@simulatedGeneTree.11"  taxonset="@taxonsuperset" ploidy="2" sampling="true"/>
+                </branchRateModel>
+
+
+        </data>
+
+
+
+
+        <!-- Gene 12 -->
+        <data id="data.12" spec='beast.app.seqgen.SimulatedAlignment' sequencelength="500" outputFileName="priorSamples.gene12.xml">
+
+                <tree id="simulatedGeneTree.12" spec='beast.util.TreeParser' newick="$(gene12)" IsLabelledNewick="true"/>
+
+
+
+                <data spec="Alignment" dataType="nucleotide">
+                        <plate var="s" range="1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40">
+                                <sequence taxon="species$(s)_1">?</sequence>
+                        </plate>
+                </data>
+
+                <siteModel spec='SiteModel' gammaCategoryCount='1' mutationRate="$(mutationRate.s.12)">
+                        <substModel spec='HKY' kappa="$(kappa.s.12)">
+                                <frequencies spec='Frequencies' frequencies='$(freqParameter.t.12.1) $(freqParameter.t.12.2) $(freqParameter.t.12.3) $(freqParameter.t.12.4)'/>
+                        </substModel>
+                </siteModel>
+
+
+           <branchRateModel spec="starbeast3.StarBeast3Clock" speciesTreeRates="@sampledBranchRatesModelSpecies" clock.rate="1.0">
+                        <geneTree spec="starbeast3.GeneTreeForSpeciesTreeDistribution" speciesTree="@sampledSpeciesTree" tree="@simulatedGeneTree.12"  taxonset="@taxonsuperset" ploidy="2" sampling="true"/>
+                </branchRateModel>
+
+
+        </data>
+
+
+
+        <!-- Gene 13 -->
+        <data id="data.13" spec='beast.app.seqgen.SimulatedAlignment' sequencelength="500" outputFileName="priorSamples.gene13.xml">
+
+                <tree id="simulatedGeneTree.13" spec='beast.util.TreeParser' newick="$(gene13)" IsLabelledNewick="true"/>
+
+
+
+                <data spec="Alignment" dataType="nucleotide">
+                        <plate var="s" range="1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40">
+                                <sequence taxon="species$(s)_1">?</sequence>
+                        </plate>
+                </data>
+
+                <siteModel spec='SiteModel' gammaCategoryCount='1' mutationRate="$(mutationRate.s.13)">
+                        <substModel spec='HKY' kappa="$(kappa.s.13)">
+                                <frequencies spec='Frequencies' frequencies='$(freqParameter.t.13.1) $(freqParameter.t.13.2) $(freqParameter.t.13.3) $(freqParameter.t.13.4)'/>
+                        </substModel>
+                </siteModel>
+
+
+           <branchRateModel spec="starbeast3.StarBeast3Clock" speciesTreeRates="@sampledBranchRatesModelSpecies" clock.rate="1.0">
+                        <geneTree spec="starbeast3.GeneTreeForSpeciesTreeDistribution" speciesTree="@sampledSpeciesTree" tree="@simulatedGeneTree.13"  taxonset="@taxonsuperset" ploidy="2" sampling="true"/>
+                </branchRateModel>
+
+
+        </data>
+
+
+
+
+        <!-- Gene 14 -->
+        <data id="data.14" spec='beast.app.seqgen.SimulatedAlignment' sequencelength="500" outputFileName="priorSamples.gene14.xml">
+
+                <tree id="simulatedGeneTree.14" spec='beast.util.TreeParser' newick="$(gene14)" IsLabelledNewick="true"/>
+
+
+
+                <data spec="Alignment" dataType="nucleotide">
+                        <plate var="s" range="1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40">
+                                <sequence taxon="species$(s)_1">?</sequence>
+                        </plate>
+                </data>
+
+                <siteModel spec='SiteModel' gammaCategoryCount='1' mutationRate="$(mutationRate.s.14)">
+                        <substModel spec='HKY' kappa="$(kappa.s.14)">
+                                <frequencies spec='Frequencies' frequencies='$(freqParameter.t.14.1) $(freqParameter.t.14.2) $(freqParameter.t.14.3) $(freqParameter.t.14.4)'/>
+                        </substModel>
+                </siteModel>
+
+
+           <branchRateModel spec="starbeast3.StarBeast3Clock" speciesTreeRates="@sampledBranchRatesModelSpecies" clock.rate="1.0">
+                        <geneTree spec="starbeast3.GeneTreeForSpeciesTreeDistribution" speciesTree="@sampledSpeciesTree" tree="@simulatedGeneTree.14"  taxonset="@taxonsuperset" ploidy="2" sampling="true"/>
+                </branchRateModel>
+
+
+        </data>
+
+
+
+        <!-- Gene 15 -->
+        <data id="data.15" spec='beast.app.seqgen.SimulatedAlignment' sequencelength="500" outputFileName="priorSamples.gene15.xml">
+
+                <tree id="simulatedGeneTree.15" spec='beast.util.TreeParser' newick="$(gene15)" IsLabelledNewick="true"/>
+
+
+
+                <data spec="Alignment" dataType="nucleotide">
+                        <plate var="s" range="1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40">
+                                <sequence taxon="species$(s)_1">?</sequence>
+                        </plate>
+                </data>
+
+                <siteModel spec='SiteModel' gammaCategoryCount='1' mutationRate="$(mutationRate.s.15)">
+                        <substModel spec='HKY' kappa="$(kappa.s.15)">
+                                <frequencies spec='Frequencies' frequencies='$(freqParameter.t.15.1) $(freqParameter.t.15.2) $(freqParameter.t.15.3) $(freqParameter.t.15.4)'/>
+                        </substModel>
+                </siteModel>
+
+
+           <branchRateModel spec="starbeast3.StarBeast3Clock" speciesTreeRates="@sampledBranchRatesModelSpecies" clock.rate="1.0">
+                        <geneTree spec="starbeast3.GeneTreeForSpeciesTreeDistribution" speciesTree="@sampledSpeciesTree" tree="@simulatedGeneTree.15"  taxonset="@taxonsuperset" ploidy="2" sampling="true"/>
+                </branchRateModel>
+
+
+        </data>
+
+
+
+        <!-- Gene 16 -->
+        <data id="data.16" spec='beast.app.seqgen.SimulatedAlignment' sequencelength="500" outputFileName="priorSamples.gene16.xml">
+
+                <tree id="simulatedGeneTree.16" spec='beast.util.TreeParser' newick="$(gene16)" IsLabelledNewick="true"/>
+
+
+
+                <data spec="Alignment" dataType="nucleotide">
+                        <plate var="s" range="1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40">
+                                <sequence taxon="species$(s)_1">?</sequence>
+                        </plate>
+                </data>
+
+                <siteModel spec='SiteModel' gammaCategoryCount='1' mutationRate="$(mutationRate.s.16)">
+                        <substModel spec='HKY' kappa="$(kappa.s.16)">
+                                <frequencies spec='Frequencies' frequencies='$(freqParameter.t.16.1) $(freqParameter.t.16.2) $(freqParameter.t.16.3) $(freqParameter.t.16.4)'/>
+                        </substModel>
+                </siteModel>
+
+
+           <branchRateModel spec="starbeast3.StarBeast3Clock" speciesTreeRates="@sampledBranchRatesModelSpecies" clock.rate="1.0">
+                        <geneTree spec="starbeast3.GeneTreeForSpeciesTreeDistribution" speciesTree="@sampledSpeciesTree" tree="@simulatedGeneTree.16"  taxonset="@taxonsuperset" ploidy="2" sampling="true"/>
+                </branchRateModel>
+
+
+        </data>
+
+
+
+	
+	
+
+<run id="mcmc" spec="beast.core.MCMC" chainLength="50000000">
+
+
+
+	<!-- Simulated species tree -->
+	<init id="sampledSpeciesTreeX" initial="@sampledSpeciesTree" spec='beast.util.TreeParser' newick="$(speciesTree)" IsLabelledNewick="false"/>
+
+
+	     
+	<!-- Simulated data init -->
+	<init id="SBI_simulated" spec="starbeast3.StarBeastStartState" estimate="false" method="random">
+	<speciestree id="sampledSpeciesTree" name="speciesTree" spec='starbeast3.SpeciesTree' taxonset="@taxonsuperset"/>
+	    <plate var="n" range="1,2,3,4">
+			<gene idref="simulatedGeneTree.$(n)"/>
+ 		</plate> 
+		<speciesTreeRates id="sampledBranchRatesModelSpecies" spec="starbeast3.evolution.branchratemodel.UCRelaxedClockModelSB3" estimateRoot="true" tree="@sampledSpeciesTree" stdev="$(SpeciesTreeRelaxedClockSD.Species)">
+			 <realRates id="ratesSampled" spec="parameter.RealParameter" dimension="31" lower="0">$(BranchRates.Species.1)  $(BranchRates.Species.2)  $(BranchRates.Species.3)  $(BranchRates.Species.4)  $(BranchRates.Species.5)  $(BranchRates.Species.6)  $(BranchRates.Species.7)  $(BranchRates.Species.8)  $(BranchRates.Species.9)  $(BranchRates.Species.10)
+																				$(BranchRates.Species.11) $(BranchRates.Species.12) $(BranchRates.Species.13) $(BranchRates.Species.14) $(BranchRates.Species.15) $(BranchRates.Species.16) $(BranchRates.Species.17) $(BranchRates.Species.18) $(BranchRates.Species.19) $(BranchRates.Species.20)
+																				$(BranchRates.Species.21) $(BranchRates.Species.22) $(BranchRates.Species.23) $(BranchRates.Species.24) $(BranchRates.Species.25) $(BranchRates.Species.26) $(BranchRates.Species.27) $(BranchRates.Species.28) $(BranchRates.Species.29) $(BranchRates.Species.30)
+																				$(BranchRates.Species.31)</realRates>
+		</speciesTreeRates>
+    </init>
+    
+   
+
+
+	<init id="SBI" spec="starbeast3.StarBeastStartState" estimate="false" popMean="@popMean" speciesTree="@Tree.t:Species">
+
+		<plate var="n" range="1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16">
+			<gene idref="Tree.t:$(n)"/>
+		</plate>
+		
+
+		
+		<speciesTreePrior id="SpeciesTreePopSize.Species" spec="starbeast3.SpeciesTreePrior" bottomPopSize="@popSize" gammaParameter="@popMean" taxonset="@taxonsuperset" tree="@Tree.t:Species">
+			<populationModel id="speciesTreePopulationModel" spec="starbeast3.evolution.speciation.ConstantPopulations" populationSizes="@popSize" speciesTree="@Tree.t:Species"/>
+			<treePrior idref="BirthDeathCollapseModel.t:Species"/>
+		</speciesTreePrior>
+		<sharedRateModel id="branchRatesModel.Species" spec="starbeast3.evolution.branchratemodel.SharedSpeciesClockModel">
+			<branchRateModel id="relaxedClockModel.Species" spec="starbeast3.evolution.branchratemodel.UCRelaxedClockModelSB3" estimateRoot="true" realRates="@BranchRates.Species" stdev="@SpeciesTreeRelaxedClockSD.Species" tree="@Tree.t:Species">
+				<parameter id="SpeciesTreeRelaxedClockRate.Species" spec="parameter.RealParameter" estimate="false" lower="0.0" name="clock.rate">1.0</parameter>
+			</branchRateModel>
+		</sharedRateModel>
+	</init>
+
+
+
+    <state id="state" spec="State" storeEvery="50000">
+	
+        <parameter id="bdcGrowthRateRate.t:Species" spec="parameter.RealParameter" lower="0.0" name="stateNode">1</parameter>
+		<parameter id="bdcGrowthRateShape.t:Species" spec="parameter.RealParameter" lower="0.0" name="stateNode">2</parameter>
+		<parameter id="relativeDeathRate.t:Species" spec="parameter.RealParameter" lower="0.0" name="stateNode" estimate="false" upper="1.0">0</parameter>
+		<parameter id="collapseWeight.t:Species" spec="parameter.RealParameter" lower="0.0" name="stateNode" upper="1.0">0.5</parameter>
+        <parameter id="originHeight.t:Species" spec="parameter.RealParameter" lower="1.0E-99" name="stateNode" upper="1.0E99">0.1</parameter>
+		
+		
+        <parameter id="popSize" spec="parameter.RealParameter" lower="0.0" name="stateNode">1.0</parameter>
+        <stateNode id="Tree.t:Species" spec="starbeast3.SpeciesTree">
+			 
+			  <taxonset id="taxonsuperset" spec="TaxonSet">
+			 
+				<plate var="s" range="1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40">
+					<taxon id="species$(s)" spec="TaxonSet">
+						<taxon id="species$(s)_1" spec="Taxon"/>
+					</taxon>
+				</plate>
+			 
+			</taxonset>
+			 
+        </stateNode>
+        <parameter id="popMean" spec="parameter.RealParameter" lower="0.0" name="stateNode">1.0</parameter>
+		
+		<plate var="n" range="1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16">
+			 <tree id="Tree.t:$(n)" spec="beast.evolution.tree.Tree" name="stateNode">
+				<taxonset id="TaxonSet.$(n)" spec="TaxonSet">
+					<alignment idref="data.$(n)"/>
+				</taxonset>
+			</tree>
+			<parameter id="mutationRate.s:$(n)" spec="parameter.RealParameter" name="stateNode">1.0</parameter>
+			<parameter id="freqParameter.t:$(n)" spec="parameter.RealParameter" dimension="4" name="stateNode" estimate="true" lower="0.0">0.25 0.25 0.25 0.25</parameter>
+			<parameter id="kappa.s:$(n)" lower="0.0" name="stateNode">2.0</parameter>
+		</plate>
+		
+       
+
+        <parameter id="BranchRates.Species" spec="parameter.RealParameter" lower="0.0" name="stateNode">1.0</parameter>
+        <parameter id="SpeciesTreeRelaxedClockSD.Species" spec="parameter.RealParameter" lower="0.0" name="stateNode" upper="1.0">0.1</parameter>
+    </state>
+
+
+
+
+
+    <distribution id="posterior" spec="util.CompoundDistribution">
+	
+	
+	
+		
+		 <distribution id="prior" spec="util.CompoundDistribution">
+		 
+			
+	 		<prior id="originHeightPrior.t:Species" name="distribution" x="@originHeight.t:Species">
+                <LogNormal meanInRealSpace="true" name="distr" M="0.5" S="1"/>
+            </prior>
+
+			<prior id="bdcCollapseWeight.smcTreePrior" name="distribution" x="@collapseWeight.t:Species">
+                <Beta id="Beta.bdcCollapseWeight.smcTreePrior" name="distr">
+                    <parameter id="alpha.bdcCollapseWeight.smcTreePrior" spec="parameter.RealParameter" estimate="false" name="alpha">1.0</parameter>
+                    <parameter id="beta.bdcCollapseWeight.smcTreePrior" spec="parameter.RealParameter" estimate="false" name="beta">1.0</parameter>
+                </Beta>
+            </prior>
+			
+	 
+			<prior id="speciationRatePrior.t:Species" name="distribution" x="@bdcGrowthRateRate.t:Species">
+                <LogNormal meanInRealSpace="true" name="distr" M="0.25" S="1"/>
+            </prior>
+			
+			<prior id="speciationRateShapePrior.t:Species" name="distribution" x="@bdcGrowthRateShape.t:Species">
+               <LogNormal meanInRealSpace="true" name="distr" M="2" S="0.5"/>
+			   <!--<Exponential mean="2" name="distr"/>-->
+            </prior>
+			
+			
+			
+            <prior id="popMean.prior" name="distribution" x="@popMean">
+                <LogNormal meanInRealSpace="true" name="distr" M="0.05" S="0.5"/>
+			</prior>
+					
+	
+			       
+            <prior id="constPopSizesPrior.Species" name="distribution" x="@popSize">
+                <InverseGamma id="popPriorDistr.InverseGamma" beta="@popMean" name="distr">
+                    <parameter id="RealParameter.0" spec="parameter.RealParameter" lower="0.0" name="alpha" upper="0.0">2.0</parameter>
+                </InverseGamma>
+            </prior>
+			
+			
+				
+	
+			<distribution id="BirthDeathCollapseModel.t:Species" spec="speedemon.YuleSkylineCollapse" weight="@collapseWeight.t:Species" linkedMean="false" birthRateShape="2" birthRateRate="@bdcGrowthRateRate.t:Species" equalEpochs="true" tree="@Tree.t:Species" groupCount="1">
+				<parameter id="epsilon" spec="parameter.RealParameter" lower="0.0" name="epsilon" upper="0.0">1.0E-4</parameter>
+			</distribution>
+			
+				
+				
+					
+		<!--
+				<distribution id="BirthDeathCollapseModel.t:Species" spec="starbeast3.tree.distribution.BirthDeathCollapseModelSB3" birthDiffRate="@bdcGrowthRateRate.t:Species" collapseHeight="1.0E-4" collapseWeight="@collapseWeight.t:Species" originHeight="@originHeight.t:Species" relativeDeathRate="@relativeDeathRate.t:Species" tree="@Tree.t:Species"/>
+				-->
+				
+				
+				<distribution idref="SpeciesTreePopSize.Species"/>
+
+				
+				
+		
+				
+				
+			
+						
+				<plate var="n" range="1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16">
+					 <distribution id="treePrior.t:$(n)" spec="starbeast3.GeneTreeForSpeciesTreeDistribution" populationModel="@speciesTreePopulationModel" speciesTree="@Tree.t:Species" speciesTreePrior="@SpeciesTreePopSize.Species" tree="@Tree.t:$(n)"/>
+				</plate>
+						
+				
+				
+				
+		
+				<prior id="FastRatePriorDistributionClock.Species" name="distribution" x="@BranchRates.Species">
+					<LogNormal id="LogNormalDistributionModel.0" S="@SpeciesTreeRelaxedClockSD.Species" meanInRealSpace="true" name="distr">
+						<parameter id="RealParameter.9" spec="parameter.RealParameter" lower="0.0" name="M" upper="0.0">1.0</parameter>
+					</LogNormal>
+				</prior>
+		   
+
+			
+	  
+				<!--
+				<prior id="bdcRelativeDeathRate.smcTreePrior" name="distribution" x="@relativeDeathRate.t:Species">
+					<Beta id="Beta.bdcRelativeDeathRate.smcTreePrior" name="distr">
+						<parameter id="alpha.bdcRelativeDeathRate.smcTreePrior" spec="parameter.RealParameter" estimate="false" name="alpha">1.0</parameter>
+						<parameter id="beta.bdcRelativeDeathRate.smcTreePrior" spec="parameter.RealParameter" estimate="false" name="beta">1.0</parameter>
+					</Beta>
+				</prior>
+				-->
+				
+				
+				
+				
+				
+				
+				<plate var="n" range="1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16">
+					<prior id="MutationRatePrior.s:$(n)" name="distribution" x="@mutationRate.s:$(n)">
+						<LogNormal meanInRealSpace="true" name="distr" M="1.0" S="0.6"/>
+					</prior>
+					<prior id="KappaPrior.s:$(n)" name="distribution" x="@kappa.s:$(n)">
+						<LogNormal id="LogNormalDistributionModel.01$(n)" name="distr">
+							<parameter id="RealParameter.02$(n)" estimate="false" name="M">1.0</parameter>
+							<parameter id="RealParameter.03$(n)" estimate="false" name="S">1.25</parameter>
+						</LogNormal>
+					</prior>
+					<prior name="distribution" x="@freqParameter.t:$(n)">
+						<Dirichlet alpha="10 10 10 10" name="distr"/>
+					</prior>
+				</plate>
+
+				<prior id="ucldStdevPrior.clock.Species" name="distribution" x="@SpeciesTreeRelaxedClockSD.Species">
+					<Gamma id="Gamma.stddev" name="distr">
+						<parameter id="RealParameter.7" spec="parameter.RealParameter" lower="0.0" name="alpha" upper="0.0">5.0</parameter>
+						<parameter id="RealParameter.8" spec="parameter.RealParameter" lower="0.0" name="beta" upper="0.0">0.05</parameter>
+					</Gamma>
+				</prior>
+			</distribution>
+	
+		
+		
+		<distribution id="likelihood" spec="util.CompoundDistribution">
+			<plate var="n" range="1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16">
+				<distribution id="treeLikelihood.$(n)" spec="TreeLikelihood" data="@data.$(n)" tree="@Tree.t:$(n)">
+					<siteModel id="SiteModel.s:$(n)" spec="SiteModel">
+						<mutationRate idref="mutationRate.s:$(n)" />
+						<parameter id="gammaShape.s:$(n)" estimate="false" name="shape">1.0</parameter>
+						<parameter id="proportionInvariant.s:$(n)" estimate="false" lower="0.0" name="proportionInvariant" upper="1.0">0.0</parameter>
+						<substModel id="hky.s:$(n)" spec="HKY" kappa="@kappa.s:$(n)">
+							<frequencies spec="Frequencies" frequencies="@freqParameter.t:$(n)"/>
+						</substModel>
+					</siteModel>
+					<branchRateModel id="SpeciesTreeRelaxedClock.c:$(n)" spec="starbeast3.StarBeast3Clock" clock.rate="1.0" speciesTreeRates="@relaxedClockModel.Species" geneTree="@treePrior.t:$(n)"/>
+				</distribution>
+			</plate>
+		</distribution>
+
+		
+
+    </distribution>
+
+
+
+
+	<operator id="UniformThresholdOperator.t:speedemon" spec="speedemon.UniformThresholdOperator" epsilon="@epsilon" tree="@Tree.t:Species" weight="30.0"/>
+
+    <operator id="Reheight.t:Species" spec="starbeast3.operators.NodeReheight2" taxonset="@taxonsuperset" tree="@Tree.t:Species" weight="30.0">
+		<plate var="n" range="1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16">
+			<gene idref="treePrior.t:$(n)"/>
+		</plate>
+    </operator>
+
+    <operator id="CoordinatedExponential.t:Species" spec="starbeast3.operators.CoordinatedExponential" speciesTree="@Tree.t:Species" weight="15.0">
+        <plate var="n" range="1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16">
+			<gene idref="treePrior.t:$(n)"/>
+		</plate>
+    </operator>
+
+    <operator id="CoordinatedUniform.t:Species" spec="starbeast3.operators.CoordinatedUniform" speciesTree="@Tree.t:Species" weight="30.0">
+        <plate var="n" range="1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16">
+			<gene idref="treePrior.t:$(n)"/>
+		</plate>
+    </operator>
+
+    <operator id="BactrianSubtreeSlide.t:Species" spec="BactrianSubtreeSlide" size="0.002" tree="@Tree.t:Species" weight="15.0"/>
+
+    <operator id="WilsonBalding.t:Species" spec="WilsonBalding" tree="@Tree.t:Species" weight="15.0"/>
+
+    <operator id="Wide.t:Species" spec="Exchange" isNarrow="false" tree="@Tree.t:Species" weight="15.0"/>
+
+    <operator id="AdaptableTopologyOperator.tree.Species" spec="orc.operators.AdaptableOperatorSampler" weight="15.0">
+        <tree idref="Tree.t:Species"/>
+        <operator id="Narrow.t:Species" spec="Exchange" tree="@Tree.t:Species" weight="1.0"/>
+		
+		<operator id="NEROperator_dAE_dBE_dCE.Species" rates="@BranchRates.Species" spec="orc.ner.NEROperator_dAE_dBE_dCE" tree="@Tree.t:Species" weight="1"/>
+		<operator id="CoordinatedExchange" spec="starbeast3.operators.CoordinatedExchangeRates" tree="@Tree.t:Species" weight="1.0">
+            <plate var="n" range="1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16">
+				<gene idref="treePrior.t:$(n)"/>
+			</plate>
+        </operator>
+        <metric id="RNNIMetric.0" spec="beast.evolution.tree.RNNIMetric" taxonset="@taxonsuperset"/>
+    </operator>
+
+    <operator id="UniformOperator.t:Species" spec="Uniform" tree="@Tree.t:Species" weight="3.0"/>
+
+    <operator id="TreeRootScaler.t:Species" spec="BactrianScaleOperator" rootOnly="true" scaleFactor="0.7" tree="@Tree.t:Species" upper="10.0" weight="3.0"/>
+
+    <operator id="BactrianNodeOperator.t:Species" spec="BactrianNodeOperator" tree="@Tree.t:Species" weight="3.0"/>
+
+    <operator id="AdaptableTopologyOperator.lengths.Species" spec="orc.operators.AdaptableOperatorSampler" weight="100.0">
+        <tree idref="Tree.t:Species"/>
+        <operator idref="UniformOperator.t:Species"/>
+        <operator idref="BactrianNodeOperator.t:Species"/>
+        <operator id="TreeScaler.t:Species" spec="BactrianScaleOperator" scaleFactor="0.01" tree="@Tree.t:Species" upper="10.0" weight="1.0"/>
+        <operator idref="CoordinatedUniform.t:Species"/>
+        <operator idref="CoordinatedExponential.t:Species"/>
+        <operator id="EpochOperator.t:Species" spec="starbeast3.operators.EpochOperator" scaleFactor="0.01" weight="1.0">
+             <plate var="n" range="1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,5,6,7,8,9,10,11,12,13,14,15,16,5,6,7,8,9,10,11,12,13,14,15,16,5,6,7,8,9,10,11,12,13,14,15,16,5,6,7,8,9,10,11,12,13,14,15,16,5,6,7,8,9,10,11,12,13,14,15,16,5,6,7,8,9,10,11,12,13,14,15,16,5,6,7,8,9,10,11,12,13,14,15,16,5,6,7,8,9,10,11,12,13,14,15,16,5,6,7,8,9,10,11,12,13,14,15,16,5,6,7,8,9,10,11,12,13,14,15,16,5,6,7,8,9,10,11,12,13,14,15,16,5,6,7,8,9,10,11,12,13,14,15,16,5,6,7,8,9,10,11,12,13,14,15,16,5,6,7,8,9,10,11,12,13,14,15,16,5,6,7,8,9,10,11,12,13,14,15,16">
+				<gene idref="treePrior.t:$(n)"/>
+			</plate>
+        </operator>
+        <operator id="updown.all" spec="UpDownOperator" scaleFactor="0.75" weight="1.0">
+            <down idref="bdcGrowthRateRate.t:Species"/>
+            <down idref="Tree.t:Species"/>
+            <down idref="popSize"/>
+            <down idref="popMean"/>
+			<plate var="n" range="1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16">
+				<up idref="mutationRate.s:$(n)"/>
+				<down idref="Tree.t:$(n)"/>
+			</plate>
+        </operator>
+        <operator id="ConstantDistanceOperatorSpeciesTree:Species" spec="starbeast3.operators.ConstantDistanceOperatorSpeciesTree" clock="@relaxedClockModel.Species" popsizes="@popSize" proportionalToBranchLength="true" tree="@Tree.t:Species" twindowSize="0.1" weight="1.0">
+			<plate var="n" range="1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16">
+				<gene idref="treePrior.t:$(n)"/>
+			</plate>
+        </operator>
+    </operator>
+
+
+
+
+	
+    <operator id="ParallelMCMCTreeOperator" spec="starbeast3.operators.ParallelMCMCTreeOperator" chainCoverage="1.0" targetCPU="0" learning="false" nregression="10" otherState="@state" runtime="1000.0" speciesTree="@Tree.t:Species" weight="1.0">
+        <plate var="n" range="1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16">
+			<distribution id="ParallelMCMCTreeOperatorLikelihood.$(n)" spec="starbeast3.operators.ParallelMCMCTreeOperatorTreeDistribution" treelikelihood="@treeLikelihood.$(n)" geneprior="@treePrior.t:$(n)" tree="@Tree.t:$(n)"/>
+		</plate>
+		<schedule idref="operatorSchedule"/>
+    </operator>
+	
+
+    <operator id="PopSizeGibbsSampler.Species" spec="starbeast3.operators.PopSizeGibbsSampler" gammaprior="@popPriorDistr.InverseGamma" popSizes="@popSize" weight="50.0">
+		<plate var="n" range="1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,5,6,7,8,9,10,11,12,13,14,15,16,5,6,7,8,9,10,11,12,13,14,15,16,5,6,7,8,9,10,11,12,13,14,15,16,5,6,7,8,9,10,11,12,13,14,15,16,5,6,7,8,9,10,11,12,13,14,15,16,5,6,7,8,9,10,11,12,13,14,15,16,5,6,7,8,9,10,11,12,13,14,15,16,5,6,7,8,9,10,11,12,13,14,15,16,5,6,7,8,9,10,11,12,13,14,15,16,5,6,7,8,9,10,11,12,13,14,15,16,5,6,7,8,9,10,11,12,13,14,15,16,5,6,7,8,9,10,11,12,13,14,15,16,5,6,7,8,9,10,11,12,13,14,15,16,5,6,7,8,9,10,11,12,13,14,15,16,5,6,7,8,9,10,11,12,13,14,15,16">
+			<gene idref="treePrior.t:$(n)"/>
+		</plate>
+    </operator>
+
+    <operator id="AdaptableOperatorSampler.popmean:Species" spec="orc.operators.AdaptableOperatorSampler" weight="5.0">
+        <parameter idref="popMean"/>
+        <operator id="Scale.popmean" spec="BactrianScaleOperator" parameter="@popMean" upper="10.0" weight="1.0"/>
+        <operator idref="updown.all"/>
+        <operator id="SampleFromPriorOperator.popmean" spec="orc.operators.SampleFromPriorOperator" parameter="@popMean" prior2="@popMean.prior" weight="1.0"/>
+    </operator>
+	
+	
+	<!-- Birth rate rate -->
+    <operator id="AdaptableOperatorSampler.BirthRateRate.t:Species" spec="orc.operators.AdaptableOperatorSampler" weight="5.0">
+        <parameter idref="bdcGrowthRateRate.t:Species"/>
+        <operator id="Scale.BirthDeathCollapseModel" spec="BactrianScaleOperator" parameter="@bdcGrowthRateRate.t:Species" weight="1.0"/>
+        <operator id="SampleFromPriorOperator.BirthDeathCollapseModel" spec="orc.operators.SampleFromPriorOperator" parameter="@bdcGrowthRateRate.t:Species" prior2="@speciationRatePrior.t:Species" weight="1.0"/>
+    </operator>
+	
+	
+	<!-- Birth rate shape -->
+    <operator id="AdaptableOperatorSampler.BirthRateShape.t:Species" spec="orc.operators.AdaptableOperatorSampler" weight="5.0">
+        <parameter idref="bdcGrowthRateShape.t:Species"/>
+        <operator id="Scale.BirthDeathCollapseModel.shape" spec="BactrianScaleOperator" parameter="@bdcGrowthRateShape.t:Species" weight="1.0"/>
+        <operator id="SampleFromPriorOperator.BirthDeathCollapseModel.shape" spec="orc.operators.SampleFromPriorOperator" parameter="@bdcGrowthRateShape.t:Species" prior2="@speciationRateShapePrior.t:Species" weight="1.0"/>
+    </operator>
+	
+	
+	<!-- Relative death rate
+	<operator id="AdaptableOperatorSampler.relativeDeathRate.t:Species" spec="orc.operators.AdaptableOperatorSampler" weight="5.0">
+        <parameter idref="relativeDeathRate.t:Species"/>
+        <operator id="Scale.relativeDeathRate" spec="BactrianIntervalOperator" parameter="@relativeDeathRate.t:Species" weight="1.0"/>
+        <operator id="SampleFromPriorOperator.relativeDeathRate" spec="orc.operators.SampleFromPriorOperator" parameter="@relativeDeathRate.t:Species" prior2="@bdcRelativeDeathRate.smcTreePrior" weight="1.0"/>
+    </operator>
+	 -->
+	
+	<!-- Collapse weight -->
+	<operator id="AdaptableOperatorSampler.collapseWeight.t:Species" spec="orc.operators.AdaptableOperatorSampler" weight="5.0">
+        <parameter idref="collapseWeight.t:Species"/>
+        <operator id="Scale.collapseWeight" spec="BactrianIntervalOperator" parameter="@collapseWeight.t:Species" weight="1.0"/>
+        <operator id="SampleFromPriorOperator.collapseWeight" spec="orc.operators.SampleFromPriorOperator" parameter="@collapseWeight.t:Species" prior2="@bdcCollapseWeight.smcTreePrior" weight="1.0"/>
+    </operator>
+	
+	
+	<!-- Origin height -->
+	<operator id="AdaptableOperatorSampler.originHeight.t:Species" spec="orc.operators.AdaptableOperatorSampler" weight="5.0">
+        <parameter idref="originHeight.t:Species"/>
+        <operator id="Scale.originHeight" spec="BactrianScaleOperator" parameter="@originHeight.t:Species" upper="10.0" weight="1.0"/>
+        <operator idref="updown.all"/>
+	</operator>
+	
+	
+
+    <operator id="AdaptableOperatorSampler.rates:Species" spec="orc.operators.AdaptableOperatorSampler" weight="30.0">
+        <parameter idref="BranchRates.Species"/>
+        <operator id="Scale.branchRates.Species" spec="BactrianScaleOperator" parameter="@BranchRates.Species" upper="10.0" weight="1.0"/>
+        <operator id="SampleFromPriorOperator.branchRates.Species" spec="orc.operators.SampleFromPriorOperator" parameter="@BranchRates.Species" prior2="@FastRatePriorDistributionClock.Species" weight="1.0"/>
+        <operator idref="ConstantDistanceOperatorSpeciesTree:Species"/>
+    </operator>
+
+    <operator id="AdaptableOperatorSampler.ucldStdev:Species" spec="orc.operators.AdaptableOperatorSampler" weight="5.0">
+        <parameter idref="SpeciesTreeRelaxedClockSD.Species"/>
+        <operator id="UcldStdevScale.clock.Species" spec="BactrianScaleOperator" parameter="@SpeciesTreeRelaxedClockSD.Species" scaleFactor="0.5" upper="10.0" weight="1.0"/>
+        <operator id="SampleFromPriorOperator.c:ucldStdev.Species" spec="orc.operators.SampleFromPriorOperator" parameter="@SpeciesTreeRelaxedClockSD.Species" prior2="@ucldStdevPrior.clock.Species" weight="1.0"/>
+    </operator>
+
+
+	<operatorschedule id="operatorSchedule" spec="OperatorScheduleRecalculator">
+		<subschedule id="operatorSubschedule" spec="OperatorSchedule" operatorPattern="^.*Species$" weight="99.0" weightIsPercentage="true"/>
+	</operatorschedule>
+
+
+
+    <logger id="tracelog" spec="Logger" fileName="starbeast3.log" logEvery="10000" model="@posterior" sort="smart">
+		<log idref="posterior"/>
+		<log idref="likelihood"/>
+		<log idref="prior"/>
+        <log id="TreeHeight.Species" spec="beast.evolution.tree.TreeHeightLogger" tree="@Tree.t:Species"/>
+        <log id="TreeLength.Species" spec="starbeast3.evolution.tree.BranchLengthLogger" tree="@Tree.t:Species"/>
+        <log idref="popMean"/>
+        <log idref="popSize"/>
+<log id="BirthDeathCollapseNClustersStatistic.0" spec="speedemon.ClusterCounter" tree="@Tree.t:Species"/>
+		<plate var="n" range="1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16">
+			<log idref="mutationRate.s:$(n)"/>
+			<log idref="kappa.s:$(n)"/>
+			<log idref="freqParameter.t:$(n)"/>
+		</plate>
+        <log idref="bdcGrowthRateRate.t:Species"/>
+		<log idref="bdcGrowthRateShape.t:Species"/>
+		<log idref="relativeDeathRate.t:Species"/>
+		<log idref="collapseWeight.t:Species"/>
+		<log idref="originHeight.t:Species"/>	
+		
+		<!--
+		<log id="BirthDeathCollapseNClustersStatistic.0" spec="stacey.BirthDeathCollapseNClustersStatistic" bdcm="@BirthDeathCollapseModel.t:Species" smcTree="@Tree.t:Species"/>
+		-->
+		
+        <log id="RateStatLogger.Species" spec="beast.evolution.branchratemodel.RateStatistic" branchratemodel="@relaxedClockModel.Species" tree="@Tree.t:Species"/>
+		<log id="RateStatLogger.sim" spec="beast.evolution.branchratemodel.RateStatistic" branchratemodel="@sampledBranchRatesModelSpecies" tree="@sampledSpeciesTreeX"/>
+        <log idref="SpeciesTreeRelaxedClockSD.Species"/>
+		<log idref="BranchRates.Species"/>
+		<log idref="ratesSampled" />
+		<plate var="n" range="1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16">
+			 <log id="TreeHeight.t:$(n)" spec="beast.evolution.tree.TreeHeightLogger" tree="@Tree.t:$(n)"/>
+		</plate>
+    </logger>
+
+    <logger id="speciesTreeLogger" spec="Logger" fileName="species.trees" logEvery="10000" mode="tree">
+        <log id="SpeciesTreeLoggerX" spec="starbeast3.SpeciesTreeLogger" popSize="@popSize" speciesTreePrior="@SpeciesTreePopSize.Species" tree="@Tree.t:Species">
+            <treetop id="treeTopFinder" spec="beast.evolution.speciation.TreeTopFinder">
+				<plate var="n" range="1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16">
+					<tree idref="Tree.t:$(n)"/>
+				</plate>
+            </treetop>
+            <metadata idref="BranchRates.Species"/>
+        </log>
+    </logger>
+
+    <logger id="screenlog" spec="Logger" logEvery="10000">
+		<log idref="collapseWeight.t:Species"/>
+		<log idref="popMean"/>
+		<log idref="TreeHeight.Species" />
+		
+    </logger>
+	
+	
+	<plate var="n" range="1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16">
+		<logger id="treelog.t:$(n)" spec="Logger" fileName="$(tree).trees" logEvery="10000" mode="tree">
+			<log id="TreeWithMetaDataLogger.t:$(n)" spec="beast.evolution.tree.TreeWithMetaDataLogger" tree="@Tree.t:$(n)"/>
+		</logger>
+	</plate>
+
+
+
+</run>
+
+</beast>

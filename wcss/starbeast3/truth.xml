@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><beast beautitemplate='StarBeast3' beautistatus='noAutoUpdateFixMeanSubstRate' namespace="beast.core:beast.evolution.alignment:beast.evolution.tree.coalescent:beast.core.util:beast.evolution.nuc:beast.evolution.operators:beast.evolution.sitemodel:beast.evolution.substitutionmodel:beast.evolution.likelihood" required="" version="2.6">
+
+
+
+
+	<map name="Uniform" >beast.math.distributions.Uniform</map>
+	<map name="Exponential" >beast.math.distributions.Exponential</map>
+	<map name="LogNormal" >beast.math.distributions.LogNormalDistributionModel</map>
+	<map name="Normal" >beast.math.distributions.Normal</map>
+	<map name="Beta" >beast.math.distributions.Beta</map>
+	<map name="Gamma" >beast.math.distributions.Gamma</map>
+	<map name="LaplaceDistribution" >beast.math.distributions.LaplaceDistribution</map>
+	<map name="prior" >beast.math.distributions.Prior</map>
+	<map name="InverseGamma" >starbeast3.math.distributions.InverseGamma</map>
+	<map name="OneOnX" >beast.math.distributions.OneOnX</map>
+	<map name="Dirichlet" >beast.math.distributions.Dirichlet</map>
+
+			
+
+	<plate var="n" range="1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16">
+		<data id="data.$(n)" spec="Alignment" dataType="nucleotide">
+			<plate var="s" range="1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40">
+				<sequence taxon="species$(s)_1">?</sequence>
+			</plate>
+		</data>
+	</plate>
+
+
+
+
+
+
+
+
+    <state id="state" spec="State" storeEvery="50000">
+	
+        <parameter id="bdcGrowthRateRate.t:Species" spec="parameter.RealParameter" lower="0" name="stateNode">1</parameter>
+		<parameter id="bdcGrowthRateShape.t:Species" spec="parameter.RealParameter" lower="0.0" name="stateNode">2</parameter>
+		<parameter id="relativeDeathRate.t:Species" spec="parameter.RealParameter" lower="0.0" name="stateNode" estimate="false" upper="1.0">0</parameter>
+		<parameter id="collapseWeight.t:Species" spec="parameter.RealParameter" lower="0.0" name="stateNode" upper="1.0">0.5</parameter>
+        <parameter id="originHeight.t:Species" spec="parameter.RealParameter" lower="1.0E-99" name="stateNode" upper="1.0E99">0.1</parameter>
+		
+		
+        <parameter id="popSize" spec="parameter.RealParameter" lower="0.0" name="stateNode">0.005</parameter>
+        <stateNode id="Tree.t:Species" spec="starbeast3.SpeciesTree">
+			<taxonset id="taxonsuperset" spec="TaxonSet">
+			 
+				<plate var="s" range="1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40">
+					<taxon id="species$(s)" spec="TaxonSet">
+						<taxon id="species$(s)_1" spec="Taxon"/>
+					</taxon>
+				</plate>
+			 
+			</taxonset>
+        </stateNode>
+        <parameter id="popMean" spec="parameter.RealParameter" lower="0.0" name="stateNode">0.005</parameter>
+		
+		<plate var="n" range="1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16">
+			 <tree id="Tree.t:$(n)" spec="beast.evolution.tree.Tree" name="stateNode">
+				<taxonset id="TaxonSet.$(n)" spec="TaxonSet">
+					<alignment idref="data.$(n)"/>
+				</taxonset>
+			</tree>
+			<parameter id="mutationRate.s:$(n)" spec="parameter.RealParameter" name="stateNode">1.0</parameter>
+			<parameter id="freqParameter.t:$(n)" spec="parameter.RealParameter" dimension="4" name="stateNode" estimate="true" lower="0.0">0.25 0.25 0.25 0.25</parameter>
+			<parameter id="kappa.s:$(n)" lower="0.0" name="stateNode">2.0</parameter>
+		</plate>
+		
+       
+
+        <parameter id="BranchRates.Species" spec="parameter.RealParameter" lower="0.0" name="stateNode">1.0</parameter>
+        <parameter id="SpeciesTreeRelaxedClockSD.Species" spec="parameter.RealParameter" lower="0.0" name="stateNode" upper="1.0">0.1</parameter>
+    </state>
+
+
+   
+	<init id="SBI" spec="starbeast3.StarBeastStartState" estimate="false" popMean="@popMean" speciesTree="@Tree.t:Species" baseRate="1e-8">
+
+		<plate var="n" range="1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16">
+			<gene idref="Tree.t:$(n)"/>
+		</plate>
+		
+
+		
+		<speciesTreePrior id="SpeciesTreePopSize.Species" spec="starbeast3.SpeciesTreePrior" bottomPopSize="@popSize" gammaParameter="@popMean" taxonset="@taxonsuperset" tree="@Tree.t:Species">
+			<populationModel id="speciesTreePopulationModel" spec="starbeast3.evolution.speciation.ConstantPopulations" populationSizes="@popSize" speciesTree="@Tree.t:Species"/>
+			<treePrior idref="BirthDeathCollapseModel.t:Species"/>
+		</speciesTreePrior>
+		<sharedRateModel id="branchRatesModel.Species" spec="starbeast3.evolution.branchratemodel.SharedSpeciesClockModel">
+			<branchRateModel id="relaxedClockModel.Species" spec="starbeast3.evolution.branchratemodel.UCRelaxedClockModelSB3" estimateRoot="true" realRates="@BranchRates.Species" stdev="@SpeciesTreeRelaxedClockSD.Species" tree="@Tree.t:Species">
+				<parameter id="SpeciesTreeRelaxedClockRate.Species" spec="parameter.RealParameter" estimate="false" lower="0.0" name="clock.rate">1.0</parameter>
+			</branchRateModel>
+		</sharedRateModel>
+	</init>
+
+
+
+<!--<run id="mcmc" spec="beast.core.MCMC" chainLength="200000000">-->
+<!--<run id="mcmc" spec="beast.coupledMCMC.CoupledMCMC" chainLength="200000000" deltaTemperature="0.01" chains="4" resampleEvery="10000">-->
+<run id="mcmc" spec="beast.core.DirectSimulator" nSamples="200">
+   
+   
+    <distribution id="posterior" spec="util.CompoundDistribution">
+	
+	
+		
+			
+		<distribution id="prior" spec="util.CompoundDistribution">
+	 
+	 		<prior id="originHeightPrior.t:Species" name="distribution" x="@originHeight.t:Species">
+                <LogNormal meanInRealSpace="true" name="distr" M="0.5" S="1"/>
+            </prior>
+
+			<prior id="bdcCollapseWeight.smcTreePrior" name="distribution" x="@collapseWeight.t:Species">
+                <Beta id="Beta.bdcCollapseWeight.smcTreePrior" name="distr">
+                    <parameter id="alpha.bdcCollapseWeight.smcTreePrior" spec="parameter.RealParameter" estimate="false" name="alpha">1.0</parameter>
+                    <parameter id="beta.bdcCollapseWeight.smcTreePrior" spec="parameter.RealParameter" estimate="false" name="beta">1.0</parameter>
+                </Beta>
+            </prior>
+			
+	 
+			<prior id="speciationRatePrior.t:Species" name="distribution" x="@bdcGrowthRateRate.t:Species">
+                <LogNormal meanInRealSpace="true" name="distr" M="0.25" S="1"/>
+            </prior>
+			
+			<prior id="speciationRateShapePrior.t:Species" name="distribution" x="@bdcGrowthRateShape.t:Species">
+               <LogNormal meanInRealSpace="true" name="distr" M="2" S="0.5"/>
+			   <!--<Exponential mean="2" name="distr"/>-->
+            </prior>
+			
+			
+			
+            <prior id="popMean.prior" name="distribution" x="@popMean">
+                <LogNormal meanInRealSpace="true" name="distr" M="0.05" S="0.5"/>
+			</prior>
+					
+	
+			       
+            <prior id="constPopSizesPrior.Species" name="distribution" x="@popSize">
+                <InverseGamma id="popPriorDistr.InverseGamma" beta="@popMean" name="distr">
+                    <parameter id="RealParameter.0" spec="parameter.RealParameter" lower="0.0" name="alpha" upper="0.0">2.0</parameter>
+                </InverseGamma>
+            </prior>
+			
+			
+				
+	
+			<distribution id="BirthDeathCollapseModel.t:Species" spec="speedemon.YuleSkylineCollapse" epsilon="1.0E-4" weight="@collapseWeight.t:Species" linkedMean="false" birthRateShape="2" birthRateRate="@bdcGrowthRateRate.t:Species" equalEpochs="true" tree="@Tree.t:Species" groupCount="1"/>
+			
+			
+			
+			<distribution idref="SpeciesTreePopSize.Species"/>
+
+			
+			
+	
+            
+			
+		
+					
+			<plate var="n" range="1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16">
+				 <distribution id="treePrior.t:$(n)" spec="starbeast3.GeneTreeForSpeciesTreeDistribution" populationModel="@speciesTreePopulationModel" speciesTree="@Tree.t:Species" speciesTreePrior="@SpeciesTreePopSize.Species" tree="@Tree.t:$(n)"/>
+			</plate>
+					
+			
+			
+			
+	
+            <prior id="FastRatePriorDistributionClock.Species" name="distribution" x="@BranchRates.Species">
+                <LogNormal id="LogNormalDistributionModel.0" S="@SpeciesTreeRelaxedClockSD.Species" meanInRealSpace="true" name="distr">
+                    <parameter id="RealParameter.9" spec="parameter.RealParameter" lower="0.0" name="M" upper="0.0">1.0</parameter>
+                </LogNormal>
+            </prior>
+       
+
+
+			
+			
+			
+			<plate var="n" range="1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16">
+				<prior id="MutationRatePrior.s:$(n)" name="distribution" x="@mutationRate.s:$(n)">
+					<LogNormal meanInRealSpace="true" name="distr" M="1.0" S="0.6"/>
+				</prior>
+				<prior id="KappaPrior.s:$(n)" name="distribution" x="@kappa.s:$(n)">
+					<LogNormal id="LogNormalDistributionModel.01$(n)" name="distr">
+						<parameter id="RealParameter.02$(n)" estimate="false" name="M">1.0</parameter>
+						<parameter id="RealParameter.03$(n)" estimate="false" name="S">1.25</parameter>
+					</LogNormal>
+				</prior>
+				<prior name="distribution" x="@freqParameter.t:$(n)">
+					<Dirichlet alpha="10 10 10 10" name="distr"/>
+				</prior>
+			</plate>
+
+            <prior id="ucldStdevPrior.clock.Species" name="distribution" x="@SpeciesTreeRelaxedClockSD.Species">
+                <Gamma id="Gamma.stddev" name="distr">
+                    <parameter id="RealParameter.7" spec="parameter.RealParameter" lower="0.0" name="alpha" upper="0.0">5.0</parameter>
+                    <parameter id="RealParameter.8" spec="parameter.RealParameter" lower="0.0" name="beta" upper="0.0">0.05</parameter>
+                </Gamma>
+            </prior>
+        </distribution>
+
+		
+
+    </distribution>
+	
+	
+	
+
+    <logger id="tracelog" spec="Logger" fileName="starbeast3.log" logEvery="1" model="@posterior" sort="smart">
+        <log id="TreeHeight.Species" spec="beast.evolution.tree.TreeHeightLogger" tree="@Tree.t:Species"/>
+		<log id="TreeStatLogger.Species" spec="beast.evolution.tree.TreeStatLogger" tree="@Tree.t:Species"/>
+        <!--<log id="TreeLength.Species" spec="starbeast3.evolution.tree.BranchLengthLogger" tree="@Tree.t:Species"/>-->
+        <log idref="popMean"/>
+        <log idref="popSize"/>
+		<plate var="n" range="1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16">
+			<log idref="mutationRate.s:$(n)"/>
+			<log idref="kappa.s:$(n)"/>
+			<log idref="freqParameter.t:$(n)"/>
+		</plate>
+        <log idref="bdcGrowthRateRate.t:Species"/>
+		<log idref="bdcGrowthRateShape.t:Species"/>
+		<log idref="relativeDeathRate.t:Species"/>
+		<log idref="collapseWeight.t:Species"/>
+		<log idref="originHeight.t:Species"/>	
+		<!--<log id="BirthDeathCollapseNClustersStatistic.0" spec="stacey.BirthDeathCollapseNClustersStatistic" bdcm="@BirthDeathCollapseModel.t:Species" smcTree="@Tree.t:Species"/>-->
+		<log id="BirthDeathCollapseNClustersStatistic.0" spec="speedemon.ClusterCounter" tree="@Tree.t:Species"/>
+
+		
+        <log id="RateStatLogger.Species" spec="beast.evolution.branchratemodel.RateStatistic" branchratemodel="@relaxedClockModel.Species" tree="@Tree.t:Species"/>
+        <log idref="SpeciesTreeRelaxedClockSD.Species"/>
+		<log idref="BranchRates.Species"/>
+		<log idref="BirthDeathCollapseModel.t:Species"/>
+
+		<plate var="n" range="1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16">
+			 <log id="TreeHeight.t:$(n)" spec="beast.evolution.tree.TreeHeightLogger" tree="@Tree.t:$(n)"/>
+		</plate>
+    </logger>
+
+    <logger id="speciesTreeLogger" spec="Logger" fileName="species.trees" logEvery="1" mode="tree">
+        <log id="SpeciesTreeLoggerX" spec="beast.evolution.tree.TreeWithMetaDataLogger" tree="@Tree.t:Species" />
+    </logger>
+
+    <logger id="screenlog" spec="Logger" logEvery="1">
+		<log idref="BirthDeathCollapseNClustersStatistic.0" />
+		<log idref="popMean"/>
+		<log idref="bdcGrowthRateRate.t:Species"/>
+		<log idref="bdcGrowthRateShape.t:Species"/>
+		<log idref="TreeHeight.Species" />
+		<log idref="TreeHeight.t:1" />
+    </logger>
+	
+	
+	<plate var="n" range="1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16">
+		<logger id="treelog.t:$(n)" spec="Logger" fileName="$(tree).trees" logEvery="1" mode="tree">
+			<log id="TreeWithMetaDataLogger.t:$(n)" spec="beast.evolution.tree.TreeWithMetaDataLogger" tree="@Tree.t:$(n)"/>
+		</logger>
+	</plate>
+
+
+
+</run>
+
+</beast>
