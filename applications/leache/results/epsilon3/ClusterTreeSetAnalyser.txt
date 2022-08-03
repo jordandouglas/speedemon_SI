@@ -1,0 +1,689 @@
+The 95 precent credible set consists of 12 out of 45 topologies
+
+support	#taxa	topology
+71.09%	3	((coal_CA1_2_S + coal_CA1_3_S + coal_CA1_4_S + coal_CA1_5_S + coal_CG_6_S + coal_GA_26_S,eng_EG_21_S + eng_EG_22_S + eng_EG_23_S + eng_EG_24_S + eng_EG_25_S + eng_NG_15_S + eng_NG_18_S + eng_NG_1_S),eng_CA2_20_S + fas_GH1_12_S + fas_GH1_13_S + fas_GH1_14_S + fas_GH2_10_S + fas_GH2_11_S + fas_GH2_16_S + fas_GH2_17_S + fas_GH4_32_S + fas_GH4_33_S + fas_GH4_34_S + fas_GH4_35_S + fas_GH4_36_S + fas_GH4_37_S + fas_GH4_38_S + fas_GH4_39_S + fas_GH4_40_S + kya_GH3_27_S + kya_GH3_28_S + kya_GH3_29_S + kya_GH3_30_S + kya_GH3_31_S + kya_GH3_41_S + kya_GH3_42_S + kya_GH3_43_S + kya_GH3_44_S + kya_GH3_45_S + kya_GH3_46_S + kya_GH3_47_S + kya_GH3_7_S + kya_GH3_8_S + kya_GH3_9_S)
+10.14%	4	(((coal_CA1_2_S + coal_CA1_3_S + coal_CA1_4_S + coal_CA1_5_S + coal_CG_6_S,coal_GA_26_S + eng_NG_1_S),eng_EG_21_S + eng_EG_22_S + eng_EG_23_S + eng_EG_24_S + eng_EG_25_S + eng_NG_15_S + eng_NG_18_S),eng_CA2_20_S + fas_GH1_12_S + fas_GH1_13_S + fas_GH1_14_S + fas_GH2_10_S + fas_GH2_11_S + fas_GH2_16_S + fas_GH2_17_S + fas_GH4_32_S + fas_GH4_33_S + fas_GH4_34_S + fas_GH4_35_S + fas_GH4_36_S + fas_GH4_37_S + fas_GH4_38_S + fas_GH4_39_S + fas_GH4_40_S + kya_GH3_27_S + kya_GH3_28_S + kya_GH3_29_S + kya_GH3_30_S + kya_GH3_31_S + kya_GH3_41_S + kya_GH3_42_S + kya_GH3_43_S + kya_GH3_44_S + kya_GH3_45_S + kya_GH3_46_S + kya_GH3_47_S + kya_GH3_7_S + kya_GH3_8_S + kya_GH3_9_S)
+2.7%	4	((coal_CA1_2_S + coal_CA1_3_S + coal_CA1_4_S + coal_CA1_5_S + coal_CG_6_S + coal_GA_26_S,(eng_EG_21_S + eng_EG_22_S + eng_EG_23_S + eng_EG_24_S + eng_EG_25_S + eng_NG_15_S + eng_NG_18_S,eng_NG_1_S)),eng_CA2_20_S + fas_GH1_12_S + fas_GH1_13_S + fas_GH1_14_S + fas_GH2_10_S + fas_GH2_11_S + fas_GH2_16_S + fas_GH2_17_S + fas_GH4_32_S + fas_GH4_33_S + fas_GH4_34_S + fas_GH4_35_S + fas_GH4_36_S + fas_GH4_37_S + fas_GH4_38_S + fas_GH4_39_S + fas_GH4_40_S + kya_GH3_27_S + kya_GH3_28_S + kya_GH3_29_S + kya_GH3_30_S + kya_GH3_31_S + kya_GH3_41_S + kya_GH3_42_S + kya_GH3_43_S + kya_GH3_44_S + kya_GH3_45_S + kya_GH3_46_S + kya_GH3_47_S + kya_GH3_7_S + kya_GH3_8_S + kya_GH3_9_S)
+1.94%	4	(((coal_CA1_2_S + coal_CA1_3_S + coal_CA1_4_S + coal_CA1_5_S + coal_CG_6_S + coal_GA_26_S,eng_NG_1_S),eng_EG_21_S + eng_EG_22_S + eng_EG_23_S + eng_EG_24_S + eng_EG_25_S + eng_NG_15_S + eng_NG_18_S),eng_CA2_20_S + fas_GH1_12_S + fas_GH1_13_S + fas_GH1_14_S + fas_GH2_10_S + fas_GH2_11_S + fas_GH2_16_S + fas_GH2_17_S + fas_GH4_32_S + fas_GH4_33_S + fas_GH4_34_S + fas_GH4_35_S + fas_GH4_36_S + fas_GH4_37_S + fas_GH4_38_S + fas_GH4_39_S + fas_GH4_40_S + kya_GH3_27_S + kya_GH3_28_S + kya_GH3_29_S + kya_GH3_30_S + kya_GH3_31_S + kya_GH3_41_S + kya_GH3_42_S + kya_GH3_43_S + kya_GH3_44_S + kya_GH3_45_S + kya_GH3_46_S + kya_GH3_47_S + kya_GH3_7_S + kya_GH3_8_S + kya_GH3_9_S)
+1.83%	4	((coal_CA1_2_S + coal_CA1_3_S + coal_CA1_4_S + coal_CA1_5_S + coal_CG_6_S,(coal_GA_26_S + eng_NG_1_S,eng_EG_21_S + eng_EG_22_S + eng_EG_23_S + eng_EG_24_S + eng_EG_25_S + eng_NG_15_S + eng_NG_18_S)),eng_CA2_20_S + fas_GH1_12_S + fas_GH1_13_S + fas_GH1_14_S + fas_GH2_10_S + fas_GH2_11_S + fas_GH2_16_S + fas_GH2_17_S + fas_GH4_32_S + fas_GH4_33_S + fas_GH4_34_S + fas_GH4_35_S + fas_GH4_36_S + fas_GH4_37_S + fas_GH4_38_S + fas_GH4_39_S + fas_GH4_40_S + kya_GH3_27_S + kya_GH3_28_S + kya_GH3_29_S + kya_GH3_30_S + kya_GH3_31_S + kya_GH3_41_S + kya_GH3_42_S + kya_GH3_43_S + kya_GH3_44_S + kya_GH3_45_S + kya_GH3_46_S + kya_GH3_47_S + kya_GH3_7_S + kya_GH3_8_S + kya_GH3_9_S)
+1.62%	5	(((coal_CA1_2_S + coal_CA1_3_S + coal_CA1_4_S + coal_CA1_5_S + coal_CG_6_S,coal_GA_26_S),(eng_EG_21_S + eng_EG_22_S + eng_EG_23_S + eng_EG_24_S + eng_EG_25_S,eng_NG_15_S + eng_NG_18_S + eng_NG_1_S)),eng_CA2_20_S + fas_GH1_12_S + fas_GH1_13_S + fas_GH1_14_S + fas_GH2_10_S + fas_GH2_11_S + fas_GH2_16_S + fas_GH2_17_S + fas_GH4_32_S + fas_GH4_33_S + fas_GH4_34_S + fas_GH4_35_S + fas_GH4_36_S + fas_GH4_37_S + fas_GH4_38_S + fas_GH4_39_S + fas_GH4_40_S + kya_GH3_27_S + kya_GH3_28_S + kya_GH3_29_S + kya_GH3_30_S + kya_GH3_31_S + kya_GH3_41_S + kya_GH3_42_S + kya_GH3_43_S + kya_GH3_44_S + kya_GH3_45_S + kya_GH3_46_S + kya_GH3_47_S + kya_GH3_7_S + kya_GH3_8_S + kya_GH3_9_S)
+1.62%	4	((coal_CA1_2_S + coal_CA1_3_S + coal_CA1_4_S + coal_CA1_5_S + coal_CG_6_S + coal_GA_26_S,(eng_EG_21_S + eng_EG_24_S + eng_NG_15_S + eng_NG_18_S + eng_NG_1_S,eng_EG_22_S + eng_EG_23_S + eng_EG_25_S)),eng_CA2_20_S + fas_GH1_12_S + fas_GH1_13_S + fas_GH1_14_S + fas_GH2_10_S + fas_GH2_11_S + fas_GH2_16_S + fas_GH2_17_S + fas_GH4_32_S + fas_GH4_33_S + fas_GH4_34_S + fas_GH4_35_S + fas_GH4_36_S + fas_GH4_37_S + fas_GH4_38_S + fas_GH4_39_S + fas_GH4_40_S + kya_GH3_27_S + kya_GH3_28_S + kya_GH3_29_S + kya_GH3_30_S + kya_GH3_31_S + kya_GH3_41_S + kya_GH3_42_S + kya_GH3_43_S + kya_GH3_44_S + kya_GH3_45_S + kya_GH3_46_S + kya_GH3_47_S + kya_GH3_7_S + kya_GH3_8_S + kya_GH3_9_S)
+1.08%	5	(((coal_CA1_2_S + coal_CA1_3_S + coal_CA1_4_S + coal_CA1_5_S + coal_CG_6_S,coal_GA_26_S),(eng_EG_21_S + eng_EG_22_S + eng_EG_23_S + eng_EG_25_S,eng_EG_24_S + eng_NG_15_S + eng_NG_18_S + eng_NG_1_S)),eng_CA2_20_S + fas_GH1_12_S + fas_GH1_13_S + fas_GH1_14_S + fas_GH2_10_S + fas_GH2_11_S + fas_GH2_16_S + fas_GH2_17_S + fas_GH4_32_S + fas_GH4_33_S + fas_GH4_34_S + fas_GH4_35_S + fas_GH4_36_S + fas_GH4_37_S + fas_GH4_38_S + fas_GH4_39_S + fas_GH4_40_S + kya_GH3_27_S + kya_GH3_28_S + kya_GH3_29_S + kya_GH3_30_S + kya_GH3_31_S + kya_GH3_41_S + kya_GH3_42_S + kya_GH3_43_S + kya_GH3_44_S + kya_GH3_45_S + kya_GH3_46_S + kya_GH3_47_S + kya_GH3_7_S + kya_GH3_8_S + kya_GH3_9_S)
+1.08%	3	((coal_CA1_2_S + coal_CA1_3_S + coal_CA1_4_S + coal_CA1_5_S + coal_CG_6_S + coal_GA_26_S + eng_NG_1_S,eng_EG_21_S + eng_EG_22_S + eng_EG_23_S + eng_EG_24_S + eng_EG_25_S + eng_NG_15_S + eng_NG_18_S),eng_CA2_20_S + fas_GH1_12_S + fas_GH1_13_S + fas_GH1_14_S + fas_GH2_10_S + fas_GH2_11_S + fas_GH2_16_S + fas_GH2_17_S + fas_GH4_32_S + fas_GH4_33_S + fas_GH4_34_S + fas_GH4_35_S + fas_GH4_36_S + fas_GH4_37_S + fas_GH4_38_S + fas_GH4_39_S + fas_GH4_40_S + kya_GH3_27_S + kya_GH3_28_S + kya_GH3_29_S + kya_GH3_30_S + kya_GH3_31_S + kya_GH3_41_S + kya_GH3_42_S + kya_GH3_43_S + kya_GH3_44_S + kya_GH3_45_S + kya_GH3_46_S + kya_GH3_47_S + kya_GH3_7_S + kya_GH3_8_S + kya_GH3_9_S)
+0.86%	4	((coal_CA1_2_S + coal_CA1_3_S + coal_CA1_4_S + coal_CA1_5_S + coal_CG_6_S + coal_GA_26_S,(eng_EG_21_S + eng_EG_22_S + eng_EG_23_S + eng_EG_24_S + eng_EG_25_S,eng_NG_15_S + eng_NG_18_S + eng_NG_1_S)),eng_CA2_20_S + fas_GH1_12_S + fas_GH1_13_S + fas_GH1_14_S + fas_GH2_10_S + fas_GH2_11_S + fas_GH2_16_S + fas_GH2_17_S + fas_GH4_32_S + fas_GH4_33_S + fas_GH4_34_S + fas_GH4_35_S + fas_GH4_36_S + fas_GH4_37_S + fas_GH4_38_S + fas_GH4_39_S + fas_GH4_40_S + kya_GH3_27_S + kya_GH3_28_S + kya_GH3_29_S + kya_GH3_30_S + kya_GH3_31_S + kya_GH3_41_S + kya_GH3_42_S + kya_GH3_43_S + kya_GH3_44_S + kya_GH3_45_S + kya_GH3_46_S + kya_GH3_47_S + kya_GH3_7_S + kya_GH3_8_S + kya_GH3_9_S)
+0.65%	4	(((coal_CA1_2_S + coal_CA1_3_S + coal_CA1_4_S + coal_CA1_5_S,coal_CG_6_S + coal_GA_26_S),eng_EG_21_S + eng_EG_22_S + eng_EG_23_S + eng_EG_24_S + eng_EG_25_S + eng_NG_15_S + eng_NG_18_S + eng_NG_1_S),eng_CA2_20_S + fas_GH1_12_S + fas_GH1_13_S + fas_GH1_14_S + fas_GH2_10_S + fas_GH2_11_S + fas_GH2_16_S + fas_GH2_17_S + fas_GH4_32_S + fas_GH4_33_S + fas_GH4_34_S + fas_GH4_35_S + fas_GH4_36_S + fas_GH4_37_S + fas_GH4_38_S + fas_GH4_39_S + fas_GH4_40_S + kya_GH3_27_S + kya_GH3_28_S + kya_GH3_29_S + kya_GH3_30_S + kya_GH3_31_S + kya_GH3_41_S + kya_GH3_42_S + kya_GH3_43_S + kya_GH3_44_S + kya_GH3_45_S + kya_GH3_46_S + kya_GH3_47_S + kya_GH3_7_S + kya_GH3_8_S + kya_GH3_9_S)
+0.43%	4	((coal_CA1_2_S + coal_CA1_3_S + coal_CA1_4_S + coal_CA1_5_S + coal_CG_6_S + coal_GA_26_S,(eng_EG_21_S + eng_EG_22_S + eng_EG_23_S + eng_EG_25_S + eng_NG_15_S,eng_EG_24_S + eng_NG_18_S + eng_NG_1_S)),eng_CA2_20_S + fas_GH1_12_S + fas_GH1_13_S + fas_GH1_14_S + fas_GH2_10_S + fas_GH2_11_S + fas_GH2_16_S + fas_GH2_17_S + fas_GH4_32_S + fas_GH4_33_S + fas_GH4_34_S + fas_GH4_35_S + fas_GH4_36_S + fas_GH4_37_S + fas_GH4_38_S + fas_GH4_39_S + fas_GH4_40_S + kya_GH3_27_S + kya_GH3_28_S + kya_GH3_29_S + kya_GH3_30_S + kya_GH3_31_S + kya_GH3_41_S + kya_GH3_42_S + kya_GH3_43_S + kya_GH3_44_S + kya_GH3_45_S + kya_GH3_46_S + kya_GH3_47_S + kya_GH3_7_S + kya_GH3_8_S + kya_GH3_9_S)
+0.32%	5	(((coal_CA1_2_S + coal_CA1_3_S + coal_CA1_4_S + coal_CA1_5_S + coal_CG_6_S,coal_GA_26_S + eng_NG_1_S),(eng_EG_21_S + eng_EG_22_S + eng_EG_23_S + eng_EG_24_S + eng_EG_25_S,eng_NG_15_S + eng_NG_18_S)),eng_CA2_20_S + fas_GH1_12_S + fas_GH1_13_S + fas_GH1_14_S + fas_GH2_10_S + fas_GH2_11_S + fas_GH2_16_S + fas_GH2_17_S + fas_GH4_32_S + fas_GH4_33_S + fas_GH4_34_S + fas_GH4_35_S + fas_GH4_36_S + fas_GH4_37_S + fas_GH4_38_S + fas_GH4_39_S + fas_GH4_40_S + kya_GH3_27_S + kya_GH3_28_S + kya_GH3_29_S + kya_GH3_30_S + kya_GH3_31_S + kya_GH3_41_S + kya_GH3_42_S + kya_GH3_43_S + kya_GH3_44_S + kya_GH3_45_S + kya_GH3_46_S + kya_GH3_47_S + kya_GH3_7_S + kya_GH3_8_S + kya_GH3_9_S)
+=== 95% credible set ===
+0.32%	4	(((coal_CA1_2_S + coal_CA1_3_S + coal_CA1_4_S + coal_CA1_5_S + coal_CG_6_S + coal_GA_26_S,eng_EG_21_S + eng_EG_22_S + eng_EG_23_S + eng_EG_24_S + eng_EG_25_S + eng_NG_15_S + eng_NG_18_S),eng_NG_1_S),eng_CA2_20_S + fas_GH1_12_S + fas_GH1_13_S + fas_GH1_14_S + fas_GH2_10_S + fas_GH2_11_S + fas_GH2_16_S + fas_GH2_17_S + fas_GH4_32_S + fas_GH4_33_S + fas_GH4_34_S + fas_GH4_35_S + fas_GH4_36_S + fas_GH4_37_S + fas_GH4_38_S + fas_GH4_39_S + fas_GH4_40_S + kya_GH3_27_S + kya_GH3_28_S + kya_GH3_29_S + kya_GH3_30_S + kya_GH3_31_S + kya_GH3_41_S + kya_GH3_42_S + kya_GH3_43_S + kya_GH3_44_S + kya_GH3_45_S + kya_GH3_46_S + kya_GH3_47_S + kya_GH3_7_S + kya_GH3_8_S + kya_GH3_9_S)
+0.32%	5	(((coal_CA1_2_S + coal_CA1_3_S + coal_CA1_4_S + coal_CA1_5_S + coal_CG_6_S,(eng_EG_21_S + eng_EG_22_S + eng_EG_23_S + eng_EG_24_S + eng_EG_25_S,eng_NG_15_S + eng_NG_18_S + eng_NG_1_S)),coal_GA_26_S),eng_CA2_20_S + fas_GH1_12_S + fas_GH1_13_S + fas_GH1_14_S + fas_GH2_10_S + fas_GH2_11_S + fas_GH2_16_S + fas_GH2_17_S + fas_GH4_32_S + fas_GH4_33_S + fas_GH4_34_S + fas_GH4_35_S + fas_GH4_36_S + fas_GH4_37_S + fas_GH4_38_S + fas_GH4_39_S + fas_GH4_40_S + kya_GH3_27_S + kya_GH3_28_S + kya_GH3_29_S + kya_GH3_30_S + kya_GH3_31_S + kya_GH3_41_S + kya_GH3_42_S + kya_GH3_43_S + kya_GH3_44_S + kya_GH3_45_S + kya_GH3_46_S + kya_GH3_47_S + kya_GH3_7_S + kya_GH3_8_S + kya_GH3_9_S)
+0.22%	4	(((coal_CA1_2_S + coal_CA1_3_S + coal_CA1_4_S + coal_CA1_5_S + coal_CG_6_S + eng_NG_1_S,coal_GA_26_S),eng_EG_21_S + eng_EG_22_S + eng_EG_23_S + eng_EG_24_S + eng_EG_25_S + eng_NG_15_S + eng_NG_18_S),eng_CA2_20_S + fas_GH1_12_S + fas_GH1_13_S + fas_GH1_14_S + fas_GH2_10_S + fas_GH2_11_S + fas_GH2_16_S + fas_GH2_17_S + fas_GH4_32_S + fas_GH4_33_S + fas_GH4_34_S + fas_GH4_35_S + fas_GH4_36_S + fas_GH4_37_S + fas_GH4_38_S + fas_GH4_39_S + fas_GH4_40_S + kya_GH3_27_S + kya_GH3_28_S + kya_GH3_29_S + kya_GH3_30_S + kya_GH3_31_S + kya_GH3_41_S + kya_GH3_42_S + kya_GH3_43_S + kya_GH3_44_S + kya_GH3_45_S + kya_GH3_46_S + kya_GH3_47_S + kya_GH3_7_S + kya_GH3_8_S + kya_GH3_9_S)
+0.22%	5	(((coal_CA1_2_S + coal_CA1_3_S + coal_CA1_4_S + coal_CG_6_S + coal_GA_26_S,coal_CA1_5_S),(eng_EG_21_S + eng_EG_22_S + eng_EG_23_S + eng_EG_24_S + eng_EG_25_S,eng_NG_15_S + eng_NG_18_S + eng_NG_1_S)),eng_CA2_20_S + fas_GH1_12_S + fas_GH1_13_S + fas_GH1_14_S + fas_GH2_10_S + fas_GH2_11_S + fas_GH2_16_S + fas_GH2_17_S + fas_GH4_32_S + fas_GH4_33_S + fas_GH4_34_S + fas_GH4_35_S + fas_GH4_36_S + fas_GH4_37_S + fas_GH4_38_S + fas_GH4_39_S + fas_GH4_40_S + kya_GH3_27_S + kya_GH3_28_S + kya_GH3_29_S + kya_GH3_30_S + kya_GH3_31_S + kya_GH3_41_S + kya_GH3_42_S + kya_GH3_43_S + kya_GH3_44_S + kya_GH3_45_S + kya_GH3_46_S + kya_GH3_47_S + kya_GH3_7_S + kya_GH3_8_S + kya_GH3_9_S)
+0.22%	4	(((coal_CA1_2_S + coal_CA1_3_S + coal_CA1_4_S + coal_CA1_5_S + coal_CG_6_S,coal_GA_26_S),eng_EG_21_S + eng_EG_22_S + eng_EG_23_S + eng_EG_24_S + eng_EG_25_S + eng_NG_15_S + eng_NG_18_S + eng_NG_1_S),eng_CA2_20_S + fas_GH1_12_S + fas_GH1_13_S + fas_GH1_14_S + fas_GH2_10_S + fas_GH2_11_S + fas_GH2_16_S + fas_GH2_17_S + fas_GH4_32_S + fas_GH4_33_S + fas_GH4_34_S + fas_GH4_35_S + fas_GH4_36_S + fas_GH4_37_S + fas_GH4_38_S + fas_GH4_39_S + fas_GH4_40_S + kya_GH3_27_S + kya_GH3_28_S + kya_GH3_29_S + kya_GH3_30_S + kya_GH3_31_S + kya_GH3_41_S + kya_GH3_42_S + kya_GH3_43_S + kya_GH3_44_S + kya_GH3_45_S + kya_GH3_46_S + kya_GH3_47_S + kya_GH3_7_S + kya_GH3_8_S + kya_GH3_9_S)
+0.22%	5	(((coal_CA1_2_S + coal_CA1_3_S + coal_CA1_4_S + coal_CA1_5_S + coal_CG_6_S,coal_GA_26_S),(eng_EG_21_S + eng_EG_22_S + eng_EG_23_S + eng_EG_24_S + eng_EG_25_S + eng_NG_15_S,eng_NG_18_S + eng_NG_1_S)),eng_CA2_20_S + fas_GH1_12_S + fas_GH1_13_S + fas_GH1_14_S + fas_GH2_10_S + fas_GH2_11_S + fas_GH2_16_S + fas_GH2_17_S + fas_GH4_32_S + fas_GH4_33_S + fas_GH4_34_S + fas_GH4_35_S + fas_GH4_36_S + fas_GH4_37_S + fas_GH4_38_S + fas_GH4_39_S + fas_GH4_40_S + kya_GH3_27_S + kya_GH3_28_S + kya_GH3_29_S + kya_GH3_30_S + kya_GH3_31_S + kya_GH3_41_S + kya_GH3_42_S + kya_GH3_43_S + kya_GH3_44_S + kya_GH3_45_S + kya_GH3_46_S + kya_GH3_47_S + kya_GH3_7_S + kya_GH3_8_S + kya_GH3_9_S)
+0.22%	4	((coal_CA1_2_S + coal_CA1_3_S + coal_CA1_4_S + coal_CA1_5_S + coal_CG_6_S + coal_GA_26_S,(eng_EG_21_S + eng_EG_24_S + eng_EG_25_S + eng_NG_15_S + eng_NG_18_S + eng_NG_1_S,eng_EG_22_S + eng_EG_23_S)),eng_CA2_20_S + fas_GH1_12_S + fas_GH1_13_S + fas_GH1_14_S + fas_GH2_10_S + fas_GH2_11_S + fas_GH2_16_S + fas_GH2_17_S + fas_GH4_32_S + fas_GH4_33_S + fas_GH4_34_S + fas_GH4_35_S + fas_GH4_36_S + fas_GH4_37_S + fas_GH4_38_S + fas_GH4_39_S + fas_GH4_40_S + kya_GH3_27_S + kya_GH3_28_S + kya_GH3_29_S + kya_GH3_30_S + kya_GH3_31_S + kya_GH3_41_S + kya_GH3_42_S + kya_GH3_43_S + kya_GH3_44_S + kya_GH3_45_S + kya_GH3_46_S + kya_GH3_47_S + kya_GH3_7_S + kya_GH3_8_S + kya_GH3_9_S)
+0.22%	6	(((coal_CA1_2_S + coal_CA1_3_S + coal_CA1_4_S + coal_CA1_5_S + coal_CG_6_S,coal_GA_26_S),(eng_EG_21_S + eng_EG_22_S + eng_EG_23_S + eng_EG_25_S,(eng_EG_24_S + eng_NG_18_S + eng_NG_1_S,eng_NG_15_S))),eng_CA2_20_S + fas_GH1_12_S + fas_GH1_13_S + fas_GH1_14_S + fas_GH2_10_S + fas_GH2_11_S + fas_GH2_16_S + fas_GH2_17_S + fas_GH4_32_S + fas_GH4_33_S + fas_GH4_34_S + fas_GH4_35_S + fas_GH4_36_S + fas_GH4_37_S + fas_GH4_38_S + fas_GH4_39_S + fas_GH4_40_S + kya_GH3_27_S + kya_GH3_28_S + kya_GH3_29_S + kya_GH3_30_S + kya_GH3_31_S + kya_GH3_41_S + kya_GH3_42_S + kya_GH3_43_S + kya_GH3_44_S + kya_GH3_45_S + kya_GH3_46_S + kya_GH3_47_S + kya_GH3_7_S + kya_GH3_8_S + kya_GH3_9_S)
+0.22%	5	((coal_CA1_2_S + coal_CA1_3_S + coal_CA1_4_S + coal_CA1_5_S + coal_CG_6_S,(coal_GA_26_S,(eng_EG_21_S + eng_EG_22_S + eng_EG_23_S + eng_EG_24_S + eng_EG_25_S,eng_NG_15_S + eng_NG_18_S + eng_NG_1_S))),eng_CA2_20_S + fas_GH1_12_S + fas_GH1_13_S + fas_GH1_14_S + fas_GH2_10_S + fas_GH2_11_S + fas_GH2_16_S + fas_GH2_17_S + fas_GH4_32_S + fas_GH4_33_S + fas_GH4_34_S + fas_GH4_35_S + fas_GH4_36_S + fas_GH4_37_S + fas_GH4_38_S + fas_GH4_39_S + fas_GH4_40_S + kya_GH3_27_S + kya_GH3_28_S + kya_GH3_29_S + kya_GH3_30_S + kya_GH3_31_S + kya_GH3_41_S + kya_GH3_42_S + kya_GH3_43_S + kya_GH3_44_S + kya_GH3_45_S + kya_GH3_46_S + kya_GH3_47_S + kya_GH3_7_S + kya_GH3_8_S + kya_GH3_9_S)
+0.11%	5	(((coal_CA1_2_S + coal_CA1_3_S + coal_CA1_4_S + coal_CA1_5_S + coal_CG_6_S,coal_GA_26_S),(eng_EG_21_S + eng_EG_22_S + eng_EG_23_S + eng_EG_25_S + eng_NG_15_S,eng_EG_24_S + eng_NG_18_S + eng_NG_1_S)),eng_CA2_20_S + fas_GH1_12_S + fas_GH1_13_S + fas_GH1_14_S + fas_GH2_10_S + fas_GH2_11_S + fas_GH2_16_S + fas_GH2_17_S + fas_GH4_32_S + fas_GH4_33_S + fas_GH4_34_S + fas_GH4_35_S + fas_GH4_36_S + fas_GH4_37_S + fas_GH4_38_S + fas_GH4_39_S + fas_GH4_40_S + kya_GH3_27_S + kya_GH3_28_S + kya_GH3_29_S + kya_GH3_30_S + kya_GH3_31_S + kya_GH3_41_S + kya_GH3_42_S + kya_GH3_43_S + kya_GH3_44_S + kya_GH3_45_S + kya_GH3_46_S + kya_GH3_47_S + kya_GH3_7_S + kya_GH3_8_S + kya_GH3_9_S)
+0.11%	5	(((coal_CA1_2_S + coal_CA1_3_S + coal_CA1_4_S + coal_CA1_5_S + coal_CG_6_S,coal_GA_26_S),(eng_EG_21_S + eng_EG_22_S + eng_EG_23_S + eng_EG_24_S + eng_EG_25_S + eng_NG_18_S,eng_NG_15_S + eng_NG_1_S)),eng_CA2_20_S + fas_GH1_12_S + fas_GH1_13_S + fas_GH1_14_S + fas_GH2_10_S + fas_GH2_11_S + fas_GH2_16_S + fas_GH2_17_S + fas_GH4_32_S + fas_GH4_33_S + fas_GH4_34_S + fas_GH4_35_S + fas_GH4_36_S + fas_GH4_37_S + fas_GH4_38_S + fas_GH4_39_S + fas_GH4_40_S + kya_GH3_27_S + kya_GH3_28_S + kya_GH3_29_S + kya_GH3_30_S + kya_GH3_31_S + kya_GH3_41_S + kya_GH3_42_S + kya_GH3_43_S + kya_GH3_44_S + kya_GH3_45_S + kya_GH3_46_S + kya_GH3_47_S + kya_GH3_7_S + kya_GH3_8_S + kya_GH3_9_S)
+0.11%	4	((coal_CA1_2_S + coal_CA1_3_S + coal_CA1_4_S + coal_CA1_5_S + coal_CG_6_S + coal_GA_26_S,(eng_EG_21_S + eng_EG_22_S + eng_EG_23_S + eng_EG_25_S + eng_NG_15_S + eng_NG_18_S,eng_EG_24_S + eng_NG_1_S)),eng_CA2_20_S + fas_GH1_12_S + fas_GH1_13_S + fas_GH1_14_S + fas_GH2_10_S + fas_GH2_11_S + fas_GH2_16_S + fas_GH2_17_S + fas_GH4_32_S + fas_GH4_33_S + fas_GH4_34_S + fas_GH4_35_S + fas_GH4_36_S + fas_GH4_37_S + fas_GH4_38_S + fas_GH4_39_S + fas_GH4_40_S + kya_GH3_27_S + kya_GH3_28_S + kya_GH3_29_S + kya_GH3_30_S + kya_GH3_31_S + kya_GH3_41_S + kya_GH3_42_S + kya_GH3_43_S + kya_GH3_44_S + kya_GH3_45_S + kya_GH3_46_S + kya_GH3_47_S + kya_GH3_7_S + kya_GH3_8_S + kya_GH3_9_S)
+0.11%	6	((((coal_CA1_2_S + coal_CA1_3_S + coal_CA1_4_S + coal_CA1_5_S + coal_CG_6_S,coal_GA_26_S),(eng_EG_24_S + eng_NG_1_S,eng_NG_15_S + eng_NG_18_S)),eng_EG_21_S + eng_EG_22_S + eng_EG_23_S + eng_EG_25_S),eng_CA2_20_S + fas_GH1_12_S + fas_GH1_13_S + fas_GH1_14_S + fas_GH2_10_S + fas_GH2_11_S + fas_GH2_16_S + fas_GH2_17_S + fas_GH4_32_S + fas_GH4_33_S + fas_GH4_34_S + fas_GH4_35_S + fas_GH4_36_S + fas_GH4_37_S + fas_GH4_38_S + fas_GH4_39_S + fas_GH4_40_S + kya_GH3_27_S + kya_GH3_28_S + kya_GH3_29_S + kya_GH3_30_S + kya_GH3_31_S + kya_GH3_41_S + kya_GH3_42_S + kya_GH3_43_S + kya_GH3_44_S + kya_GH3_45_S + kya_GH3_46_S + kya_GH3_47_S + kya_GH3_7_S + kya_GH3_8_S + kya_GH3_9_S)
+0.11%	5	((coal_CA1_2_S + coal_CA1_3_S + coal_CA1_4_S + coal_CA1_5_S + coal_CG_6_S,((coal_GA_26_S + eng_NG_1_S,eng_NG_15_S + eng_NG_18_S),eng_EG_21_S + eng_EG_22_S + eng_EG_23_S + eng_EG_24_S + eng_EG_25_S)),eng_CA2_20_S + fas_GH1_12_S + fas_GH1_13_S + fas_GH1_14_S + fas_GH2_10_S + fas_GH2_11_S + fas_GH2_16_S + fas_GH2_17_S + fas_GH4_32_S + fas_GH4_33_S + fas_GH4_34_S + fas_GH4_35_S + fas_GH4_36_S + fas_GH4_37_S + fas_GH4_38_S + fas_GH4_39_S + fas_GH4_40_S + kya_GH3_27_S + kya_GH3_28_S + kya_GH3_29_S + kya_GH3_30_S + kya_GH3_31_S + kya_GH3_41_S + kya_GH3_42_S + kya_GH3_43_S + kya_GH3_44_S + kya_GH3_45_S + kya_GH3_46_S + kya_GH3_47_S + kya_GH3_7_S + kya_GH3_8_S + kya_GH3_9_S)
+0.11%	5	(((coal_CA1_2_S + coal_CA1_3_S + coal_CA1_4_S + coal_CA1_5_S + coal_CG_6_S,coal_GA_26_S),(eng_EG_21_S + eng_NG_15_S + eng_NG_18_S + eng_NG_1_S,eng_EG_22_S + eng_EG_23_S + eng_EG_24_S + eng_EG_25_S)),eng_CA2_20_S + fas_GH1_12_S + fas_GH1_13_S + fas_GH1_14_S + fas_GH2_10_S + fas_GH2_11_S + fas_GH2_16_S + fas_GH2_17_S + fas_GH4_32_S + fas_GH4_33_S + fas_GH4_34_S + fas_GH4_35_S + fas_GH4_36_S + fas_GH4_37_S + fas_GH4_38_S + fas_GH4_39_S + fas_GH4_40_S + kya_GH3_27_S + kya_GH3_28_S + kya_GH3_29_S + kya_GH3_30_S + kya_GH3_31_S + kya_GH3_41_S + kya_GH3_42_S + kya_GH3_43_S + kya_GH3_44_S + kya_GH3_45_S + kya_GH3_46_S + kya_GH3_47_S + kya_GH3_7_S + kya_GH3_8_S + kya_GH3_9_S)
+0.11%	5	(((coal_CA1_2_S + coal_CA1_3_S + coal_CA1_4_S + coal_CA1_5_S + coal_CG_6_S,coal_GA_26_S + eng_NG_1_S),(eng_EG_21_S + eng_EG_22_S + eng_EG_23_S + eng_EG_25_S,eng_EG_24_S + eng_NG_15_S + eng_NG_18_S)),eng_CA2_20_S + fas_GH1_12_S + fas_GH1_13_S + fas_GH1_14_S + fas_GH2_10_S + fas_GH2_11_S + fas_GH2_16_S + fas_GH2_17_S + fas_GH4_32_S + fas_GH4_33_S + fas_GH4_34_S + fas_GH4_35_S + fas_GH4_36_S + fas_GH4_37_S + fas_GH4_38_S + fas_GH4_39_S + fas_GH4_40_S + kya_GH3_27_S + kya_GH3_28_S + kya_GH3_29_S + kya_GH3_30_S + kya_GH3_31_S + kya_GH3_41_S + kya_GH3_42_S + kya_GH3_43_S + kya_GH3_44_S + kya_GH3_45_S + kya_GH3_46_S + kya_GH3_47_S + kya_GH3_7_S + kya_GH3_8_S + kya_GH3_9_S)
+0.11%	6	(((coal_CA1_2_S + coal_CA1_3_S + coal_CA1_4_S + coal_CA1_5_S + coal_CG_6_S,coal_GA_26_S),(eng_EG_21_S + eng_EG_22_S + eng_EG_23_S + eng_EG_25_S,(eng_EG_24_S + eng_NG_15_S,eng_NG_18_S + eng_NG_1_S))),eng_CA2_20_S + fas_GH1_12_S + fas_GH1_13_S + fas_GH1_14_S + fas_GH2_10_S + fas_GH2_11_S + fas_GH2_16_S + fas_GH2_17_S + fas_GH4_32_S + fas_GH4_33_S + fas_GH4_34_S + fas_GH4_35_S + fas_GH4_36_S + fas_GH4_37_S + fas_GH4_38_S + fas_GH4_39_S + fas_GH4_40_S + kya_GH3_27_S + kya_GH3_28_S + kya_GH3_29_S + kya_GH3_30_S + kya_GH3_31_S + kya_GH3_41_S + kya_GH3_42_S + kya_GH3_43_S + kya_GH3_44_S + kya_GH3_45_S + kya_GH3_46_S + kya_GH3_47_S + kya_GH3_7_S + kya_GH3_8_S + kya_GH3_9_S)
+0.11%	5	(((coal_CA1_2_S + coal_CA1_3_S + coal_CA1_4_S + coal_CG_6_S + coal_GA_26_S,coal_CA1_5_S),(eng_EG_21_S + eng_EG_22_S + eng_EG_23_S + eng_EG_25_S,eng_EG_24_S + eng_NG_15_S + eng_NG_18_S + eng_NG_1_S)),eng_CA2_20_S + fas_GH1_12_S + fas_GH1_13_S + fas_GH1_14_S + fas_GH2_10_S + fas_GH2_11_S + fas_GH2_16_S + fas_GH2_17_S + fas_GH4_32_S + fas_GH4_33_S + fas_GH4_34_S + fas_GH4_35_S + fas_GH4_36_S + fas_GH4_37_S + fas_GH4_38_S + fas_GH4_39_S + fas_GH4_40_S + kya_GH3_27_S + kya_GH3_28_S + kya_GH3_29_S + kya_GH3_30_S + kya_GH3_31_S + kya_GH3_41_S + kya_GH3_42_S + kya_GH3_43_S + kya_GH3_44_S + kya_GH3_45_S + kya_GH3_46_S + kya_GH3_47_S + kya_GH3_7_S + kya_GH3_8_S + kya_GH3_9_S)
+0.11%	5	((coal_CA1_2_S + coal_CA1_3_S + coal_CA1_4_S + coal_CA1_5_S + coal_CG_6_S,(coal_GA_26_S + eng_NG_1_S,(eng_EG_21_S + eng_EG_22_S + eng_EG_23_S + eng_EG_24_S + eng_EG_25_S,eng_NG_15_S + eng_NG_18_S))),eng_CA2_20_S + fas_GH1_12_S + fas_GH1_13_S + fas_GH1_14_S + fas_GH2_10_S + fas_GH2_11_S + fas_GH2_16_S + fas_GH2_17_S + fas_GH4_32_S + fas_GH4_33_S + fas_GH4_34_S + fas_GH4_35_S + fas_GH4_36_S + fas_GH4_37_S + fas_GH4_38_S + fas_GH4_39_S + fas_GH4_40_S + kya_GH3_27_S + kya_GH3_28_S + kya_GH3_29_S + kya_GH3_30_S + kya_GH3_31_S + kya_GH3_41_S + kya_GH3_42_S + kya_GH3_43_S + kya_GH3_44_S + kya_GH3_45_S + kya_GH3_46_S + kya_GH3_47_S + kya_GH3_7_S + kya_GH3_8_S + kya_GH3_9_S)
+0.11%	6	(((coal_CA1_2_S + coal_CA1_3_S + coal_CA1_4_S + coal_CA1_5_S + coal_CG_6_S,coal_GA_26_S),(eng_EG_21_S + eng_EG_22_S + eng_EG_23_S + eng_EG_25_S,(eng_EG_24_S + eng_NG_18_S,eng_NG_15_S + eng_NG_1_S))),eng_CA2_20_S + fas_GH1_12_S + fas_GH1_13_S + fas_GH1_14_S + fas_GH2_10_S + fas_GH2_11_S + fas_GH2_16_S + fas_GH2_17_S + fas_GH4_32_S + fas_GH4_33_S + fas_GH4_34_S + fas_GH4_35_S + fas_GH4_36_S + fas_GH4_37_S + fas_GH4_38_S + fas_GH4_39_S + fas_GH4_40_S + kya_GH3_27_S + kya_GH3_28_S + kya_GH3_29_S + kya_GH3_30_S + kya_GH3_31_S + kya_GH3_41_S + kya_GH3_42_S + kya_GH3_43_S + kya_GH3_44_S + kya_GH3_45_S + kya_GH3_46_S + kya_GH3_47_S + kya_GH3_7_S + kya_GH3_8_S + kya_GH3_9_S)
+0.11%	5	((coal_CA1_2_S + coal_CA1_3_S + coal_CA1_4_S + coal_CA1_5_S + coal_CG_6_S + coal_GA_26_S,(eng_EG_21_S + eng_EG_22_S + eng_EG_23_S + eng_EG_24_S + eng_EG_25_S + eng_NG_15_S + eng_NG_18_S,eng_NG_1_S)),(eng_CA2_20_S + fas_GH1_12_S + fas_GH1_13_S + fas_GH1_14_S + fas_GH2_10_S + fas_GH2_16_S + fas_GH4_35_S + fas_GH4_36_S + fas_GH4_38_S + kya_GH3_28_S + kya_GH3_29_S + kya_GH3_30_S + kya_GH3_31_S + kya_GH3_41_S + kya_GH3_42_S + kya_GH3_43_S + kya_GH3_44_S + kya_GH3_45_S + kya_GH3_46_S + kya_GH3_47_S + kya_GH3_7_S + kya_GH3_8_S + kya_GH3_9_S,fas_GH2_11_S + fas_GH2_17_S + fas_GH4_32_S + fas_GH4_33_S + fas_GH4_34_S + fas_GH4_37_S + fas_GH4_39_S + fas_GH4_40_S + kya_GH3_27_S))
+0.11%	6	(((coal_CA1_2_S + coal_CA1_4_S + coal_GA_26_S,coal_CA1_3_S + coal_CA1_5_S + coal_CG_6_S),(eng_EG_21_S + eng_EG_22_S + eng_EG_23_S + eng_EG_25_S,(eng_EG_24_S,eng_NG_15_S + eng_NG_18_S + eng_NG_1_S))),eng_CA2_20_S + fas_GH1_12_S + fas_GH1_13_S + fas_GH1_14_S + fas_GH2_10_S + fas_GH2_11_S + fas_GH2_16_S + fas_GH2_17_S + fas_GH4_32_S + fas_GH4_33_S + fas_GH4_34_S + fas_GH4_35_S + fas_GH4_36_S + fas_GH4_37_S + fas_GH4_38_S + fas_GH4_39_S + fas_GH4_40_S + kya_GH3_27_S + kya_GH3_28_S + kya_GH3_29_S + kya_GH3_30_S + kya_GH3_31_S + kya_GH3_41_S + kya_GH3_42_S + kya_GH3_43_S + kya_GH3_44_S + kya_GH3_45_S + kya_GH3_46_S + kya_GH3_47_S + kya_GH3_7_S + kya_GH3_8_S + kya_GH3_9_S)
+0.11%	4	((coal_CA1_2_S + coal_CA1_3_S + coal_CA1_4_S + coal_CA1_5_S + coal_CG_6_S,(coal_GA_26_S,eng_EG_21_S + eng_EG_22_S + eng_EG_23_S + eng_EG_24_S + eng_EG_25_S + eng_NG_15_S + eng_NG_18_S + eng_NG_1_S)),eng_CA2_20_S + fas_GH1_12_S + fas_GH1_13_S + fas_GH1_14_S + fas_GH2_10_S + fas_GH2_11_S + fas_GH2_16_S + fas_GH2_17_S + fas_GH4_32_S + fas_GH4_33_S + fas_GH4_34_S + fas_GH4_35_S + fas_GH4_36_S + fas_GH4_37_S + fas_GH4_38_S + fas_GH4_39_S + fas_GH4_40_S + kya_GH3_27_S + kya_GH3_28_S + kya_GH3_29_S + kya_GH3_30_S + kya_GH3_31_S + kya_GH3_41_S + kya_GH3_42_S + kya_GH3_43_S + kya_GH3_44_S + kya_GH3_45_S + kya_GH3_46_S + kya_GH3_47_S + kya_GH3_7_S + kya_GH3_8_S + kya_GH3_9_S)
+0.11%	5	(((coal_CA1_2_S + coal_CA1_3_S + coal_CA1_4_S + coal_CA1_5_S + coal_CG_6_S,coal_GA_26_S),(eng_EG_21_S + eng_EG_24_S + eng_NG_15_S + eng_NG_18_S + eng_NG_1_S,eng_EG_22_S + eng_EG_23_S + eng_EG_25_S)),eng_CA2_20_S + fas_GH1_12_S + fas_GH1_13_S + fas_GH1_14_S + fas_GH2_10_S + fas_GH2_11_S + fas_GH2_16_S + fas_GH2_17_S + fas_GH4_32_S + fas_GH4_33_S + fas_GH4_34_S + fas_GH4_35_S + fas_GH4_36_S + fas_GH4_37_S + fas_GH4_38_S + fas_GH4_39_S + fas_GH4_40_S + kya_GH3_27_S + kya_GH3_28_S + kya_GH3_29_S + kya_GH3_30_S + kya_GH3_31_S + kya_GH3_41_S + kya_GH3_42_S + kya_GH3_43_S + kya_GH3_44_S + kya_GH3_45_S + kya_GH3_46_S + kya_GH3_47_S + kya_GH3_7_S + kya_GH3_8_S + kya_GH3_9_S)
+0.11%	4	((coal_CA1_2_S + coal_CA1_3_S + coal_CA1_4_S + coal_CA1_5_S + coal_CG_6_S + coal_GA_26_S,(eng_EG_21_S + eng_EG_22_S + eng_EG_23_S + eng_EG_24_S + eng_EG_25_S + eng_NG_15_S,eng_NG_18_S + eng_NG_1_S)),eng_CA2_20_S + fas_GH1_12_S + fas_GH1_13_S + fas_GH1_14_S + fas_GH2_10_S + fas_GH2_11_S + fas_GH2_16_S + fas_GH2_17_S + fas_GH4_32_S + fas_GH4_33_S + fas_GH4_34_S + fas_GH4_35_S + fas_GH4_36_S + fas_GH4_37_S + fas_GH4_38_S + fas_GH4_39_S + fas_GH4_40_S + kya_GH3_27_S + kya_GH3_28_S + kya_GH3_29_S + kya_GH3_30_S + kya_GH3_31_S + kya_GH3_41_S + kya_GH3_42_S + kya_GH3_43_S + kya_GH3_44_S + kya_GH3_45_S + kya_GH3_46_S + kya_GH3_47_S + kya_GH3_7_S + kya_GH3_8_S + kya_GH3_9_S)
+0.11%	6	(((coal_CA1_2_S + coal_CA1_3_S + coal_CA1_4_S + coal_CA1_5_S + coal_CG_6_S,coal_GA_26_S),((eng_EG_21_S + eng_EG_22_S + eng_EG_24_S + eng_EG_25_S,eng_EG_23_S),eng_NG_15_S + eng_NG_18_S + eng_NG_1_S)),eng_CA2_20_S + fas_GH1_12_S + fas_GH1_13_S + fas_GH1_14_S + fas_GH2_10_S + fas_GH2_11_S + fas_GH2_16_S + fas_GH2_17_S + fas_GH4_32_S + fas_GH4_33_S + fas_GH4_34_S + fas_GH4_35_S + fas_GH4_36_S + fas_GH4_37_S + fas_GH4_38_S + fas_GH4_39_S + fas_GH4_40_S + kya_GH3_27_S + kya_GH3_28_S + kya_GH3_29_S + kya_GH3_30_S + kya_GH3_31_S + kya_GH3_41_S + kya_GH3_42_S + kya_GH3_43_S + kya_GH3_44_S + kya_GH3_45_S + kya_GH3_46_S + kya_GH3_47_S + kya_GH3_7_S + kya_GH3_8_S + kya_GH3_9_S)
+0.11%	4	(((coal_CA1_2_S + coal_CA1_3_S + coal_CG_6_S + coal_GA_26_S,coal_CA1_4_S + coal_CA1_5_S),eng_EG_21_S + eng_EG_22_S + eng_EG_23_S + eng_EG_24_S + eng_EG_25_S + eng_NG_15_S + eng_NG_18_S + eng_NG_1_S),eng_CA2_20_S + fas_GH1_12_S + fas_GH1_13_S + fas_GH1_14_S + fas_GH2_10_S + fas_GH2_11_S + fas_GH2_16_S + fas_GH2_17_S + fas_GH4_32_S + fas_GH4_33_S + fas_GH4_34_S + fas_GH4_35_S + fas_GH4_36_S + fas_GH4_37_S + fas_GH4_38_S + fas_GH4_39_S + fas_GH4_40_S + kya_GH3_27_S + kya_GH3_28_S + kya_GH3_29_S + kya_GH3_30_S + kya_GH3_31_S + kya_GH3_41_S + kya_GH3_42_S + kya_GH3_43_S + kya_GH3_44_S + kya_GH3_45_S + kya_GH3_46_S + kya_GH3_47_S + kya_GH3_7_S + kya_GH3_8_S + kya_GH3_9_S)
+0.11%	5	(((coal_CA1_2_S,coal_CA1_3_S + coal_CA1_4_S + coal_CA1_5_S + coal_CG_6_S + coal_GA_26_S),(eng_EG_21_S + eng_EG_22_S + eng_EG_23_S + eng_EG_24_S + eng_EG_25_S + eng_NG_15_S + eng_NG_18_S,eng_NG_1_S)),eng_CA2_20_S + fas_GH1_12_S + fas_GH1_13_S + fas_GH1_14_S + fas_GH2_10_S + fas_GH2_11_S + fas_GH2_16_S + fas_GH2_17_S + fas_GH4_32_S + fas_GH4_33_S + fas_GH4_34_S + fas_GH4_35_S + fas_GH4_36_S + fas_GH4_37_S + fas_GH4_38_S + fas_GH4_39_S + fas_GH4_40_S + kya_GH3_27_S + kya_GH3_28_S + kya_GH3_29_S + kya_GH3_30_S + kya_GH3_31_S + kya_GH3_41_S + kya_GH3_42_S + kya_GH3_43_S + kya_GH3_44_S + kya_GH3_45_S + kya_GH3_46_S + kya_GH3_47_S + kya_GH3_7_S + kya_GH3_8_S + kya_GH3_9_S)
+0.11%	5	(((coal_CA1_2_S + coal_CA1_3_S + coal_CA1_4_S + coal_CA1_5_S,coal_CG_6_S + coal_GA_26_S),(eng_EG_21_S + eng_EG_22_S + eng_EG_23_S + eng_EG_25_S,eng_EG_24_S + eng_NG_15_S + eng_NG_18_S + eng_NG_1_S)),eng_CA2_20_S + fas_GH1_12_S + fas_GH1_13_S + fas_GH1_14_S + fas_GH2_10_S + fas_GH2_11_S + fas_GH2_16_S + fas_GH2_17_S + fas_GH4_32_S + fas_GH4_33_S + fas_GH4_34_S + fas_GH4_35_S + fas_GH4_36_S + fas_GH4_37_S + fas_GH4_38_S + fas_GH4_39_S + fas_GH4_40_S + kya_GH3_27_S + kya_GH3_28_S + kya_GH3_29_S + kya_GH3_30_S + kya_GH3_31_S + kya_GH3_41_S + kya_GH3_42_S + kya_GH3_43_S + kya_GH3_44_S + kya_GH3_45_S + kya_GH3_46_S + kya_GH3_47_S + kya_GH3_7_S + kya_GH3_8_S + kya_GH3_9_S)
+0.11%	4	(((coal_CA1_2_S + coal_CA1_3_S + coal_CA1_4_S + coal_CA1_5_S + coal_CG_6_S,eng_EG_21_S + eng_EG_22_S + eng_EG_23_S + eng_EG_24_S + eng_EG_25_S + eng_NG_15_S + eng_NG_18_S),coal_GA_26_S + eng_NG_1_S),eng_CA2_20_S + fas_GH1_12_S + fas_GH1_13_S + fas_GH1_14_S + fas_GH2_10_S + fas_GH2_11_S + fas_GH2_16_S + fas_GH2_17_S + fas_GH4_32_S + fas_GH4_33_S + fas_GH4_34_S + fas_GH4_35_S + fas_GH4_36_S + fas_GH4_37_S + fas_GH4_38_S + fas_GH4_39_S + fas_GH4_40_S + kya_GH3_27_S + kya_GH3_28_S + kya_GH3_29_S + kya_GH3_30_S + kya_GH3_31_S + kya_GH3_41_S + kya_GH3_42_S + kya_GH3_43_S + kya_GH3_44_S + kya_GH3_45_S + kya_GH3_46_S + kya_GH3_47_S + kya_GH3_7_S + kya_GH3_8_S + kya_GH3_9_S)
+0.11%	5	(((coal_CA1_2_S + coal_CA1_3_S + coal_CA1_4_S + coal_CA1_5_S + coal_CG_6_S,coal_GA_26_S + eng_NG_1_S),(eng_EG_21_S + eng_EG_23_S + eng_EG_25_S,eng_EG_22_S + eng_EG_24_S + eng_NG_15_S + eng_NG_18_S)),eng_CA2_20_S + fas_GH1_12_S + fas_GH1_13_S + fas_GH1_14_S + fas_GH2_10_S + fas_GH2_11_S + fas_GH2_16_S + fas_GH2_17_S + fas_GH4_32_S + fas_GH4_33_S + fas_GH4_34_S + fas_GH4_35_S + fas_GH4_36_S + fas_GH4_37_S + fas_GH4_38_S + fas_GH4_39_S + fas_GH4_40_S + kya_GH3_27_S + kya_GH3_28_S + kya_GH3_29_S + kya_GH3_30_S + kya_GH3_31_S + kya_GH3_41_S + kya_GH3_42_S + kya_GH3_43_S + kya_GH3_44_S + kya_GH3_45_S + kya_GH3_46_S + kya_GH3_47_S + kya_GH3_7_S + kya_GH3_8_S + kya_GH3_9_S)
+0.11%	5	(((coal_CA1_2_S + coal_CA1_3_S + coal_CA1_4_S + coal_CA1_5_S,coal_CG_6_S + coal_GA_26_S),(eng_EG_21_S + eng_EG_24_S + eng_NG_15_S + eng_NG_18_S + eng_NG_1_S,eng_EG_22_S + eng_EG_23_S + eng_EG_25_S)),eng_CA2_20_S + fas_GH1_12_S + fas_GH1_13_S + fas_GH1_14_S + fas_GH2_10_S + fas_GH2_11_S + fas_GH2_16_S + fas_GH2_17_S + fas_GH4_32_S + fas_GH4_33_S + fas_GH4_34_S + fas_GH4_35_S + fas_GH4_36_S + fas_GH4_37_S + fas_GH4_38_S + fas_GH4_39_S + fas_GH4_40_S + kya_GH3_27_S + kya_GH3_28_S + kya_GH3_29_S + kya_GH3_30_S + kya_GH3_31_S + kya_GH3_41_S + kya_GH3_42_S + kya_GH3_43_S + kya_GH3_44_S + kya_GH3_45_S + kya_GH3_46_S + kya_GH3_47_S + kya_GH3_7_S + kya_GH3_8_S + kya_GH3_9_S)
+100% displayed
+
+support	#taxa	clusters
+71.09%	3	coal_CA1_2_S + coal_CA1_3_S + coal_CA1_4_S + coal_CA1_5_S + coal_CG_6_S + coal_GA_26_S,eng_CA2_20_S + fas_GH1_12_S + fas_GH1_13_S + fas_GH1_14_S + fas_GH2_10_S + fas_GH2_11_S + fas_GH2_16_S + fas_GH2_17_S + fas_GH4_32_S + fas_GH4_33_S + fas_GH4_34_S + fas_GH4_35_S + fas_GH4_36_S + fas_GH4_37_S + fas_GH4_38_S + fas_GH4_39_S + fas_GH4_40_S + kya_GH3_27_S + kya_GH3_28_S + kya_GH3_29_S + kya_GH3_30_S + kya_GH3_31_S + kya_GH3_41_S + kya_GH3_42_S + kya_GH3_43_S + kya_GH3_44_S + kya_GH3_45_S + kya_GH3_46_S + kya_GH3_47_S + kya_GH3_7_S + kya_GH3_8_S + kya_GH3_9_S,eng_EG_21_S + eng_EG_22_S + eng_EG_23_S + eng_EG_24_S + eng_EG_25_S + eng_NG_15_S + eng_NG_18_S + eng_NG_1_S
+12.08%	4	coal_CA1_2_S + coal_CA1_3_S + coal_CA1_4_S + coal_CA1_5_S + coal_CG_6_S,coal_GA_26_S + eng_NG_1_S,eng_CA2_20_S + fas_GH1_12_S + fas_GH1_13_S + fas_GH1_14_S + fas_GH2_10_S + fas_GH2_11_S + fas_GH2_16_S + fas_GH2_17_S + fas_GH4_32_S + fas_GH4_33_S + fas_GH4_34_S + fas_GH4_35_S + fas_GH4_36_S + fas_GH4_37_S + fas_GH4_38_S + fas_GH4_39_S + fas_GH4_40_S + kya_GH3_27_S + kya_GH3_28_S + kya_GH3_29_S + kya_GH3_30_S + kya_GH3_31_S + kya_GH3_41_S + kya_GH3_42_S + kya_GH3_43_S + kya_GH3_44_S + kya_GH3_45_S + kya_GH3_46_S + kya_GH3_47_S + kya_GH3_7_S + kya_GH3_8_S + kya_GH3_9_S,eng_EG_21_S + eng_EG_22_S + eng_EG_23_S + eng_EG_24_S + eng_EG_25_S + eng_NG_15_S + eng_NG_18_S
+4.96%	4	coal_CA1_2_S + coal_CA1_3_S + coal_CA1_4_S + coal_CA1_5_S + coal_CG_6_S + coal_GA_26_S,eng_CA2_20_S + fas_GH1_12_S + fas_GH1_13_S + fas_GH1_14_S + fas_GH2_10_S + fas_GH2_11_S + fas_GH2_16_S + fas_GH2_17_S + fas_GH4_32_S + fas_GH4_33_S + fas_GH4_34_S + fas_GH4_35_S + fas_GH4_36_S + fas_GH4_37_S + fas_GH4_38_S + fas_GH4_39_S + fas_GH4_40_S + kya_GH3_27_S + kya_GH3_28_S + kya_GH3_29_S + kya_GH3_30_S + kya_GH3_31_S + kya_GH3_41_S + kya_GH3_42_S + kya_GH3_43_S + kya_GH3_44_S + kya_GH3_45_S + kya_GH3_46_S + kya_GH3_47_S + kya_GH3_7_S + kya_GH3_8_S + kya_GH3_9_S,eng_EG_21_S + eng_EG_22_S + eng_EG_23_S + eng_EG_24_S + eng_EG_25_S + eng_NG_15_S + eng_NG_18_S,eng_NG_1_S
+2.16%	5	coal_CA1_2_S + coal_CA1_3_S + coal_CA1_4_S + coal_CA1_5_S + coal_CG_6_S,coal_GA_26_S,eng_CA2_20_S + fas_GH1_12_S + fas_GH1_13_S + fas_GH1_14_S + fas_GH2_10_S + fas_GH2_11_S + fas_GH2_16_S + fas_GH2_17_S + fas_GH4_32_S + fas_GH4_33_S + fas_GH4_34_S + fas_GH4_35_S + fas_GH4_36_S + fas_GH4_37_S + fas_GH4_38_S + fas_GH4_39_S + fas_GH4_40_S + kya_GH3_27_S + kya_GH3_28_S + kya_GH3_29_S + kya_GH3_30_S + kya_GH3_31_S + kya_GH3_41_S + kya_GH3_42_S + kya_GH3_43_S + kya_GH3_44_S + kya_GH3_45_S + kya_GH3_46_S + kya_GH3_47_S + kya_GH3_7_S + kya_GH3_8_S + kya_GH3_9_S,eng_EG_21_S + eng_EG_22_S + eng_EG_23_S + eng_EG_24_S + eng_EG_25_S,eng_NG_15_S + eng_NG_18_S + eng_NG_1_S
+1.62%	4	coal_CA1_2_S + coal_CA1_3_S + coal_CA1_4_S + coal_CA1_5_S + coal_CG_6_S + coal_GA_26_S,eng_CA2_20_S + fas_GH1_12_S + fas_GH1_13_S + fas_GH1_14_S + fas_GH2_10_S + fas_GH2_11_S + fas_GH2_16_S + fas_GH2_17_S + fas_GH4_32_S + fas_GH4_33_S + fas_GH4_34_S + fas_GH4_35_S + fas_GH4_36_S + fas_GH4_37_S + fas_GH4_38_S + fas_GH4_39_S + fas_GH4_40_S + kya_GH3_27_S + kya_GH3_28_S + kya_GH3_29_S + kya_GH3_30_S + kya_GH3_31_S + kya_GH3_41_S + kya_GH3_42_S + kya_GH3_43_S + kya_GH3_44_S + kya_GH3_45_S + kya_GH3_46_S + kya_GH3_47_S + kya_GH3_7_S + kya_GH3_8_S + kya_GH3_9_S,eng_EG_21_S + eng_EG_24_S + eng_NG_15_S + eng_NG_18_S + eng_NG_1_S,eng_EG_22_S + eng_EG_23_S + eng_EG_25_S
+1.08%	5	coal_CA1_2_S + coal_CA1_3_S + coal_CA1_4_S + coal_CA1_5_S + coal_CG_6_S,coal_GA_26_S,eng_CA2_20_S + fas_GH1_12_S + fas_GH1_13_S + fas_GH1_14_S + fas_GH2_10_S + fas_GH2_11_S + fas_GH2_16_S + fas_GH2_17_S + fas_GH4_32_S + fas_GH4_33_S + fas_GH4_34_S + fas_GH4_35_S + fas_GH4_36_S + fas_GH4_37_S + fas_GH4_38_S + fas_GH4_39_S + fas_GH4_40_S + kya_GH3_27_S + kya_GH3_28_S + kya_GH3_29_S + kya_GH3_30_S + kya_GH3_31_S + kya_GH3_41_S + kya_GH3_42_S + kya_GH3_43_S + kya_GH3_44_S + kya_GH3_45_S + kya_GH3_46_S + kya_GH3_47_S + kya_GH3_7_S + kya_GH3_8_S + kya_GH3_9_S,eng_EG_21_S + eng_EG_22_S + eng_EG_23_S + eng_EG_25_S,eng_EG_24_S + eng_NG_15_S + eng_NG_18_S + eng_NG_1_S
+1.08%	3	coal_CA1_2_S + coal_CA1_3_S + coal_CA1_4_S + coal_CA1_5_S + coal_CG_6_S + coal_GA_26_S + eng_NG_1_S,eng_CA2_20_S + fas_GH1_12_S + fas_GH1_13_S + fas_GH1_14_S + fas_GH2_10_S + fas_GH2_11_S + fas_GH2_16_S + fas_GH2_17_S + fas_GH4_32_S + fas_GH4_33_S + fas_GH4_34_S + fas_GH4_35_S + fas_GH4_36_S + fas_GH4_37_S + fas_GH4_38_S + fas_GH4_39_S + fas_GH4_40_S + kya_GH3_27_S + kya_GH3_28_S + kya_GH3_29_S + kya_GH3_30_S + kya_GH3_31_S + kya_GH3_41_S + kya_GH3_42_S + kya_GH3_43_S + kya_GH3_44_S + kya_GH3_45_S + kya_GH3_46_S + kya_GH3_47_S + kya_GH3_7_S + kya_GH3_8_S + kya_GH3_9_S,eng_EG_21_S + eng_EG_22_S + eng_EG_23_S + eng_EG_24_S + eng_EG_25_S + eng_NG_15_S + eng_NG_18_S
+0.86%	4	coal_CA1_2_S + coal_CA1_3_S + coal_CA1_4_S + coal_CA1_5_S + coal_CG_6_S + coal_GA_26_S,eng_CA2_20_S + fas_GH1_12_S + fas_GH1_13_S + fas_GH1_14_S + fas_GH2_10_S + fas_GH2_11_S + fas_GH2_16_S + fas_GH2_17_S + fas_GH4_32_S + fas_GH4_33_S + fas_GH4_34_S + fas_GH4_35_S + fas_GH4_36_S + fas_GH4_37_S + fas_GH4_38_S + fas_GH4_39_S + fas_GH4_40_S + kya_GH3_27_S + kya_GH3_28_S + kya_GH3_29_S + kya_GH3_30_S + kya_GH3_31_S + kya_GH3_41_S + kya_GH3_42_S + kya_GH3_43_S + kya_GH3_44_S + kya_GH3_45_S + kya_GH3_46_S + kya_GH3_47_S + kya_GH3_7_S + kya_GH3_8_S + kya_GH3_9_S,eng_EG_21_S + eng_EG_22_S + eng_EG_23_S + eng_EG_24_S + eng_EG_25_S,eng_NG_15_S + eng_NG_18_S + eng_NG_1_S
+0.65%	4	coal_CA1_2_S + coal_CA1_3_S + coal_CA1_4_S + coal_CA1_5_S,coal_CG_6_S + coal_GA_26_S,eng_CA2_20_S + fas_GH1_12_S + fas_GH1_13_S + fas_GH1_14_S + fas_GH2_10_S + fas_GH2_11_S + fas_GH2_16_S + fas_GH2_17_S + fas_GH4_32_S + fas_GH4_33_S + fas_GH4_34_S + fas_GH4_35_S + fas_GH4_36_S + fas_GH4_37_S + fas_GH4_38_S + fas_GH4_39_S + fas_GH4_40_S + kya_GH3_27_S + kya_GH3_28_S + kya_GH3_29_S + kya_GH3_30_S + kya_GH3_31_S + kya_GH3_41_S + kya_GH3_42_S + kya_GH3_43_S + kya_GH3_44_S + kya_GH3_45_S + kya_GH3_46_S + kya_GH3_47_S + kya_GH3_7_S + kya_GH3_8_S + kya_GH3_9_S,eng_EG_21_S + eng_EG_22_S + eng_EG_23_S + eng_EG_24_S + eng_EG_25_S + eng_NG_15_S + eng_NG_18_S + eng_NG_1_S
+0.54%	5	coal_CA1_2_S + coal_CA1_3_S + coal_CA1_4_S + coal_CA1_5_S + coal_CG_6_S,coal_GA_26_S + eng_NG_1_S,eng_CA2_20_S + fas_GH1_12_S + fas_GH1_13_S + fas_GH1_14_S + fas_GH2_10_S + fas_GH2_11_S + fas_GH2_16_S + fas_GH2_17_S + fas_GH4_32_S + fas_GH4_33_S + fas_GH4_34_S + fas_GH4_35_S + fas_GH4_36_S + fas_GH4_37_S + fas_GH4_38_S + fas_GH4_39_S + fas_GH4_40_S + kya_GH3_27_S + kya_GH3_28_S + kya_GH3_29_S + kya_GH3_30_S + kya_GH3_31_S + kya_GH3_41_S + kya_GH3_42_S + kya_GH3_43_S + kya_GH3_44_S + kya_GH3_45_S + kya_GH3_46_S + kya_GH3_47_S + kya_GH3_7_S + kya_GH3_8_S + kya_GH3_9_S,eng_EG_21_S + eng_EG_22_S + eng_EG_23_S + eng_EG_24_S + eng_EG_25_S,eng_NG_15_S + eng_NG_18_S
+=== 95% credible set ===
+0.43%	4	coal_CA1_2_S + coal_CA1_3_S + coal_CA1_4_S + coal_CA1_5_S + coal_CG_6_S + coal_GA_26_S,eng_CA2_20_S + fas_GH1_12_S + fas_GH1_13_S + fas_GH1_14_S + fas_GH2_10_S + fas_GH2_11_S + fas_GH2_16_S + fas_GH2_17_S + fas_GH4_32_S + fas_GH4_33_S + fas_GH4_34_S + fas_GH4_35_S + fas_GH4_36_S + fas_GH4_37_S + fas_GH4_38_S + fas_GH4_39_S + fas_GH4_40_S + kya_GH3_27_S + kya_GH3_28_S + kya_GH3_29_S + kya_GH3_30_S + kya_GH3_31_S + kya_GH3_41_S + kya_GH3_42_S + kya_GH3_43_S + kya_GH3_44_S + kya_GH3_45_S + kya_GH3_46_S + kya_GH3_47_S + kya_GH3_7_S + kya_GH3_8_S + kya_GH3_9_S,eng_EG_21_S + eng_EG_22_S + eng_EG_23_S + eng_EG_25_S + eng_NG_15_S,eng_EG_24_S + eng_NG_18_S + eng_NG_1_S
+0.32%	4	coal_CA1_2_S + coal_CA1_3_S + coal_CA1_4_S + coal_CA1_5_S + coal_CG_6_S,coal_GA_26_S,eng_CA2_20_S + fas_GH1_12_S + fas_GH1_13_S + fas_GH1_14_S + fas_GH2_10_S + fas_GH2_11_S + fas_GH2_16_S + fas_GH2_17_S + fas_GH4_32_S + fas_GH4_33_S + fas_GH4_34_S + fas_GH4_35_S + fas_GH4_36_S + fas_GH4_37_S + fas_GH4_38_S + fas_GH4_39_S + fas_GH4_40_S + kya_GH3_27_S + kya_GH3_28_S + kya_GH3_29_S + kya_GH3_30_S + kya_GH3_31_S + kya_GH3_41_S + kya_GH3_42_S + kya_GH3_43_S + kya_GH3_44_S + kya_GH3_45_S + kya_GH3_46_S + kya_GH3_47_S + kya_GH3_7_S + kya_GH3_8_S + kya_GH3_9_S,eng_EG_21_S + eng_EG_22_S + eng_EG_23_S + eng_EG_24_S + eng_EG_25_S + eng_NG_15_S + eng_NG_18_S + eng_NG_1_S
+0.22%	5	coal_CA1_2_S + coal_CA1_3_S + coal_CA1_4_S + coal_CG_6_S + coal_GA_26_S,coal_CA1_5_S,eng_CA2_20_S + fas_GH1_12_S + fas_GH1_13_S + fas_GH1_14_S + fas_GH2_10_S + fas_GH2_11_S + fas_GH2_16_S + fas_GH2_17_S + fas_GH4_32_S + fas_GH4_33_S + fas_GH4_34_S + fas_GH4_35_S + fas_GH4_36_S + fas_GH4_37_S + fas_GH4_38_S + fas_GH4_39_S + fas_GH4_40_S + kya_GH3_27_S + kya_GH3_28_S + kya_GH3_29_S + kya_GH3_30_S + kya_GH3_31_S + kya_GH3_41_S + kya_GH3_42_S + kya_GH3_43_S + kya_GH3_44_S + kya_GH3_45_S + kya_GH3_46_S + kya_GH3_47_S + kya_GH3_7_S + kya_GH3_8_S + kya_GH3_9_S,eng_EG_21_S + eng_EG_22_S + eng_EG_23_S + eng_EG_24_S + eng_EG_25_S,eng_NG_15_S + eng_NG_18_S + eng_NG_1_S
+0.22%	5	coal_CA1_2_S + coal_CA1_3_S + coal_CA1_4_S + coal_CA1_5_S + coal_CG_6_S,coal_GA_26_S,eng_CA2_20_S + fas_GH1_12_S + fas_GH1_13_S + fas_GH1_14_S + fas_GH2_10_S + fas_GH2_11_S + fas_GH2_16_S + fas_GH2_17_S + fas_GH4_32_S + fas_GH4_33_S + fas_GH4_34_S + fas_GH4_35_S + fas_GH4_36_S + fas_GH4_37_S + fas_GH4_38_S + fas_GH4_39_S + fas_GH4_40_S + kya_GH3_27_S + kya_GH3_28_S + kya_GH3_29_S + kya_GH3_30_S + kya_GH3_31_S + kya_GH3_41_S + kya_GH3_42_S + kya_GH3_43_S + kya_GH3_44_S + kya_GH3_45_S + kya_GH3_46_S + kya_GH3_47_S + kya_GH3_7_S + kya_GH3_8_S + kya_GH3_9_S,eng_EG_21_S + eng_EG_22_S + eng_EG_23_S + eng_EG_24_S + eng_EG_25_S + eng_NG_15_S,eng_NG_18_S + eng_NG_1_S
+0.22%	4	coal_CA1_2_S + coal_CA1_3_S + coal_CA1_4_S + coal_CA1_5_S + coal_CG_6_S + eng_NG_1_S,coal_GA_26_S,eng_CA2_20_S + fas_GH1_12_S + fas_GH1_13_S + fas_GH1_14_S + fas_GH2_10_S + fas_GH2_11_S + fas_GH2_16_S + fas_GH2_17_S + fas_GH4_32_S + fas_GH4_33_S + fas_GH4_34_S + fas_GH4_35_S + fas_GH4_36_S + fas_GH4_37_S + fas_GH4_38_S + fas_GH4_39_S + fas_GH4_40_S + kya_GH3_27_S + kya_GH3_28_S + kya_GH3_29_S + kya_GH3_30_S + kya_GH3_31_S + kya_GH3_41_S + kya_GH3_42_S + kya_GH3_43_S + kya_GH3_44_S + kya_GH3_45_S + kya_GH3_46_S + kya_GH3_47_S + kya_GH3_7_S + kya_GH3_8_S + kya_GH3_9_S,eng_EG_21_S + eng_EG_22_S + eng_EG_23_S + eng_EG_24_S + eng_EG_25_S + eng_NG_15_S + eng_NG_18_S
+0.22%	6	coal_CA1_2_S + coal_CA1_3_S + coal_CA1_4_S + coal_CA1_5_S + coal_CG_6_S,coal_GA_26_S,eng_CA2_20_S + fas_GH1_12_S + fas_GH1_13_S + fas_GH1_14_S + fas_GH2_10_S + fas_GH2_11_S + fas_GH2_16_S + fas_GH2_17_S + fas_GH4_32_S + fas_GH4_33_S + fas_GH4_34_S + fas_GH4_35_S + fas_GH4_36_S + fas_GH4_37_S + fas_GH4_38_S + fas_GH4_39_S + fas_GH4_40_S + kya_GH3_27_S + kya_GH3_28_S + kya_GH3_29_S + kya_GH3_30_S + kya_GH3_31_S + kya_GH3_41_S + kya_GH3_42_S + kya_GH3_43_S + kya_GH3_44_S + kya_GH3_45_S + kya_GH3_46_S + kya_GH3_47_S + kya_GH3_7_S + kya_GH3_8_S + kya_GH3_9_S,eng_EG_21_S + eng_EG_22_S + eng_EG_23_S + eng_EG_25_S,eng_EG_24_S + eng_NG_18_S + eng_NG_1_S,eng_NG_15_S
+0.22%	4	coal_CA1_2_S + coal_CA1_3_S + coal_CA1_4_S + coal_CA1_5_S + coal_CG_6_S + coal_GA_26_S,eng_CA2_20_S + fas_GH1_12_S + fas_GH1_13_S + fas_GH1_14_S + fas_GH2_10_S + fas_GH2_11_S + fas_GH2_16_S + fas_GH2_17_S + fas_GH4_32_S + fas_GH4_33_S + fas_GH4_34_S + fas_GH4_35_S + fas_GH4_36_S + fas_GH4_37_S + fas_GH4_38_S + fas_GH4_39_S + fas_GH4_40_S + kya_GH3_27_S + kya_GH3_28_S + kya_GH3_29_S + kya_GH3_30_S + kya_GH3_31_S + kya_GH3_41_S + kya_GH3_42_S + kya_GH3_43_S + kya_GH3_44_S + kya_GH3_45_S + kya_GH3_46_S + kya_GH3_47_S + kya_GH3_7_S + kya_GH3_8_S + kya_GH3_9_S,eng_EG_21_S + eng_EG_24_S + eng_EG_25_S + eng_NG_15_S + eng_NG_18_S + eng_NG_1_S,eng_EG_22_S + eng_EG_23_S
+0.11%	5	coal_CA1_2_S + coal_CA1_3_S + coal_CA1_4_S + coal_CA1_5_S,coal_CG_6_S + coal_GA_26_S,eng_CA2_20_S + fas_GH1_12_S + fas_GH1_13_S + fas_GH1_14_S + fas_GH2_10_S + fas_GH2_11_S + fas_GH2_16_S + fas_GH2_17_S + fas_GH4_32_S + fas_GH4_33_S + fas_GH4_34_S + fas_GH4_35_S + fas_GH4_36_S + fas_GH4_37_S + fas_GH4_38_S + fas_GH4_39_S + fas_GH4_40_S + kya_GH3_27_S + kya_GH3_28_S + kya_GH3_29_S + kya_GH3_30_S + kya_GH3_31_S + kya_GH3_41_S + kya_GH3_42_S + kya_GH3_43_S + kya_GH3_44_S + kya_GH3_45_S + kya_GH3_46_S + kya_GH3_47_S + kya_GH3_7_S + kya_GH3_8_S + kya_GH3_9_S,eng_EG_21_S + eng_EG_24_S + eng_NG_15_S + eng_NG_18_S + eng_NG_1_S,eng_EG_22_S + eng_EG_23_S + eng_EG_25_S
+0.11%	5	coal_CA1_2_S + coal_CA1_3_S + coal_CA1_4_S + coal_CG_6_S + coal_GA_26_S,coal_CA1_5_S,eng_CA2_20_S + fas_GH1_12_S + fas_GH1_13_S + fas_GH1_14_S + fas_GH2_10_S + fas_GH2_11_S + fas_GH2_16_S + fas_GH2_17_S + fas_GH4_32_S + fas_GH4_33_S + fas_GH4_34_S + fas_GH4_35_S + fas_GH4_36_S + fas_GH4_37_S + fas_GH4_38_S + fas_GH4_39_S + fas_GH4_40_S + kya_GH3_27_S + kya_GH3_28_S + kya_GH3_29_S + kya_GH3_30_S + kya_GH3_31_S + kya_GH3_41_S + kya_GH3_42_S + kya_GH3_43_S + kya_GH3_44_S + kya_GH3_45_S + kya_GH3_46_S + kya_GH3_47_S + kya_GH3_7_S + kya_GH3_8_S + kya_GH3_9_S,eng_EG_21_S + eng_EG_22_S + eng_EG_23_S + eng_EG_25_S,eng_EG_24_S + eng_NG_15_S + eng_NG_18_S + eng_NG_1_S
+0.11%	5	coal_CA1_2_S + coal_CA1_3_S + coal_CA1_4_S + coal_CA1_5_S + coal_CG_6_S,coal_GA_26_S,eng_CA2_20_S + fas_GH1_12_S + fas_GH1_13_S + fas_GH1_14_S + fas_GH2_10_S + fas_GH2_11_S + fas_GH2_16_S + fas_GH2_17_S + fas_GH4_32_S + fas_GH4_33_S + fas_GH4_34_S + fas_GH4_35_S + fas_GH4_36_S + fas_GH4_37_S + fas_GH4_38_S + fas_GH4_39_S + fas_GH4_40_S + kya_GH3_27_S + kya_GH3_28_S + kya_GH3_29_S + kya_GH3_30_S + kya_GH3_31_S + kya_GH3_41_S + kya_GH3_42_S + kya_GH3_43_S + kya_GH3_44_S + kya_GH3_45_S + kya_GH3_46_S + kya_GH3_47_S + kya_GH3_7_S + kya_GH3_8_S + kya_GH3_9_S,eng_EG_21_S + eng_EG_22_S + eng_EG_23_S + eng_EG_25_S + eng_NG_15_S,eng_EG_24_S + eng_NG_18_S + eng_NG_1_S
+0.11%	6	coal_CA1_2_S + coal_CA1_3_S + coal_CA1_4_S + coal_CA1_5_S + coal_CG_6_S,coal_GA_26_S,eng_CA2_20_S + fas_GH1_12_S + fas_GH1_13_S + fas_GH1_14_S + fas_GH2_10_S + fas_GH2_11_S + fas_GH2_16_S + fas_GH2_17_S + fas_GH4_32_S + fas_GH4_33_S + fas_GH4_34_S + fas_GH4_35_S + fas_GH4_36_S + fas_GH4_37_S + fas_GH4_38_S + fas_GH4_39_S + fas_GH4_40_S + kya_GH3_27_S + kya_GH3_28_S + kya_GH3_29_S + kya_GH3_30_S + kya_GH3_31_S + kya_GH3_41_S + kya_GH3_42_S + kya_GH3_43_S + kya_GH3_44_S + kya_GH3_45_S + kya_GH3_46_S + kya_GH3_47_S + kya_GH3_7_S + kya_GH3_8_S + kya_GH3_9_S,eng_EG_21_S + eng_EG_22_S + eng_EG_24_S + eng_EG_25_S,eng_EG_23_S,eng_NG_15_S + eng_NG_18_S + eng_NG_1_S
+0.11%	5	coal_CA1_2_S + coal_CA1_3_S + coal_CA1_4_S + coal_CA1_5_S + coal_CG_6_S,coal_GA_26_S + eng_NG_1_S,eng_CA2_20_S + fas_GH1_12_S + fas_GH1_13_S + fas_GH1_14_S + fas_GH2_10_S + fas_GH2_11_S + fas_GH2_16_S + fas_GH2_17_S + fas_GH4_32_S + fas_GH4_33_S + fas_GH4_34_S + fas_GH4_35_S + fas_GH4_36_S + fas_GH4_37_S + fas_GH4_38_S + fas_GH4_39_S + fas_GH4_40_S + kya_GH3_27_S + kya_GH3_28_S + kya_GH3_29_S + kya_GH3_30_S + kya_GH3_31_S + kya_GH3_41_S + kya_GH3_42_S + kya_GH3_43_S + kya_GH3_44_S + kya_GH3_45_S + kya_GH3_46_S + kya_GH3_47_S + kya_GH3_7_S + kya_GH3_8_S + kya_GH3_9_S,eng_EG_21_S + eng_EG_23_S + eng_EG_25_S,eng_EG_22_S + eng_EG_24_S + eng_NG_15_S + eng_NG_18_S
+0.11%	4	coal_CA1_2_S + coal_CA1_3_S + coal_CA1_4_S + coal_CA1_5_S + coal_CG_6_S + coal_GA_26_S,eng_CA2_20_S + fas_GH1_12_S + fas_GH1_13_S + fas_GH1_14_S + fas_GH2_10_S + fas_GH2_11_S + fas_GH2_16_S + fas_GH2_17_S + fas_GH4_32_S + fas_GH4_33_S + fas_GH4_34_S + fas_GH4_35_S + fas_GH4_36_S + fas_GH4_37_S + fas_GH4_38_S + fas_GH4_39_S + fas_GH4_40_S + kya_GH3_27_S + kya_GH3_28_S + kya_GH3_29_S + kya_GH3_30_S + kya_GH3_31_S + kya_GH3_41_S + kya_GH3_42_S + kya_GH3_43_S + kya_GH3_44_S + kya_GH3_45_S + kya_GH3_46_S + kya_GH3_47_S + kya_GH3_7_S + kya_GH3_8_S + kya_GH3_9_S,eng_EG_21_S + eng_EG_22_S + eng_EG_23_S + eng_EG_24_S + eng_EG_25_S + eng_NG_15_S,eng_NG_18_S + eng_NG_1_S
+0.11%	6	coal_CA1_2_S + coal_CA1_4_S + coal_GA_26_S,coal_CA1_3_S + coal_CA1_5_S + coal_CG_6_S,eng_CA2_20_S + fas_GH1_12_S + fas_GH1_13_S + fas_GH1_14_S + fas_GH2_10_S + fas_GH2_11_S + fas_GH2_16_S + fas_GH2_17_S + fas_GH4_32_S + fas_GH4_33_S + fas_GH4_34_S + fas_GH4_35_S + fas_GH4_36_S + fas_GH4_37_S + fas_GH4_38_S + fas_GH4_39_S + fas_GH4_40_S + kya_GH3_27_S + kya_GH3_28_S + kya_GH3_29_S + kya_GH3_30_S + kya_GH3_31_S + kya_GH3_41_S + kya_GH3_42_S + kya_GH3_43_S + kya_GH3_44_S + kya_GH3_45_S + kya_GH3_46_S + kya_GH3_47_S + kya_GH3_7_S + kya_GH3_8_S + kya_GH3_9_S,eng_EG_21_S + eng_EG_22_S + eng_EG_23_S + eng_EG_25_S,eng_EG_24_S,eng_NG_15_S + eng_NG_18_S + eng_NG_1_S
+0.11%	5	coal_CA1_2_S + coal_CA1_3_S + coal_CA1_4_S + coal_CA1_5_S,coal_CG_6_S + coal_GA_26_S,eng_CA2_20_S + fas_GH1_12_S + fas_GH1_13_S + fas_GH1_14_S + fas_GH2_10_S + fas_GH2_11_S + fas_GH2_16_S + fas_GH2_17_S + fas_GH4_32_S + fas_GH4_33_S + fas_GH4_34_S + fas_GH4_35_S + fas_GH4_36_S + fas_GH4_37_S + fas_GH4_38_S + fas_GH4_39_S + fas_GH4_40_S + kya_GH3_27_S + kya_GH3_28_S + kya_GH3_29_S + kya_GH3_30_S + kya_GH3_31_S + kya_GH3_41_S + kya_GH3_42_S + kya_GH3_43_S + kya_GH3_44_S + kya_GH3_45_S + kya_GH3_46_S + kya_GH3_47_S + kya_GH3_7_S + kya_GH3_8_S + kya_GH3_9_S,eng_EG_21_S + eng_EG_22_S + eng_EG_23_S + eng_EG_25_S,eng_EG_24_S + eng_NG_15_S + eng_NG_18_S + eng_NG_1_S
+0.11%	5	coal_CA1_2_S + coal_CA1_3_S + coal_CA1_4_S + coal_CA1_5_S + coal_CG_6_S,coal_GA_26_S,eng_CA2_20_S + fas_GH1_12_S + fas_GH1_13_S + fas_GH1_14_S + fas_GH2_10_S + fas_GH2_11_S + fas_GH2_16_S + fas_GH2_17_S + fas_GH4_32_S + fas_GH4_33_S + fas_GH4_34_S + fas_GH4_35_S + fas_GH4_36_S + fas_GH4_37_S + fas_GH4_38_S + fas_GH4_39_S + fas_GH4_40_S + kya_GH3_27_S + kya_GH3_28_S + kya_GH3_29_S + kya_GH3_30_S + kya_GH3_31_S + kya_GH3_41_S + kya_GH3_42_S + kya_GH3_43_S + kya_GH3_44_S + kya_GH3_45_S + kya_GH3_46_S + kya_GH3_47_S + kya_GH3_7_S + kya_GH3_8_S + kya_GH3_9_S,eng_EG_21_S + eng_EG_24_S + eng_NG_15_S + eng_NG_18_S + eng_NG_1_S,eng_EG_22_S + eng_EG_23_S + eng_EG_25_S
+0.11%	5	coal_CA1_2_S + coal_CA1_3_S + coal_CA1_4_S + coal_CA1_5_S + coal_CG_6_S,coal_GA_26_S + eng_NG_1_S,eng_CA2_20_S + fas_GH1_12_S + fas_GH1_13_S + fas_GH1_14_S + fas_GH2_10_S + fas_GH2_11_S + fas_GH2_16_S + fas_GH2_17_S + fas_GH4_32_S + fas_GH4_33_S + fas_GH4_34_S + fas_GH4_35_S + fas_GH4_36_S + fas_GH4_37_S + fas_GH4_38_S + fas_GH4_39_S + fas_GH4_40_S + kya_GH3_27_S + kya_GH3_28_S + kya_GH3_29_S + kya_GH3_30_S + kya_GH3_31_S + kya_GH3_41_S + kya_GH3_42_S + kya_GH3_43_S + kya_GH3_44_S + kya_GH3_45_S + kya_GH3_46_S + kya_GH3_47_S + kya_GH3_7_S + kya_GH3_8_S + kya_GH3_9_S,eng_EG_21_S + eng_EG_22_S + eng_EG_23_S + eng_EG_25_S,eng_EG_24_S + eng_NG_15_S + eng_NG_18_S
+0.11%	5	coal_CA1_2_S + coal_CA1_3_S + coal_CA1_4_S + coal_CA1_5_S + coal_CG_6_S,coal_GA_26_S,eng_CA2_20_S + fas_GH1_12_S + fas_GH1_13_S + fas_GH1_14_S + fas_GH2_10_S + fas_GH2_11_S + fas_GH2_16_S + fas_GH2_17_S + fas_GH4_32_S + fas_GH4_33_S + fas_GH4_34_S + fas_GH4_35_S + fas_GH4_36_S + fas_GH4_37_S + fas_GH4_38_S + fas_GH4_39_S + fas_GH4_40_S + kya_GH3_27_S + kya_GH3_28_S + kya_GH3_29_S + kya_GH3_30_S + kya_GH3_31_S + kya_GH3_41_S + kya_GH3_42_S + kya_GH3_43_S + kya_GH3_44_S + kya_GH3_45_S + kya_GH3_46_S + kya_GH3_47_S + kya_GH3_7_S + kya_GH3_8_S + kya_GH3_9_S,eng_EG_21_S + eng_NG_15_S + eng_NG_18_S + eng_NG_1_S,eng_EG_22_S + eng_EG_23_S + eng_EG_24_S + eng_EG_25_S
+0.11%	5	coal_CA1_2_S + coal_CA1_3_S + coal_CA1_4_S + coal_CA1_5_S + coal_CG_6_S + coal_GA_26_S,eng_CA2_20_S + fas_GH1_12_S + fas_GH1_13_S + fas_GH1_14_S + fas_GH2_10_S + fas_GH2_16_S + fas_GH4_35_S + fas_GH4_36_S + fas_GH4_38_S + kya_GH3_28_S + kya_GH3_29_S + kya_GH3_30_S + kya_GH3_31_S + kya_GH3_41_S + kya_GH3_42_S + kya_GH3_43_S + kya_GH3_44_S + kya_GH3_45_S + kya_GH3_46_S + kya_GH3_47_S + kya_GH3_7_S + kya_GH3_8_S + kya_GH3_9_S,eng_EG_21_S + eng_EG_22_S + eng_EG_23_S + eng_EG_24_S + eng_EG_25_S + eng_NG_15_S + eng_NG_18_S,eng_NG_1_S,fas_GH2_11_S + fas_GH2_17_S + fas_GH4_32_S + fas_GH4_33_S + fas_GH4_34_S + fas_GH4_37_S + fas_GH4_39_S + fas_GH4_40_S + kya_GH3_27_S
+0.11%	6	coal_CA1_2_S + coal_CA1_3_S + coal_CA1_4_S + coal_CA1_5_S + coal_CG_6_S,coal_GA_26_S,eng_CA2_20_S + fas_GH1_12_S + fas_GH1_13_S + fas_GH1_14_S + fas_GH2_10_S + fas_GH2_11_S + fas_GH2_16_S + fas_GH2_17_S + fas_GH4_32_S + fas_GH4_33_S + fas_GH4_34_S + fas_GH4_35_S + fas_GH4_36_S + fas_GH4_37_S + fas_GH4_38_S + fas_GH4_39_S + fas_GH4_40_S + kya_GH3_27_S + kya_GH3_28_S + kya_GH3_29_S + kya_GH3_30_S + kya_GH3_31_S + kya_GH3_41_S + kya_GH3_42_S + kya_GH3_43_S + kya_GH3_44_S + kya_GH3_45_S + kya_GH3_46_S + kya_GH3_47_S + kya_GH3_7_S + kya_GH3_8_S + kya_GH3_9_S,eng_EG_21_S + eng_EG_22_S + eng_EG_23_S + eng_EG_25_S,eng_EG_24_S + eng_NG_18_S,eng_NG_15_S + eng_NG_1_S
+0.11%	4	coal_CA1_2_S + coal_CA1_3_S + coal_CA1_4_S + coal_CA1_5_S + coal_CG_6_S + coal_GA_26_S,eng_CA2_20_S + fas_GH1_12_S + fas_GH1_13_S + fas_GH1_14_S + fas_GH2_10_S + fas_GH2_11_S + fas_GH2_16_S + fas_GH2_17_S + fas_GH4_32_S + fas_GH4_33_S + fas_GH4_34_S + fas_GH4_35_S + fas_GH4_36_S + fas_GH4_37_S + fas_GH4_38_S + fas_GH4_39_S + fas_GH4_40_S + kya_GH3_27_S + kya_GH3_28_S + kya_GH3_29_S + kya_GH3_30_S + kya_GH3_31_S + kya_GH3_41_S + kya_GH3_42_S + kya_GH3_43_S + kya_GH3_44_S + kya_GH3_45_S + kya_GH3_46_S + kya_GH3_47_S + kya_GH3_7_S + kya_GH3_8_S + kya_GH3_9_S,eng_EG_21_S + eng_EG_22_S + eng_EG_23_S + eng_EG_25_S + eng_NG_15_S + eng_NG_18_S,eng_EG_24_S + eng_NG_1_S
+0.11%	5	coal_CA1_2_S + coal_CA1_3_S + coal_CA1_4_S + coal_CA1_5_S + coal_CG_6_S,coal_GA_26_S,eng_CA2_20_S + fas_GH1_12_S + fas_GH1_13_S + fas_GH1_14_S + fas_GH2_10_S + fas_GH2_11_S + fas_GH2_16_S + fas_GH2_17_S + fas_GH4_32_S + fas_GH4_33_S + fas_GH4_34_S + fas_GH4_35_S + fas_GH4_36_S + fas_GH4_37_S + fas_GH4_38_S + fas_GH4_39_S + fas_GH4_40_S + kya_GH3_27_S + kya_GH3_28_S + kya_GH3_29_S + kya_GH3_30_S + kya_GH3_31_S + kya_GH3_41_S + kya_GH3_42_S + kya_GH3_43_S + kya_GH3_44_S + kya_GH3_45_S + kya_GH3_46_S + kya_GH3_47_S + kya_GH3_7_S + kya_GH3_8_S + kya_GH3_9_S,eng_EG_21_S + eng_EG_22_S + eng_EG_23_S + eng_EG_24_S + eng_EG_25_S + eng_NG_18_S,eng_NG_15_S + eng_NG_1_S
+0.11%	4	coal_CA1_2_S + coal_CA1_3_S + coal_CG_6_S + coal_GA_26_S,coal_CA1_4_S + coal_CA1_5_S,eng_CA2_20_S + fas_GH1_12_S + fas_GH1_13_S + fas_GH1_14_S + fas_GH2_10_S + fas_GH2_11_S + fas_GH2_16_S + fas_GH2_17_S + fas_GH4_32_S + fas_GH4_33_S + fas_GH4_34_S + fas_GH4_35_S + fas_GH4_36_S + fas_GH4_37_S + fas_GH4_38_S + fas_GH4_39_S + fas_GH4_40_S + kya_GH3_27_S + kya_GH3_28_S + kya_GH3_29_S + kya_GH3_30_S + kya_GH3_31_S + kya_GH3_41_S + kya_GH3_42_S + kya_GH3_43_S + kya_GH3_44_S + kya_GH3_45_S + kya_GH3_46_S + kya_GH3_47_S + kya_GH3_7_S + kya_GH3_8_S + kya_GH3_9_S,eng_EG_21_S + eng_EG_22_S + eng_EG_23_S + eng_EG_24_S + eng_EG_25_S + eng_NG_15_S + eng_NG_18_S + eng_NG_1_S
+0.11%	5	coal_CA1_2_S,coal_CA1_3_S + coal_CA1_4_S + coal_CA1_5_S + coal_CG_6_S + coal_GA_26_S,eng_CA2_20_S + fas_GH1_12_S + fas_GH1_13_S + fas_GH1_14_S + fas_GH2_10_S + fas_GH2_11_S + fas_GH2_16_S + fas_GH2_17_S + fas_GH4_32_S + fas_GH4_33_S + fas_GH4_34_S + fas_GH4_35_S + fas_GH4_36_S + fas_GH4_37_S + fas_GH4_38_S + fas_GH4_39_S + fas_GH4_40_S + kya_GH3_27_S + kya_GH3_28_S + kya_GH3_29_S + kya_GH3_30_S + kya_GH3_31_S + kya_GH3_41_S + kya_GH3_42_S + kya_GH3_43_S + kya_GH3_44_S + kya_GH3_45_S + kya_GH3_46_S + kya_GH3_47_S + kya_GH3_7_S + kya_GH3_8_S + kya_GH3_9_S,eng_EG_21_S + eng_EG_22_S + eng_EG_23_S + eng_EG_24_S + eng_EG_25_S + eng_NG_15_S + eng_NG_18_S,eng_NG_1_S
+0.11%	6	coal_CA1_2_S + coal_CA1_3_S + coal_CA1_4_S + coal_CA1_5_S + coal_CG_6_S,coal_GA_26_S,eng_CA2_20_S + fas_GH1_12_S + fas_GH1_13_S + fas_GH1_14_S + fas_GH2_10_S + fas_GH2_11_S + fas_GH2_16_S + fas_GH2_17_S + fas_GH4_32_S + fas_GH4_33_S + fas_GH4_34_S + fas_GH4_35_S + fas_GH4_36_S + fas_GH4_37_S + fas_GH4_38_S + fas_GH4_39_S + fas_GH4_40_S + kya_GH3_27_S + kya_GH3_28_S + kya_GH3_29_S + kya_GH3_30_S + kya_GH3_31_S + kya_GH3_41_S + kya_GH3_42_S + kya_GH3_43_S + kya_GH3_44_S + kya_GH3_45_S + kya_GH3_46_S + kya_GH3_47_S + kya_GH3_7_S + kya_GH3_8_S + kya_GH3_9_S,eng_EG_21_S + eng_EG_22_S + eng_EG_23_S + eng_EG_25_S,eng_EG_24_S + eng_NG_1_S,eng_NG_15_S + eng_NG_18_S
+0.11%	6	coal_CA1_2_S + coal_CA1_3_S + coal_CA1_4_S + coal_CA1_5_S + coal_CG_6_S,coal_GA_26_S,eng_CA2_20_S + fas_GH1_12_S + fas_GH1_13_S + fas_GH1_14_S + fas_GH2_10_S + fas_GH2_11_S + fas_GH2_16_S + fas_GH2_17_S + fas_GH4_32_S + fas_GH4_33_S + fas_GH4_34_S + fas_GH4_35_S + fas_GH4_36_S + fas_GH4_37_S + fas_GH4_38_S + fas_GH4_39_S + fas_GH4_40_S + kya_GH3_27_S + kya_GH3_28_S + kya_GH3_29_S + kya_GH3_30_S + kya_GH3_31_S + kya_GH3_41_S + kya_GH3_42_S + kya_GH3_43_S + kya_GH3_44_S + kya_GH3_45_S + kya_GH3_46_S + kya_GH3_47_S + kya_GH3_7_S + kya_GH3_8_S + kya_GH3_9_S,eng_EG_21_S + eng_EG_22_S + eng_EG_23_S + eng_EG_25_S,eng_EG_24_S + eng_NG_15_S,eng_NG_18_S + eng_NG_1_S
+100% displayed
+
+support	count	cluster
+99.89%	926	eng_CA2_20_S + fas_GH1_12_S + fas_GH1_13_S + fas_GH1_14_S + fas_GH2_10_S + fas_GH2_11_S + fas_GH2_16_S + fas_GH2_17_S + fas_GH4_32_S + fas_GH4_33_S + fas_GH4_34_S + fas_GH4_35_S + fas_GH4_36_S + fas_GH4_37_S + fas_GH4_38_S + fas_GH4_39_S + fas_GH4_40_S + kya_GH3_27_S + kya_GH3_28_S + kya_GH3_29_S + kya_GH3_30_S + kya_GH3_31_S + kya_GH3_41_S + kya_GH3_42_S + kya_GH3_43_S + kya_GH3_44_S + kya_GH3_45_S + kya_GH3_46_S + kya_GH3_47_S + kya_GH3_7_S + kya_GH3_8_S + kya_GH3_9_S
+79.5%	737	coal_CA1_2_S + coal_CA1_3_S + coal_CA1_4_S + coal_CA1_5_S + coal_CG_6_S + coal_GA_26_S
+72.17%	669	eng_EG_21_S + eng_EG_22_S + eng_EG_23_S + eng_EG_24_S + eng_EG_25_S + eng_NG_15_S + eng_NG_18_S + eng_NG_1_S
+18.55%	172	eng_EG_21_S + eng_EG_22_S + eng_EG_23_S + eng_EG_24_S + eng_EG_25_S + eng_NG_15_S + eng_NG_18_S
+17.69%	164	coal_CA1_2_S + coal_CA1_3_S + coal_CA1_4_S + coal_CA1_5_S + coal_CG_6_S
+12.84%	119	coal_GA_26_S + eng_NG_1_S
+5.18%	48	eng_NG_1_S
+5.07%	47	coal_GA_26_S
+3.78%	35	eng_EG_21_S + eng_EG_22_S + eng_EG_23_S + eng_EG_24_S + eng_EG_25_S
+3.45%	32	eng_NG_15_S + eng_NG_18_S + eng_NG_1_S
+2.05%	19	eng_EG_21_S + eng_EG_22_S + eng_EG_23_S + eng_EG_25_S
+1.83%	17	eng_EG_22_S + eng_EG_23_S + eng_EG_25_S
+1.83%	17	eng_EG_21_S + eng_EG_24_S + eng_NG_15_S + eng_NG_18_S + eng_NG_1_S
+1.29%	12	eng_EG_24_S + eng_NG_15_S + eng_NG_18_S + eng_NG_1_S
+1.08%	10	coal_CA1_2_S + coal_CA1_3_S + coal_CA1_4_S + coal_CA1_5_S + coal_CG_6_S + coal_GA_26_S + eng_NG_1_S
+0.86%	8	coal_CA1_2_S + coal_CA1_3_S + coal_CA1_4_S + coal_CA1_5_S
+0.86%	8	coal_CG_6_S + coal_GA_26_S
+0.76%	7	eng_EG_24_S + eng_NG_18_S + eng_NG_1_S
+0.65%	6	eng_NG_15_S + eng_NG_18_S
+0.54%	5	eng_EG_21_S + eng_EG_22_S + eng_EG_23_S + eng_EG_25_S + eng_NG_15_S
+0.43%	4	eng_NG_18_S + eng_NG_1_S
+0.32%	3	eng_EG_21_S + eng_EG_22_S + eng_EG_23_S + eng_EG_24_S + eng_EG_25_S + eng_NG_15_S
+0.32%	3	coal_CA1_5_S
+0.32%	3	coal_CA1_2_S + coal_CA1_3_S + coal_CA1_4_S + coal_CG_6_S + coal_GA_26_S
+0.22%	2	coal_CA1_2_S + coal_CA1_3_S + coal_CA1_4_S + coal_CA1_5_S + coal_CG_6_S + eng_NG_1_S
+0.22%	2	eng_EG_22_S + eng_EG_23_S
+0.22%	2	eng_EG_24_S + eng_NG_1_S
+0.22%	2	eng_EG_21_S + eng_EG_24_S + eng_EG_25_S + eng_NG_15_S + eng_NG_18_S + eng_NG_1_S
+0.22%	2	eng_NG_15_S
+0.22%	2	eng_NG_15_S + eng_NG_1_S
+0.11%	1	coal_CA1_3_S + coal_CA1_4_S + coal_CA1_5_S + coal_CG_6_S + coal_GA_26_S
+0.11%	1	fas_GH2_11_S + fas_GH2_17_S + fas_GH4_32_S + fas_GH4_33_S + fas_GH4_34_S + fas_GH4_37_S + fas_GH4_39_S + fas_GH4_40_S + kya_GH3_27_S
+0.11%	1	eng_EG_22_S + eng_EG_23_S + eng_EG_24_S + eng_EG_25_S
+0.11%	1	eng_EG_24_S + eng_NG_15_S + eng_NG_18_S
+0.11%	1	eng_EG_23_S
+0.11%	1	coal_CA1_3_S + coal_CA1_5_S + coal_CG_6_S
+0.11%	1	coal_CA1_2_S
+0.11%	1	eng_CA2_20_S + fas_GH1_12_S + fas_GH1_13_S + fas_GH1_14_S + fas_GH2_10_S + fas_GH2_16_S + fas_GH4_35_S + fas_GH4_36_S + fas_GH4_38_S + kya_GH3_28_S + kya_GH3_29_S + kya_GH3_30_S + kya_GH3_31_S + kya_GH3_41_S + kya_GH3_42_S + kya_GH3_43_S + kya_GH3_44_S + kya_GH3_45_S + kya_GH3_46_S + kya_GH3_47_S + kya_GH3_7_S + kya_GH3_8_S + kya_GH3_9_S
+0.11%	1	eng_EG_22_S + eng_EG_24_S + eng_NG_15_S + eng_NG_18_S
+0.11%	1	coal_CA1_4_S + coal_CA1_5_S
+0.11%	1	eng_EG_24_S + eng_NG_18_S
+0.11%	1	coal_CA1_2_S + coal_CA1_4_S + coal_GA_26_S
+0.11%	1	coal_CA1_2_S + coal_CA1_3_S + coal_CG_6_S + coal_GA_26_S
+0.11%	1	eng_EG_21_S + eng_EG_22_S + eng_EG_24_S + eng_EG_25_S
+0.11%	1	eng_EG_24_S
+0.11%	1	eng_EG_21_S + eng_EG_22_S + eng_EG_23_S + eng_EG_25_S + eng_NG_15_S + eng_NG_18_S
+0.11%	1	eng_EG_21_S + eng_EG_22_S + eng_EG_23_S + eng_EG_24_S + eng_EG_25_S + eng_NG_18_S
+0.11%	1	eng_EG_24_S + eng_NG_15_S
+0.11%	1	eng_EG_21_S + eng_NG_15_S + eng_NG_18_S + eng_NG_1_S
+0.11%	1	eng_EG_21_S + eng_EG_23_S + eng_EG_25_S
+
+support	count	pair
+100%	927	kya_GH3_29_S + kya_GH3_9_S
+100%	927	fas_GH1_12_S + kya_GH3_47_S
+100%	927	eng_CA2_20_S + fas_GH1_14_S
+100%	927	fas_GH2_10_S + fas_GH2_16_S
+100%	927	eng_CA2_20_S + fas_GH2_10_S
+100%	927	fas_GH1_14_S + kya_GH3_43_S
+100%	927	fas_GH2_16_S + kya_GH3_43_S
+100%	927	fas_GH1_14_S + fas_GH4_35_S
+100%	927	fas_GH1_14_S + kya_GH3_9_S
+100%	927	fas_GH2_17_S + kya_GH3_27_S
+100%	927	kya_GH3_30_S + kya_GH3_47_S
+100%	927	fas_GH2_16_S + fas_GH4_35_S
+100%	927	fas_GH4_36_S + kya_GH3_29_S
+100%	927	kya_GH3_42_S + kya_GH3_43_S
+100%	927	fas_GH4_35_S + kya_GH3_45_S
+100%	927	fas_GH1_12_S + fas_GH1_13_S
+100%	927	kya_GH3_45_S + kya_GH3_47_S
+100%	927	kya_GH3_29_S + kya_GH3_8_S
+100%	927	fas_GH1_12_S + kya_GH3_46_S
+100%	927	eng_CA2_20_S + fas_GH1_13_S
+100%	927	fas_GH4_38_S + kya_GH3_47_S
+100%	927	fas_GH1_14_S + kya_GH3_42_S
+100%	927	fas_GH2_16_S + kya_GH3_44_S
+100%	927	eng_CA2_20_S + kya_GH3_47_S
+100%	927	fas_GH4_32_S + fas_GH4_34_S
+100%	927	fas_GH2_16_S + fas_GH4_36_S
+100%	927	kya_GH3_42_S + kya_GH3_44_S
+100%	927	fas_GH4_39_S + fas_GH4_40_S
+100%	927	fas_GH4_35_S + fas_GH4_38_S
+100%	927	fas_GH1_14_S + kya_GH3_31_S
+100%	927	fas_GH4_35_S + kya_GH3_46_S
+100%	927	fas_GH1_13_S + kya_GH3_29_S
+100%	927	fas_GH1_12_S + fas_GH1_14_S
+100%	927	kya_GH3_28_S + kya_GH3_46_S
+100%	927	fas_GH4_33_S + fas_GH4_39_S
+100%	927	kya_GH3_29_S + kya_GH3_7_S
+100%	927	fas_GH4_38_S + kya_GH3_46_S
+100%	927	fas_GH2_16_S + kya_GH3_41_S
+100%	927	fas_GH4_35_S + kya_GH3_9_S
+100%	927	fas_GH1_14_S + kya_GH3_7_S
+100%	927	fas_GH4_32_S + fas_GH4_37_S
+100%	927	kya_GH3_30_S + kya_GH3_45_S
+100%	927	fas_GH4_38_S + kya_GH3_9_S
+100%	927	fas_GH1_14_S + kya_GH3_46_S
+100%	927	fas_GH2_16_S + kya_GH3_30_S
+100%	927	fas_GH2_10_S + kya_GH3_41_S
+100%	927	fas_GH1_12_S + fas_GH4_38_S
+100%	927	fas_GH1_13_S + kya_GH3_28_S
+100%	927	fas_GH4_35_S + kya_GH3_43_S
+100%	927	fas_GH2_17_S + fas_GH4_40_S
+100%	927	kya_GH3_28_S + kya_GH3_47_S
+100%	927	kya_GH3_29_S + kya_GH3_41_S
+100%	927	fas_GH1_13_S + fas_GH2_16_S
+100%	927	fas_GH4_38_S + kya_GH3_45_S
+100%	927	fas_GH1_14_S + kya_GH3_44_S
+100%	927	fas_GH2_16_S + kya_GH3_42_S
+100%	927	fas_GH4_35_S + kya_GH3_8_S
+100%	927	fas_GH1_14_S + kya_GH3_8_S
+100%	927	fas_GH1_14_S + fas_GH4_36_S
+100%	927	fas_GH2_10_S + kya_GH3_30_S
+100%	927	kya_GH3_30_S + kya_GH3_46_S
+100%	927	fas_GH2_11_S + fas_GH4_37_S
+100%	927	kya_GH3_29_S + kya_GH3_30_S
+100%	927	fas_GH4_38_S + kya_GH3_8_S
+100%	927	fas_GH1_14_S + kya_GH3_45_S
+100%	927	fas_GH4_35_S + fas_GH4_36_S
+100%	927	fas_GH2_16_S + kya_GH3_31_S
+100%	927	fas_GH4_35_S + kya_GH3_44_S
+100%	927	fas_GH2_10_S + kya_GH3_42_S
+100%	927	kya_GH3_28_S + kya_GH3_44_S
+100%	927	fas_GH1_13_S + kya_GH3_41_S
+100%	927	eng_CA2_20_S + fas_GH4_36_S
+100%	927	fas_GH1_12_S + kya_GH3_43_S
+100%	927	fas_GH4_33_S + fas_GH4_40_S
+100%	927	kya_GH3_31_S + kya_GH3_8_S
+100%	927	eng_CA2_20_S + kya_GH3_9_S
+100%	927	fas_GH4_38_S + kya_GH3_29_S
+100%	927	fas_GH4_35_S + kya_GH3_7_S
+100%	927	fas_GH4_38_S + kya_GH3_7_S
+100%	927	eng_CA2_20_S + kya_GH3_29_S
+100%	927	fas_GH1_12_S + kya_GH3_31_S
+100%	927	kya_GH3_28_S + kya_GH3_8_S
+100%	927	kya_GH3_43_S + kya_GH3_46_S
+100%	927	fas_GH2_10_S + kya_GH3_31_S
+100%	927	kya_GH3_31_S + kya_GH3_9_S
+100%	927	kya_GH3_46_S + kya_GH3_9_S
+100%	927	kya_GH3_43_S + kya_GH3_9_S
+100%	927	fas_GH1_12_S + kya_GH3_42_S
+100%	927	kya_GH3_41_S + kya_GH3_42_S
+100%	927	fas_GH2_10_S + kya_GH3_43_S
+100%	927	fas_GH1_12_S + kya_GH3_9_S
+100%	927	kya_GH3_28_S + kya_GH3_45_S
+100%	927	eng_CA2_20_S + fas_GH4_35_S
+100%	927	kya_GH3_44_S + kya_GH3_45_S
+100%	927	eng_CA2_20_S + kya_GH3_8_S
+100%	927	fas_GH4_38_S + kya_GH3_28_S
+100%	927	fas_GH4_37_S + fas_GH4_39_S
+100%	927	kya_GH3_28_S + kya_GH3_9_S
+100%	927	eng_CA2_20_S + kya_GH3_28_S
+100%	927	fas_GH1_12_S + kya_GH3_30_S
+100%	927	kya_GH3_43_S + kya_GH3_47_S
+100%	927	fas_GH2_11_S + fas_GH4_39_S
+100%	927	fas_GH2_17_S + fas_GH4_39_S
+100%	927	fas_GH1_14_S + kya_GH3_47_S
+100%	927	kya_GH3_46_S + kya_GH3_47_S
+100%	927	fas_GH1_12_S + kya_GH3_41_S
+100%	927	fas_GH2_10_S + kya_GH3_44_S
+100%	927	fas_GH1_12_S + kya_GH3_8_S
+100%	927	fas_GH1_13_S + fas_GH2_10_S
+100%	927	fas_GH2_11_S + fas_GH2_17_S
+100%	927	fas_GH4_34_S + fas_GH4_37_S
+100%	927	kya_GH3_28_S + kya_GH3_42_S
+100%	927	kya_GH3_31_S + kya_GH3_47_S
+100%	927	fas_GH1_12_S + kya_GH3_45_S
+100%	927	eng_CA2_20_S + fas_GH4_38_S
+100%	927	fas_GH2_10_S + kya_GH3_8_S
+100%	927	kya_GH3_43_S + kya_GH3_7_S
+100%	927	fas_GH4_36_S + kya_GH3_41_S
+100%	927	eng_CA2_20_S + kya_GH3_7_S
+100%	927	fas_GH2_16_S + kya_GH3_45_S
+100%	927	fas_GH4_32_S + fas_GH4_33_S
+100%	927	fas_GH2_16_S + kya_GH3_46_S
+100%	927	kya_GH3_28_S + kya_GH3_30_S
+100%	927	kya_GH3_46_S + kya_GH3_7_S
+100%	927	fas_GH2_16_S + kya_GH3_8_S
+100%	927	fas_GH4_36_S + kya_GH3_42_S
+100%	927	fas_GH4_36_S + kya_GH3_30_S
+100%	927	kya_GH3_41_S + kya_GH3_44_S
+100%	927	fas_GH2_10_S + kya_GH3_45_S
+100%	927	fas_GH1_12_S + kya_GH3_7_S
+100%	927	fas_GH4_35_S + kya_GH3_47_S
+100%	927	kya_GH3_28_S + kya_GH3_43_S
+100%	927	fas_GH1_12_S + kya_GH3_44_S
+100%	927	fas_GH4_36_S + kya_GH3_31_S
+100%	927	fas_GH2_10_S + kya_GH3_9_S
+100%	927	kya_GH3_31_S + kya_GH3_46_S
+100%	927	fas_GH1_13_S + fas_GH4_38_S
+100%	927	kya_GH3_31_S + kya_GH3_7_S
+100%	927	kya_GH3_28_S + kya_GH3_7_S
+100%	927	kya_GH3_28_S + kya_GH3_31_S
+100%	927	fas_GH2_16_S + kya_GH3_47_S
+100%	927	kya_GH3_46_S + kya_GH3_8_S
+100%	927	fas_GH2_16_S + kya_GH3_9_S
+100%	927	fas_GH4_36_S + kya_GH3_43_S
+100%	927	kya_GH3_43_S + kya_GH3_8_S
+100%	927	kya_GH3_41_S + kya_GH3_43_S
+100%	927	fas_GH2_10_S + kya_GH3_46_S
+100%	927	fas_GH4_34_S + fas_GH4_39_S
+100%	927	kya_GH3_45_S + kya_GH3_8_S
+100%	927	kya_GH3_29_S + kya_GH3_46_S
+100%	927	kya_GH3_31_S + kya_GH3_45_S
+100%	927	fas_GH2_16_S + kya_GH3_29_S
+100%	927	fas_GH2_17_S + fas_GH4_34_S
+100%	927	fas_GH4_36_S + kya_GH3_9_S
+100%	927	fas_GH1_14_S + kya_GH3_29_S
+100%	927	fas_GH4_36_S + kya_GH3_44_S
+100%	927	kya_GH3_7_S + kya_GH3_8_S
+100%	927	kya_GH3_41_S + kya_GH3_46_S
+100%	927	kya_GH3_42_S + kya_GH3_8_S
+100%	927	fas_GH2_10_S + kya_GH3_47_S
+100%	927	fas_GH1_13_S + kya_GH3_45_S
+100%	927	kya_GH3_45_S + kya_GH3_7_S
+100%	927	fas_GH2_10_S + kya_GH3_7_S
+100%	927	kya_GH3_28_S + kya_GH3_41_S
+100%	927	kya_GH3_29_S + kya_GH3_47_S
+100%	927	kya_GH3_31_S + kya_GH3_44_S
+100%	927	fas_GH1_12_S + fas_GH2_16_S
+100%	927	fas_GH1_13_S + fas_GH4_36_S
+100%	927	fas_GH4_36_S + kya_GH3_8_S
+100%	927	fas_GH2_16_S + kya_GH3_7_S
+100%	927	fas_GH4_32_S + kya_GH3_27_S
+100%	927	fas_GH4_36_S + kya_GH3_45_S
+100%	927	fas_GH1_14_S + kya_GH3_28_S
+100%	927	kya_GH3_7_S + kya_GH3_9_S
+100%	927	kya_GH3_41_S + kya_GH3_45_S
+100%	927	kya_GH3_42_S + kya_GH3_7_S
+100%	927	fas_GH1_13_S + kya_GH3_44_S
+100%	927	kya_GH3_30_S + kya_GH3_7_S
+100%	927	eng_CA2_20_S + kya_GH3_42_S
+100%	927	fas_GH4_32_S + fas_GH4_40_S
+100%	927	fas_GH1_13_S + kya_GH3_43_S
+100%	927	kya_GH3_31_S + kya_GH3_43_S
+100%	927	kya_GH3_44_S + kya_GH3_46_S
+100%	927	fas_GH1_13_S + fas_GH4_35_S
+100%	927	eng_CA2_20_S + fas_GH2_16_S
+100%	927	kya_GH3_43_S + kya_GH3_44_S
+100%	927	eng_CA2_20_S + kya_GH3_31_S
+100%	927	fas_GH4_36_S + fas_GH4_38_S
+100%	927	fas_GH1_13_S + kya_GH3_31_S
+100%	927	fas_GH4_36_S + kya_GH3_46_S
+100%	927	fas_GH1_13_S + fas_GH1_14_S
+100%	927	kya_GH3_31_S + kya_GH3_42_S
+100%	927	fas_GH4_35_S + kya_GH3_28_S
+100%	927	kya_GH3_30_S + kya_GH3_8_S
+100%	927	fas_GH4_34_S + kya_GH3_27_S
+100%	927	fas_GH1_13_S + kya_GH3_42_S
+100%	927	eng_CA2_20_S + kya_GH3_41_S
+100%	927	kya_GH3_45_S + kya_GH3_9_S
+100%	927	kya_GH3_42_S + kya_GH3_9_S
+100%	927	fas_GH1_14_S + fas_GH2_10_S
+100%	927	kya_GH3_44_S + kya_GH3_47_S
+100%	927	kya_GH3_43_S + kya_GH3_45_S
+100%	927	fas_GH2_16_S + kya_GH3_28_S
+100%	927	fas_GH1_13_S + kya_GH3_30_S
+100%	927	eng_CA2_20_S + kya_GH3_30_S
+100%	927	fas_GH4_37_S + kya_GH3_27_S
+100%	927	fas_GH4_36_S + kya_GH3_47_S
+100%	927	fas_GH2_17_S + fas_GH4_37_S
+100%	927	kya_GH3_31_S + kya_GH3_41_S
+100%	927	kya_GH3_41_S + kya_GH3_47_S
+100%	927	fas_GH4_35_S + kya_GH3_29_S
+100%	927	fas_GH2_11_S + fas_GH4_40_S
+100%	927	kya_GH3_30_S + kya_GH3_9_S
+100%	927	fas_GH1_12_S + fas_GH4_35_S
+100%	927	fas_GH1_12_S + kya_GH3_28_S
+100%	927	fas_GH4_39_S + kya_GH3_27_S
+100%	927	eng_CA2_20_S + kya_GH3_44_S
+100%	927	kya_GH3_29_S + kya_GH3_42_S
+100%	927	fas_GH4_33_S + fas_GH4_37_S
+100%	927	fas_GH1_13_S + kya_GH3_7_S
+100%	927	fas_GH4_38_S + kya_GH3_44_S
+100%	927	fas_GH2_11_S + fas_GH4_32_S
+100%	927	fas_GH4_32_S + fas_GH4_39_S
+100%	927	kya_GH3_30_S + kya_GH3_43_S
+100%	927	kya_GH3_44_S + kya_GH3_7_S
+100%	927	kya_GH3_47_S + kya_GH3_7_S
+100%	927	fas_GH4_35_S + kya_GH3_30_S
+100%	927	kya_GH3_41_S + kya_GH3_7_S
+100%	927	kya_GH3_29_S + kya_GH3_31_S
+100%	927	kya_GH3_8_S + kya_GH3_9_S
+100%	927	fas_GH4_38_S + kya_GH3_43_S
+100%	927	kya_GH3_42_S + kya_GH3_47_S
+100%	927	fas_GH1_13_S + kya_GH3_8_S
+100%	927	fas_GH2_10_S + fas_GH4_35_S
+100%	927	fas_GH2_10_S + kya_GH3_28_S
+100%	927	fas_GH4_35_S + kya_GH3_41_S
+100%	927	kya_GH3_28_S + kya_GH3_29_S
+100%	927	eng_CA2_20_S + kya_GH3_43_S
+100%	927	fas_GH1_12_S + fas_GH4_36_S
+100%	927	kya_GH3_29_S + kya_GH3_43_S
+100%	927	fas_GH4_38_S + kya_GH3_31_S
+100%	927	kya_GH3_30_S + kya_GH3_44_S
+100%	927	kya_GH3_44_S + kya_GH3_8_S
+100%	927	fas_GH4_35_S + kya_GH3_31_S
+100%	927	kya_GH3_47_S + kya_GH3_8_S
+100%	927	fas_GH1_14_S + fas_GH4_38_S
+100%	927	fas_GH4_40_S + kya_GH3_27_S
+100%	927	kya_GH3_41_S + kya_GH3_8_S
+100%	927	fas_GH4_38_S + kya_GH3_42_S
+100%	927	fas_GH2_10_S + fas_GH4_36_S
+100%	927	fas_GH2_10_S + kya_GH3_29_S
+100%	927	fas_GH4_35_S + kya_GH3_42_S
+100%	927	kya_GH3_29_S + kya_GH3_44_S
+100%	927	eng_CA2_20_S + fas_GH1_12_S
+100%	927	fas_GH4_38_S + kya_GH3_30_S
+100%	927	fas_GH1_14_S + kya_GH3_41_S
+100%	927	kya_GH3_44_S + kya_GH3_9_S
+100%	927	fas_GH2_11_S + fas_GH4_34_S
+100%	927	fas_GH4_34_S + fas_GH4_40_S
+100%	927	eng_CA2_20_S + kya_GH3_46_S
+100%	927	kya_GH3_47_S + kya_GH3_9_S
+100%	927	kya_GH3_41_S + kya_GH3_9_S
+100%	927	kya_GH3_30_S + kya_GH3_41_S
+100%	927	fas_GH2_11_S + kya_GH3_27_S
+100%	927	fas_GH4_36_S + kya_GH3_7_S
+100%	927	kya_GH3_42_S + kya_GH3_45_S
+100%	927	fas_GH1_12_S + fas_GH2_10_S
+100%	927	fas_GH4_38_S + kya_GH3_41_S
+100%	927	fas_GH1_14_S + fas_GH2_16_S
+100%	927	fas_GH1_14_S + kya_GH3_30_S
+100%	927	fas_GH1_13_S + kya_GH3_47_S
+100%	927	fas_GH2_17_S + fas_GH4_32_S
+100%	927	fas_GH4_37_S + fas_GH4_40_S
+100%	927	eng_CA2_20_S + kya_GH3_45_S
+100%	927	kya_GH3_29_S + kya_GH3_45_S
+100%	927	fas_GH1_12_S + kya_GH3_29_S
+100%	927	fas_GH4_33_S + fas_GH4_34_S
+100%	927	fas_GH4_33_S + kya_GH3_27_S
+100%	927	fas_GH2_11_S + fas_GH4_33_S
+100%	927	kya_GH3_30_S + kya_GH3_42_S
+100%	927	fas_GH2_16_S + fas_GH4_38_S
+100%	927	fas_GH4_36_S + kya_GH3_28_S
+100%	927	kya_GH3_42_S + kya_GH3_46_S
+100%	927	fas_GH1_13_S + kya_GH3_9_S
+100%	927	fas_GH2_10_S + fas_GH4_38_S
+100%	927	fas_GH1_13_S + kya_GH3_46_S
+100%	927	fas_GH2_17_S + fas_GH4_33_S
+100%	927	kya_GH3_30_S + kya_GH3_31_S
+100%	927	kya_GH3_45_S + kya_GH3_46_S
+99.89%	926	fas_GH4_32_S + kya_GH3_31_S
+99.89%	926	kya_GH3_27_S + kya_GH3_30_S
+99.89%	926	fas_GH4_32_S + fas_GH4_35_S
+99.89%	926	fas_GH4_37_S + kya_GH3_41_S
+99.89%	926	fas_GH4_32_S + kya_GH3_43_S
+99.89%	926	fas_GH4_40_S + kya_GH3_47_S
+99.89%	926	fas_GH2_11_S + fas_GH4_36_S
+99.89%	926	fas_GH2_11_S + kya_GH3_44_S
+99.89%	926	fas_GH4_35_S + fas_GH4_37_S
+99.89%	926	fas_GH1_13_S + fas_GH4_40_S
+99.89%	926	kya_GH3_27_S + kya_GH3_41_S
+99.89%	926	fas_GH4_37_S + kya_GH3_7_S
+99.89%	926	fas_GH4_32_S + kya_GH3_30_S
+99.89%	926	fas_GH4_38_S + fas_GH4_39_S
+99.89%	926	eng_CA2_20_S + fas_GH4_39_S
+99.89%	926	kya_GH3_27_S + kya_GH3_31_S
+99.89%	926	fas_GH2_17_S + kya_GH3_28_S
+99.89%	926	fas_GH1_14_S + fas_GH4_34_S
+99.89%	926	fas_GH2_11_S + fas_GH4_35_S
+99.89%	926	fas_GH4_32_S + kya_GH3_42_S
+99.89%	926	fas_GH4_40_S + kya_GH3_46_S
+99.89%	926	fas_GH2_11_S + kya_GH3_43_S
+99.89%	926	kya_GH3_27_S + kya_GH3_42_S
+99.89%	926	fas_GH4_34_S + kya_GH3_7_S
+99.89%	926	fas_GH4_36_S + fas_GH4_40_S
+99.89%	926	fas_GH4_40_S + kya_GH3_7_S
+99.89%	926	fas_GH1_12_S + fas_GH4_37_S
+99.89%	926	fas_GH1_13_S + fas_GH2_17_S
+99.89%	926	fas_GH4_34_S + kya_GH3_41_S
+99.89%	926	fas_GH2_10_S + fas_GH4_32_S
+99.89%	926	fas_GH4_33_S + kya_GH3_47_S
+99.89%	926	fas_GH4_32_S + kya_GH3_9_S
+99.89%	926	fas_GH1_14_S + fas_GH4_37_S
+99.89%	926	fas_GH2_17_S + kya_GH3_29_S
+99.89%	926	eng_CA2_20_S + kya_GH3_27_S
+99.89%	926	fas_GH4_32_S + kya_GH3_45_S
+99.89%	926	fas_GH4_37_S + kya_GH3_43_S
+99.89%	926	fas_GH4_40_S + kya_GH3_45_S
+99.89%	926	fas_GH2_11_S + fas_GH4_38_S
+99.89%	926	fas_GH2_16_S + fas_GH4_33_S
+99.89%	926	fas_GH2_11_S + kya_GH3_46_S
+99.89%	926	kya_GH3_27_S + kya_GH3_43_S
+99.89%	926	fas_GH4_37_S + kya_GH3_31_S
+99.89%	926	fas_GH4_34_S + kya_GH3_42_S
+99.89%	926	fas_GH4_33_S + fas_GH4_38_S
+99.89%	926	fas_GH2_10_S + fas_GH4_33_S
+99.89%	926	fas_GH2_10_S + fas_GH2_17_S
+99.89%	926	fas_GH2_17_S + kya_GH3_7_S
+99.89%	926	fas_GH4_32_S + kya_GH3_8_S
+99.89%	926	fas_GH4_32_S + fas_GH4_36_S
+99.89%	926	fas_GH4_33_S + kya_GH3_46_S
+99.89%	926	fas_GH4_37_S + kya_GH3_42_S
+99.89%	926	fas_GH2_11_S + kya_GH3_7_S
+99.89%	926	fas_GH4_32_S + kya_GH3_44_S
+99.89%	926	fas_GH2_16_S + fas_GH4_34_S
+99.89%	926	fas_GH4_40_S + kya_GH3_44_S
+99.89%	926	fas_GH4_34_S + kya_GH3_30_S
+99.89%	926	fas_GH2_11_S + kya_GH3_45_S
+99.89%	926	kya_GH3_27_S + kya_GH3_44_S
+99.89%	926	fas_GH1_12_S + fas_GH4_39_S
+99.89%	926	fas_GH1_13_S + kya_GH3_27_S
+99.89%	926	fas_GH4_37_S + kya_GH3_30_S
+99.89%	926	fas_GH4_34_S + kya_GH3_28_S
+99.89%	926	fas_GH4_34_S + fas_GH4_35_S
+99.89%	926	fas_GH4_40_S + kya_GH3_31_S
+99.89%	926	fas_GH4_32_S + kya_GH3_7_S
+99.89%	926	fas_GH4_37_S + fas_GH4_38_S
+99.89%	926	fas_GH4_39_S + kya_GH3_30_S
+99.89%	926	fas_GH4_33_S + kya_GH3_45_S
+99.89%	926	fas_GH4_40_S + kya_GH3_43_S
+99.89%	926	fas_GH2_17_S + fas_GH4_38_S
+99.89%	926	fas_GH4_32_S + kya_GH3_47_S
+99.89%	926	kya_GH3_27_S + kya_GH3_45_S
+99.89%	926	fas_GH1_13_S + fas_GH2_11_S
+99.89%	926	fas_GH4_39_S + kya_GH3_42_S
+99.89%	926	fas_GH4_34_S + fas_GH4_36_S
+99.89%	926	fas_GH4_34_S + kya_GH3_29_S
+99.89%	926	fas_GH4_40_S + kya_GH3_30_S
+99.89%	926	fas_GH4_33_S + kya_GH3_44_S
+99.89%	926	fas_GH4_37_S + kya_GH3_29_S
+99.89%	926	fas_GH1_12_S + fas_GH4_40_S
+99.89%	926	fas_GH2_16_S + fas_GH4_32_S
+99.89%	926	fas_GH4_40_S + kya_GH3_42_S
+99.89%	926	fas_GH4_32_S + kya_GH3_46_S
+99.89%	926	kya_GH3_27_S + kya_GH3_46_S
+99.89%	926	fas_GH4_35_S + kya_GH3_27_S
+99.89%	926	fas_GH4_39_S + kya_GH3_41_S
+99.89%	926	fas_GH4_37_S + kya_GH3_8_S
+99.89%	926	fas_GH2_11_S + kya_GH3_31_S
+99.89%	926	fas_GH4_38_S + kya_GH3_27_S
+99.89%	926	fas_GH1_14_S + fas_GH4_33_S
+99.89%	926	fas_GH4_33_S + kya_GH3_43_S
+99.89%	926	fas_GH4_40_S + kya_GH3_41_S
+99.89%	926	fas_GH2_10_S + fas_GH4_40_S
+99.89%	926	fas_GH2_11_S + kya_GH3_42_S
+99.89%	926	fas_GH1_13_S + fas_GH4_39_S
+99.89%	926	fas_GH1_14_S + kya_GH3_27_S
+99.89%	926	kya_GH3_27_S + kya_GH3_47_S
+99.89%	926	fas_GH4_39_S + kya_GH3_44_S
+99.89%	926	fas_GH4_40_S + kya_GH3_8_S
+99.89%	926	fas_GH4_34_S + kya_GH3_8_S
+99.89%	926	fas_GH2_11_S + fas_GH2_16_S
+99.89%	926	fas_GH4_34_S + fas_GH4_38_S
+99.89%	926	fas_GH2_11_S + kya_GH3_30_S
+99.89%	926	eng_CA2_20_S + fas_GH4_37_S
+99.89%	926	eng_CA2_20_S + fas_GH2_11_S
+99.89%	926	fas_GH1_14_S + fas_GH4_32_S
+99.89%	926	fas_GH4_39_S + kya_GH3_31_S
+99.89%	926	fas_GH4_33_S + kya_GH3_42_S
+99.89%	926	fas_GH2_17_S + kya_GH3_41_S
+99.89%	926	fas_GH2_11_S + kya_GH3_41_S
+99.89%	926	fas_GH4_40_S + kya_GH3_9_S
+99.89%	926	fas_GH4_33_S + kya_GH3_31_S
+99.89%	926	fas_GH4_39_S + kya_GH3_43_S
+99.89%	926	fas_GH4_34_S + kya_GH3_9_S
+99.89%	926	fas_GH4_37_S + kya_GH3_9_S
+99.89%	926	fas_GH2_17_S + kya_GH3_30_S
+99.89%	926	eng_CA2_20_S + fas_GH4_32_S
+99.89%	926	fas_GH4_39_S + kya_GH3_46_S
+99.89%	926	fas_GH4_34_S + kya_GH3_47_S
+99.89%	926	fas_GH1_12_S + fas_GH2_17_S
+99.89%	926	fas_GH4_39_S + kya_GH3_9_S
+99.89%	926	fas_GH1_13_S + fas_GH4_37_S
+99.89%	926	fas_GH4_33_S + kya_GH3_41_S
+99.89%	926	fas_GH2_17_S + kya_GH3_42_S
+99.89%	926	fas_GH2_11_S + kya_GH3_29_S
+99.89%	926	fas_GH4_35_S + fas_GH4_40_S
+99.89%	926	fas_GH4_32_S + kya_GH3_28_S
+99.89%	926	fas_GH4_33_S + kya_GH3_9_S
+99.89%	926	fas_GH2_10_S + fas_GH4_39_S
+99.89%	926	fas_GH4_33_S + kya_GH3_30_S
+99.89%	926	fas_GH2_17_S + kya_GH3_31_S
+99.89%	926	fas_GH4_39_S + kya_GH3_45_S
+99.89%	926	fas_GH1_12_S + fas_GH4_32_S
+99.89%	926	eng_CA2_20_S + fas_GH2_17_S
+99.89%	926	fas_GH2_16_S + fas_GH4_40_S
+99.89%	926	kya_GH3_27_S + kya_GH3_28_S
+99.89%	926	fas_GH4_39_S + kya_GH3_8_S
+99.89%	926	fas_GH4_36_S + fas_GH4_37_S
+99.89%	926	fas_GH2_17_S + kya_GH3_43_S
+99.89%	926	fas_GH2_11_S + kya_GH3_28_S
+99.89%	926	fas_GH2_17_S + fas_GH4_35_S
+99.89%	926	fas_GH4_33_S + kya_GH3_8_S
+99.89%	926	kya_GH3_27_S + kya_GH3_7_S
+99.89%	926	eng_CA2_20_S + fas_GH4_34_S
+99.89%	926	fas_GH1_14_S + fas_GH2_11_S
+99.89%	926	kya_GH3_27_S + kya_GH3_29_S
+99.89%	926	fas_GH2_16_S + kya_GH3_27_S
+99.89%	926	fas_GH2_17_S + kya_GH3_44_S
+99.89%	926	fas_GH4_37_S + kya_GH3_28_S
+99.89%	926	fas_GH2_17_S + fas_GH4_36_S
+99.89%	926	kya_GH3_27_S + kya_GH3_8_S
+99.89%	926	fas_GH4_39_S + kya_GH3_47_S
+99.89%	926	eng_CA2_20_S + fas_GH4_33_S
+99.89%	926	fas_GH1_13_S + fas_GH4_34_S
+99.89%	926	fas_GH4_38_S + fas_GH4_40_S
+99.89%	926	fas_GH2_17_S + kya_GH3_45_S
+99.89%	926	fas_GH4_36_S + fas_GH4_39_S
+99.89%	926	fas_GH4_32_S + kya_GH3_29_S
+99.89%	926	kya_GH3_27_S + kya_GH3_9_S
+99.89%	926	fas_GH2_16_S + fas_GH2_17_S
+99.89%	926	fas_GH1_14_S + fas_GH4_40_S
+99.89%	926	fas_GH2_10_S + kya_GH3_27_S
+99.89%	926	fas_GH4_40_S + kya_GH3_29_S
+99.89%	926	fas_GH4_34_S + kya_GH3_43_S
+99.89%	926	fas_GH2_10_S + fas_GH4_34_S
+99.89%	926	fas_GH2_17_S + kya_GH3_8_S
+99.89%	926	fas_GH1_13_S + fas_GH4_33_S
+99.89%	926	fas_GH1_14_S + fas_GH4_39_S
+99.89%	926	fas_GH2_16_S + fas_GH4_39_S
+99.89%	926	fas_GH2_11_S + kya_GH3_8_S
+99.89%	926	fas_GH4_40_S + kya_GH3_28_S
+99.89%	926	fas_GH4_37_S + kya_GH3_45_S
+99.89%	926	fas_GH2_17_S + kya_GH3_46_S
+99.89%	926	eng_CA2_20_S + fas_GH4_40_S
+99.89%	926	fas_GH4_34_S + kya_GH3_31_S
+99.89%	926	fas_GH1_12_S + kya_GH3_27_S
+99.89%	926	fas_GH2_10_S + fas_GH2_11_S
+99.89%	926	fas_GH4_33_S + fas_GH4_36_S
+99.89%	926	fas_GH4_34_S + kya_GH3_44_S
+99.89%	926	fas_GH2_17_S + kya_GH3_9_S
+99.89%	926	fas_GH4_33_S + kya_GH3_29_S
+99.89%	926	fas_GH1_13_S + fas_GH4_32_S
+99.89%	926	fas_GH4_32_S + fas_GH4_38_S
+99.89%	926	fas_GH2_17_S + kya_GH3_47_S
+99.89%	926	fas_GH4_37_S + kya_GH3_44_S
+99.89%	926	fas_GH2_11_S + kya_GH3_9_S
+99.89%	926	fas_GH2_11_S + kya_GH3_47_S
+99.89%	926	fas_GH1_12_S + fas_GH2_11_S
+99.89%	926	fas_GH1_14_S + fas_GH2_17_S
+99.89%	926	fas_GH4_39_S + kya_GH3_29_S
+99.89%	926	fas_GH1_12_S + fas_GH4_33_S
+99.89%	926	fas_GH4_33_S + fas_GH4_35_S
+99.89%	926	fas_GH4_34_S + kya_GH3_45_S
+99.89%	926	fas_GH4_39_S + kya_GH3_7_S
+99.89%	926	fas_GH4_33_S + kya_GH3_28_S
+99.89%	926	fas_GH2_16_S + fas_GH4_37_S
+99.89%	926	fas_GH4_32_S + kya_GH3_41_S
+99.89%	926	fas_GH4_37_S + kya_GH3_47_S
+99.89%	926	fas_GH4_36_S + kya_GH3_27_S
+99.89%	926	fas_GH4_33_S + kya_GH3_7_S
+99.89%	926	fas_GH2_10_S + fas_GH4_37_S
+99.89%	926	fas_GH4_35_S + fas_GH4_39_S
+99.89%	926	fas_GH1_12_S + fas_GH4_34_S
+99.89%	926	fas_GH4_39_S + kya_GH3_28_S
+99.89%	926	fas_GH4_34_S + kya_GH3_46_S
+99.89%	926	fas_GH4_37_S + kya_GH3_46_S
+99.78%	925	coal_CA1_3_S + coal_CA1_4_S
+99.78%	925	eng_EG_22_S + eng_EG_23_S
+99.78%	925	coal_CA1_2_S + coal_CA1_4_S
+99.78%	925	coal_CA1_2_S + coal_CA1_3_S
+99.68%	924	eng_EG_23_S + eng_EG_25_S
+99.68%	924	eng_EG_22_S + eng_EG_25_S
+99.57%	923	coal_CA1_3_S + coal_CA1_5_S
+99.57%	923	coal_CA1_4_S + coal_CA1_5_S
+99.35%	921	coal_CA1_2_S + coal_CA1_5_S
+99.14%	919	coal_CA1_3_S + coal_CG_6_S
+98.92%	917	coal_CA1_2_S + coal_CG_6_S
+98.92%	917	coal_CA1_4_S + coal_CG_6_S
+98.71%	915	coal_CA1_5_S + coal_CG_6_S
+98.6%	914	eng_NG_15_S + eng_NG_18_S
+98.06%	909	eng_EG_21_S + eng_EG_25_S
+97.73%	906	eng_EG_21_S + eng_EG_23_S
+97.73%	906	eng_EG_21_S + eng_EG_22_S
+97.09%	900	eng_EG_21_S + eng_EG_24_S
+95.36%	884	eng_EG_24_S + eng_EG_25_S
+95.25%	883	eng_EG_22_S + eng_EG_24_S
+95.25%	883	eng_EG_24_S + eng_NG_18_S
+95.04%	881	eng_EG_23_S + eng_EG_24_S
+94.71%	878	eng_EG_24_S + eng_NG_15_S
+93.85%	870	eng_EG_21_S + eng_NG_15_S
+93.1%	863	eng_EG_21_S + eng_NG_18_S
+91.91%	852	eng_EG_25_S + eng_NG_15_S
+91.8%	851	eng_EG_22_S + eng_NG_15_S
+91.69%	850	eng_EG_23_S + eng_NG_15_S
+91.15%	845	eng_EG_25_S + eng_NG_18_S
+91.05%	844	eng_EG_22_S + eng_NG_18_S
+90.94%	843	eng_EG_23_S + eng_NG_18_S
+81.98%	760	coal_CG_6_S + coal_GA_26_S
+81.12%	752	coal_CA1_4_S + coal_GA_26_S
+81.12%	752	coal_CA1_3_S + coal_GA_26_S
+81.12%	752	coal_CA1_2_S + coal_GA_26_S
+80.69%	748	coal_CA1_5_S + coal_GA_26_S
+80.26%	744	eng_NG_18_S + eng_NG_1_S
+79.29%	735	eng_NG_15_S + eng_NG_1_S
+76.48%	709	eng_EG_24_S + eng_NG_1_S
+74.33%	689	eng_EG_21_S + eng_NG_1_S
+72.38%	671	eng_EG_25_S + eng_NG_1_S
+72.17%	669	eng_EG_23_S + eng_NG_1_S
+72.17%	669	eng_EG_22_S + eng_NG_1_S
+13.92%	129	coal_GA_26_S + eng_NG_1_S
+1.29%	12	coal_CA1_5_S + eng_NG_1_S
+1.29%	12	coal_CA1_4_S + eng_NG_1_S
+1.29%	12	coal_CG_6_S + eng_NG_1_S
+1.29%	12	coal_CA1_3_S + eng_NG_1_S
+1.29%	12	coal_CA1_2_S + eng_NG_1_S

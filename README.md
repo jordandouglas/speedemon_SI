@@ -77,11 +77,16 @@ We used multilocus simulated genomic data by [Douglas et al](https://doi.org/10.
 We applied SNAPPER to gecko SNP data by [Leache et al](https://doi.org/10.1093/sysbio/syu018).
 
 - [snapper.xml](https://github.com/jordandouglas/speedemon_SI/blob/main/applications/leache/snapper.xml): the XML file used to analyse the  dataset with the YSC model
-- [bfdA/bfd.xml](https://github.com/jordandouglas/speedemon_SI/blob/main/applications/leache/bfdA/bfd.xml): hypothesis A, explored by Bayes factor delimitation 
-- [bfdF/bfd.xml](https://github.com/jordandouglas/speedemon_SI/blob/main/applications/leache/bfdF/bfd.xml): hypothesis F, explored by Bayes factor delimitation 
-- [bfdT/bfd.xml](https://github.com/jordandouglas/speedemon_SI/blob/main/applications/leache/bfdT/bfd.xml): hypothesis T, explored by Bayes factor delimitation 
-
+- [bfdH1/bfd.xml](https://github.com/jordandouglas/speedemon_SI/blob/main/applications/leache/bfdH1/bfd.xml): hypothesis H1, explored by Bayes factor delimitation 
+- [bfdH2/bfd.xml](https://github.com/jordandouglas/speedemon_SI/blob/main/applications/leache/bfdH2/bfd.xml): hypothesis H2, explored by Bayes factor delimitation 
+- [bfdH3/bfd.xml](https://github.com/jordandouglas/speedemon_SI/blob/main/applications/leache/bfdH3/bfd.xml): hypothesis H3, explored by Bayes factor delimitation 
+- [results](https://github.com/jordandouglas/speedemon_SI/blob/main/applications/leache/results): summary tree files from snapper.xml
 
 ### 3.2 Primates
 We applied StarBeast3 to primate genomic data by [Pozzi et al](https://doi.org/10.1186/1471-2148-14-72). 
 - [starbeast3.xml](https://github.com/jordandouglas/speedemon_SI/blob/main/applications/pozzi/starbeast3.xml): the XML file used to analyse the  dataset with the YSC model
+- [results](https://github.com/jordandouglas/speedemon_SI/blob/main/applications/pozzi/results): summary tree files from starbeast3.xml
+
+
+
+
